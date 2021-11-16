@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const utilities = require('../utilities/helper.js');
 
 const userSchema = mongoose.Schema({
   firstName: {
@@ -25,7 +24,6 @@ const userSchema = mongoose.Schema({
 });
 
 const User = mongoose.model('User', userSchema);
-module.exports = User;
 
 class UserModel {
     registerUser = (userDetails, callback) => {
@@ -36,9 +34,7 @@ class UserModel {
           password: userDetails.password
         });
         try {
-          utilities.hashing(userDetails.password, (error, hash) => {
-            if (hash) {
-              newUser.password = hash;
+          
               newUser.save((error, data) => {
                 if (error) {
                   callback(error, null);
@@ -46,10 +42,6 @@ class UserModel {
                   callback(null, data);
                 }
               });
-            } else {
-              throw error;
-            }
-          });
         } catch (error) {
           return callback('Internal error', null);
         }
