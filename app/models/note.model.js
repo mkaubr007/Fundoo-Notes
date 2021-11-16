@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const utilities = require('../utilities/helper.js');
 
 const userSchema = mongoose.Schema({
   firstName: {
@@ -25,9 +24,7 @@ const userSchema = mongoose.Schema({
 });
 
 const User = mongoose.model('User', userSchema);
-module.exports = User;
-
-class UserModel {
+class userModel {
     registerUser = (userDetails, callback) => {
         const newUser = new User({
           firstName: userDetails.firstName,
@@ -36,23 +33,28 @@ class UserModel {
           password: userDetails.password
         });
         try {
-          utilities.hashing(userDetails.password, (error, hash) => {
-            if (hash) {
-              newUser.password = hash;
-              newUser.save((error, data) => {
-                if (error) {
-                  callback(error, null);
-                } else {
-                  callback(null, data);
-                }
-              });
+          newUser.save((error, data) => {
+            if (error) {
+              callback(error, null);
             } else {
-              throw error;
+              callback(null, data);
             }
           });
-        } catch (error) {
-          return callback('Internal error', null);
+      }
+      catch (error) {
+          return callback('Internal Error', null)
+      }
+  }  
+  
+  loginUser= (loginData, callBack) => {
+    //To find a user email in the database
+    User.findOne({ email: loginData.email }, (error, data) => {
+        if (data) {
+            return callBack(null, data);           
+        } else{
+            return callBack("Invalid email", null);
         }
-      };
-    }
-    module.exports = new UserModel();
+    });
+}
+}
+module.exports = new userModel(); 

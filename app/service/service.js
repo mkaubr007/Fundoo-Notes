@@ -9,6 +9,19 @@ class UserService {
             callback(null, data);
         }
       });
-    };
+    }
+    userLogin = (InfoLogin, callback) => {
+      userModel.loginUser(InfoLogin, (error, data) => {
+        if (data) {
+          if(data.password==InfoLogin.password){
+            return callback(null,data);
+          }else{
+            return callback("password does not match",null)
+          }
+        } else {
+          return callback(error,null);
+        }
+      });
+    }
 }
 module.exports = new UserService();
