@@ -9,9 +9,7 @@ app.use(express.urlencoded({ extended: true }))
 
 // parse requests of content-type - application/json
 app.use(express.json())
-module.exports = {
-    url: 'mongodb://localhost:27017/fundoo-notes'
-}
+
 // Configuring the database
 const dbConfig = require('./config/database.config.js');
 
