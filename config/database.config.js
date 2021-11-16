@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 class DBconnection{
      connection=()=>{
-       const url= 'mongodb://localhost:27017/fundoo-notes'
+       const url= process.env.URL;
+
         mongoose.connect(url, {
         }).then(() => {
             console.log("Successfully connected to the database");    
