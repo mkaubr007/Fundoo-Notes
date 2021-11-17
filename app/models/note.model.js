@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+const utilities=require('../utilities/helper.js');
 const userSchema = mongoose.Schema({
   firstName: {
     type: String,
@@ -28,6 +28,7 @@ const User = mongoose.model('User', userSchema);
 class userModel {
 
     registerUser = (userDetails, callback) => {
+      console.log(userDetails);
         const newUser = new User({
           firstName: userDetails.firstName,
           lastName: userDetails.lastName,

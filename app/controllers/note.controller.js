@@ -8,6 +8,7 @@ class Controller {
           email: req.body.email,
           password: req.body.password
         };
+        console.log(user,"in controller");
         userService.registerUser(user, (error, data) => {
           if (error) {
             return res.status(409).json({
