@@ -13,7 +13,7 @@ class UserService {
       });
     }
     userLogin = (InfoLogin, callback) => {
-      userModel.loginModel(InfoLogin, (error, data) => {
+      userModel.loginUser(InfoLogin, (error, data) => {
         if (data) {
           bcrypt.compare(InfoLogin.password, data.password, (error, validate) => {
             if (!validate) {

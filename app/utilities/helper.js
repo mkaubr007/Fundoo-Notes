@@ -13,9 +13,9 @@ class Helper {
     token = (data) => {
       const dataForToken = {
         id: data._id,
-        firstName: data._firstName,
-        lastName: data._lastName,
-        email: data._email
+        firstName: data.firstName,
+        lastName: data.lastName,
+        email: data.email
       };
       return jwt.sign({ dataForToken }, process.env.JWT_SECRET, { expiresIn: '24H' });
     }
