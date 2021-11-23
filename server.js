@@ -1,4 +1,5 @@
 const express = require('express');
+const { logger } = require('./logger/logger');
 require('dotenv').config();
 //const bodyParser = require('body-parser');
 
@@ -15,6 +16,7 @@ app.use(express.json())
 const dbConfig = require('./config/database.config.js');
 
 
+
 //mongoose.Promise = global.Promise;
 
 // Connecting to the database
@@ -29,6 +31,7 @@ require('./app/routes/note.routes.js')(app);
 
 // listen for requests
 app.listen(process.env.PORT, () => {
+    logger.info("Server start");
     console.log("Server is listening");
 });
 module.exports = app

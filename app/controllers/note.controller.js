@@ -1,5 +1,6 @@
 const userService = require('../service/service.js');
-const validation = require('../utilities/validation.js')
+const validation = require('../utilities/validation.js');
+const { logger } = require('../../logger/logger');
 class Controller {
     register = (req, res) => {
       try {
@@ -24,6 +25,7 @@ class Controller {
                 message: 'User already exist'
               });
             } else {
+              logger.info('User registered');
               return res.status(200).json({
                 success: true,
                 message: 'User Registered',
@@ -32,6 +34,7 @@ class Controller {
             }
           });
         } catch (error) {
+          logger.error('Internal server error');
           return res.status(500).json({
             success: false,
             message: 'Error While Registering',
