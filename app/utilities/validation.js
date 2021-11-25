@@ -31,7 +31,7 @@ class Validation {
 
           password: Joi.string()
             .required()
-            .pattern(new RegExp('[A-Za-z0-9]{4,}[$&+,:;=?@#|<>.^*()%!-]{2,}'))
+            .pattern(new RegExp('(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$'))
         });
     }
     module.exports = new Validation();
