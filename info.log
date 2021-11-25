@@ -29,3 +29,5 @@
 {"level":"info","message":"Server start","timestamp":"2021-11-24T14:22:57.052Z"}
 {"level":"info","message":"Server start","timestamp":"2021-11-24T14:23:10.668Z"}
 {"level":"info","message":"Server start","timestamp":"2021-11-24T14:23:20.690Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-25T17:19:17.756Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-11-25T17:31:12.461Z"}

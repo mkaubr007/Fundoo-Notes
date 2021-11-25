@@ -3,3 +3,4 @@
 {"level":"error","message":"Invalid User","timestamp":"2021-11-24T01:45:35.768Z"}
 {"level":"error","message":"Invalid Credential","timestamp":"2021-11-24T01:45:35.769Z"}
 {"_original":{"email":"msingh700@gmail.com","password":"Msingh1234@"},"details":[{"context":{"key":"password","label":"password","regex":{},"value":"Msingh1234@"},"message":"\"password\" with value \"Msingh1234@\" fails to match the required pattern: /[A-Za-z0-9]{4,}[$&+,:;=?@#|<>.^*()%!-]{2,}/","path":["password"],"type":"string.pattern.base"}],"level":"error","timestamp":"2021-11-24T14:05:49.886Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-11-25T17:31:12.464Z"}
