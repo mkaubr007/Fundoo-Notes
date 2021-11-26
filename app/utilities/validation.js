@@ -39,5 +39,12 @@ class Validation {
             .pattern(new RegExp('^[a-zA-z]{3}([+-_ .]*[a-zA-Z0-9]+)*[@][a-zA-z0-9]+(.[a-z]{2,3})*$'))
             .required()
         })
+
+        validateReset = Joi.object({
+          token: Joi.string().required(),
+          password: Joi.string().min(8)
+            .pattern(new RegExp('(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$'))
+            .required()
+        })
     }
     module.exports = new Validation();
