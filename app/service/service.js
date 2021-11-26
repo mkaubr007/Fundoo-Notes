@@ -2,7 +2,7 @@ const userModel = require('../models/note.model.js');
 const bcrypt = require('bcryptjs');
 const utilities=require('../utilities/helper.js');
 const { logger } = require('../../logger/logger');
-const nodemailer = require('../Utilities/nodeemailer.js');
+const nodemailer = require('../utilities/nodeemailer.js');
 class UserService {
  
     registerUser = (user, callback) => {
@@ -36,7 +36,8 @@ class UserService {
     
   forgotPassword = (email, callback) => {
     userModel.forgotPassword(email, (error, data) => {
-      if (error || !data) {
+      console.log("service",data);
+      if (error) {
         logger.error(error);
         return callback(error, null);
       } else {

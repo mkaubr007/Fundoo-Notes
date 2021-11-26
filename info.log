@@ -31,3 +31,90 @@
 {"level":"info","message":"Server start","timestamp":"2021-11-24T14:23:20.690Z"}
 {"level":"info","message":"Server start","timestamp":"2021-11-25T17:19:17.756Z"}
 {"level":"error","message":"Internal server error","timestamp":"2021-11-25T17:31:12.461Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-25T18:18:14.068Z"}
+{"level":"info","message":"User registered","timestamp":"2021-11-25T18:18:36.928Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-11-25T18:19:41.320Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-11-25T18:19:43.713Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-11-25T18:19:44.893Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-11-25T18:19:46.447Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T01:55:36.763Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T01:56:32.426Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T03:13:45.591Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T03:19:09.520Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:15:15.476Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:17:20.254Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:19:22.376Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:20:21.165Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:23:18.654Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:23:32.575Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t12sm9138698pjo.44 - gsmtp","responseCode":535,"timestamp":"2021-11-26T04:23:46.893Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:30:35.469Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials o7sm4113203pjf.33 - gsmtp","responseCode":535,"timestamp":"2021-11-26T04:31:28.178Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:39:05.794Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:42:28.521Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials g5sm8831063pjt.15 - gsmtp","responseCode":535,"timestamp":"2021-11-26T04:42:44.683Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j2sm2954600pgl.73 - gsmtp","responseCode":535,"timestamp":"2021-11-26T04:42:57.940Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:45:48.988Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:46:18.613Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:50:37.219Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:50:47.644Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T04:53:37.221Z"}
+{"_original":{"email":"vik84@gmail.com","password":"10015m"},"details":[{"context":{"key":"password","label":"password","regex":{},"value":"10015m"},"message":"\"password\" with value \"10015m\" fails to match the required pattern: /(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\\n])(?=.*[A-Z])(?=.*[a-z]).*$/","path":["password"],"type":"string.pattern.base"}],"level":"error","timestamp":"2021-11-26T04:56:57.709Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-11-26T04:56:57.778Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-11-26T04:56:58.238Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:00:32.435Z"}
+{"level":"info","message":"User registered","timestamp":"2021-11-26T05:02:39.296Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-11-26T05:03:25.090Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-11-26T05:03:25.332Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:09:02.384Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:09:07.474Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:09:17.631Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:09:55.653Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:10:54.905Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:11:04.268Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:11:13.436Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:11:25.082Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:11:42.905Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:12:06.370Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:12:31.602Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:14:48.637Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials k19sm5113493pff.20 - gsmtp","responseCode":535,"timestamp":"2021-11-26T05:17:19.570Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:24:53.249Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials g7sm5350430pfv.159 - gsmtp","responseCode":535,"timestamp":"2021-11-26T05:25:12.735Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T05:26:05.360Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials z93sm5624166pjj.7 - gsmtp","responseCode":535,"timestamp":"2021-11-26T12:14:19.935Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials y9sm10696125pjt.27 - gsmtp","responseCode":535,"timestamp":"2021-11-26T12:20:24.100Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:28:13.272Z"}
+{"level":"info","message":"User registered","timestamp":"2021-11-26T12:28:18.344Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials k13sm8065144pfc.197 - gsmtp","responseCode":535,"timestamp":"2021-11-26T12:28:59.336Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:32:59.736Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:33:09.719Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials kx3sm5753155pjb.5 - gsmtp","responseCode":535,"timestamp":"2021-11-26T12:33:19.791Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:34:18.002Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:34:25.899Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:34:31.761Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:34:40.614Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:34:45.574Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:34:49.264Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:34:55.996Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:35:04.036Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials c3sm6750784pfm.177 - gsmtp","responseCode":535,"timestamp":"2021-11-26T12:35:11.590Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:44:58.843Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:47:47.264Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:48:08.424Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:48:15.110Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials g20sm8078970pfj.12 - gsmtp","responseCode":535,"timestamp":"2021-11-26T12:48:21.158Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:52:35.299Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:54:25.703Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:54:35.817Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:54:46.680Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T12:55:30.678Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-11-26T12:56:15.918Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-11-26T12:56:16.221Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j7sm7546383pfc.74 - gsmtp","responseCode":535,"timestamp":"2021-11-26T12:59:36.324Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u9sm7147082pfi.23 - gsmtp","responseCode":535,"timestamp":"2021-11-26T13:01:54.530Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T13:06:41.658Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T13:08:10.153Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T13:08:17.967Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T13:08:21.048Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-26T13:08:36.048Z"}

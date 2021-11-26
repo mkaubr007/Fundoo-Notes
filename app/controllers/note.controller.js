@@ -100,17 +100,16 @@ class Controller {
           });
         }
         userService.forgotPassword(userCredential, (error, result) => {
+          console.log("controller", userCredential);
           if (error) {
             return res.status(400).send({
               success: false,
-              message: 'failed to send email',
-              error
+              message: 'failed to send email'
             });
           } else {
             return res.status(200).send({
               success: true,
-              message: 'Email sent successfully',
-              result
+              message: 'Email sent successfully'
             });
           }
         });

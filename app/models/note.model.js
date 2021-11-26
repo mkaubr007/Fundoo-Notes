@@ -73,6 +73,18 @@ class userModel {
             return callBack(null,data);
         }
     });
-}
+  }
+
+  forgotPassword = (data, callback) => {
+    User.findOne({ email: data.email }, (err, data) => {
+      console.log("model",data);
+      if (err) {
+        logger.error('User with email id doesnt exists');
+        return callback('User with email id doesnt exists', null);
+      } else {
+        return callback(null, data);
+      }
+    });
+  };
 }
 module.exports = new userModel(); 
