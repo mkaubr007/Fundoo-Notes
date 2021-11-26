@@ -71,6 +71,32 @@
             }
         }
     },
+    "/forgotpassword": {
+        "post": {
+            "tags": ["forgotPassword"],
+            "description": "Send password link",
+            "parameters": [
+                {
+                    "name": "forgotpassword",
+                    "in": "body",
+                    "description": "Sent password resent link",
+                    "schema": {
+                        "$ref": "#/definitions/forgotpassword"
+                    }
+                }
+            ],
+            "produces": ["application/json"],
+            "responses": {
+                "200": {
+                    "description": "ok"
+                },
+                "404": {
+                    "description": "Not Found"
+                }
+            }
+        }
+    
+    },
     "definitions": {
         "registerUser": {
             "type": "object",
@@ -97,6 +123,14 @@
                     "type": "string"
                 },
                 "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "forgotpassword": {
+            "type": "object",
+            "properties": {
+                "email": {
                     "type": "string"
                 }
             }
