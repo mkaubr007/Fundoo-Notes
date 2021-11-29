@@ -48,7 +48,7 @@ class Validation {
             .pattern(new RegExp('(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$'))
             .required(),
           code: Joi.string()
-            .pattern(new RegExp('[0-9]{1,}'))
+            .pattern(new RegExp('[0-9aA-Za-z]{1,}'))
             .required()
         })
     }
