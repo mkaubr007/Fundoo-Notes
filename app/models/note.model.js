@@ -102,7 +102,7 @@ class userModel {
                 if (hash) {
                     userData.newPassword = hash;
                     User.updateOne({"password": userData.newPassword}, (error, data) => {
-                        if(data.acknowledged == true){
+                        if(data){
                             return callback (null, "Updated successfully")
                         }
                         else{
