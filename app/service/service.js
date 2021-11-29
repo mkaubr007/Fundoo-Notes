@@ -28,16 +28,16 @@ class UserService {
               return callback(null, token);
             }
           });
-        } else {  logger.error(error);
+        } else {
+          logger.error(error);
           return callback(error);
         }
       });
-    };
-
+    }
+  
     
   forgotPassword = (email, callback) => {
     userModel.forgotPassword(email, (error, data) => {
-      console.log("service",data);
       if (error) {
         logger.error(error);
         return callback(error, null);
@@ -48,16 +48,7 @@ class UserService {
   };
 
   resetPassword = (userData, callback) => {
-    helper.getEmailFromToken(userData.token, (error, data) => {
-      if (error) {
-        logger.error(error);
-        return callback(error, null);
-      } else {
-        const inputData = {
-          email: data.dataForToken.email,
-          password: userData.password
-        };
-        userModel.resetPassword(inputData, (error, data) => {
+        userModel.resetPassword(userData, (error, data) => {
           if (error) {
             logger.error(error);
             return callback(error, null);
@@ -65,8 +56,6 @@ class UserService {
             return callback(null, data);
           }
         });
-      }
-    });
   }
 }
 module.exports = new UserService();

@@ -23,3 +23,66 @@
 {"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials g20sm8078970pfj.12 - gsmtp","responseCode":535,"timestamp":"2021-11-26T12:48:21.158Z"}
 {"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j7sm7546383pfc.74 - gsmtp","responseCode":535,"timestamp":"2021-11-26T12:59:36.325Z"}
 {"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u9sm7147082pfi.23 - gsmtp","responseCode":535,"timestamp":"2021-11-26T13:01:54.530Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-28T20:25:45.492Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-28T20:26:52.536Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-28T20:28:58.019Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-28T20:29:43.559Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-28T20:31:08.716Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-28T20:32:47.768Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-28T20:37:23.940Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-28T20:46:10.963Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-28T20:51:42.705Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-28T20:54:04.706Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-28T20:56:29.830Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-29T02:40:22.864Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-29T02:42:11.445Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-29T02:51:16.990Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-29T03:03:00.116Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-29T03:04:12.573Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-11-29T03:16:33.094Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T10:18:21.416Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T10:19:05.885Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T10:19:07.658Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T10:23:27.344Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T10:23:29.290Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T10:23:40.097Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T10:23:41.324Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T10:23:42.166Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T10:26:09.483Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-11-29T10:39:54.309Z"}
+{"level":"error","message":"Otp does not match","timestamp":"2021-11-29T17:15:05.737Z"}
+{"level":"error","message":"Otp does not match","timestamp":"2021-11-29T17:15:05.740Z"}
+{"level":"error","message":"Otp does not match","timestamp":"2021-11-29T17:16:11.637Z"}
+{"level":"error","message":"Otp does not match","timestamp":"2021-11-29T17:16:11.639Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:29:26.605Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:33:25.858Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:33:59.864Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:34:02.039Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:35:41.001Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:37:06.155Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:37:08.681Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:43:19.456Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:43:44.266Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:47:57.523Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:47:59.375Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:48:00.736Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:48:02.061Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:48:02.755Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T17:51:29.154Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T18:54:29.110Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T19:01:50.683Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T19:02:17.804Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T19:06:13.152Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T19:06:15.105Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T19:12:10.604Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T19:18:46.943Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T19:18:48.928Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T19:18:50.151Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T19:21:01.746Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-29T19:36:28.037Z"}
+{"level":"error","message":"Error in hash on password","timestamp":"2021-11-29T19:51:06.247Z"}
+{"level":"error","message":"Error in hash on password","timestamp":"2021-11-29T19:51:06.249Z"}
+{"level":"error","message":"Error in hash on password","timestamp":"2021-11-29T19:58:14.773Z"}
+{"level":"error","message":"Error in hash on password","timestamp":"2021-11-29T19:58:14.775Z"}
+{"level":"error","message":"Error in hash on password","timestamp":"2021-11-29T19:58:16.098Z"}
+{"level":"error","message":"Error in hash on password","timestamp":"2021-11-29T19:58:16.099Z"}

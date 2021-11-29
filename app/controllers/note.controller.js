@@ -100,7 +100,7 @@ class Controller {
           });
         }
         userService.forgotPassword(userCredential, (error, result) => {
-          console.log("controller", userCredential);
+
           if (error) {
             return res.status(400).send({
               success: false,
@@ -125,8 +125,9 @@ class Controller {
     resetPassword=(req, res) => {
       try {
         const userData = {
-          token: req.body.token,
-          password: req.body.password
+          email: req.body.email,
+          newPassword: req.body.newPassword,
+          code:req.body.code
         };
 
         const resetVlaidation = validation.validateReset.validate(userData);
@@ -140,6 +141,7 @@ class Controller {
         }
 
         userService.resetPassword(userData, (error, userData) => {
+          console.log(userData);
           if (error) {
             logger.error(error);
             return res.status(400).send({

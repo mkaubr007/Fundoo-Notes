@@ -1,7 +1,11 @@
 const mongoose = require('mongoose');
 const utilities = require('../utilities/helper.js');
+const bcrypt = require('bcryptjs');
 const { logger } = require('../../logger/logger');
-const bcrypt = require('bcrypt');
+const Otp = require('./otp.js');
+const { response } = require('express');
+const { checkout } = require('superagent');
+
 
 const userSchema = mongoose.Schema({
   firstName: {
@@ -77,29 +81,45 @@ class userModel {
   }
 
   forgotPassword = (data, callback) => {
-    User.findOne({ email: data.email }, (err, data) => {
-      console.log("model",data);
-      if (err) {
-        logger.error('User with email id doesnt exists');
-        return callback('User with email id doesnt exists', null);
+     User.findOne({ email: data.email }, (err, data) => {
+      if (data) {
+        logger.error('User with email id exists');
+        return callback(null,data);
       } else {
-        return callback(null, data);
+        return callback(err,null);
       }
     });
   };
 
-  
-  resetPassword = async (userData, callback) => {
-    const hashPass = bcrypt.hashSync(userData.password, 10);
-    const data = await User.findOne({ email: userData.email });
-    User.findByIdAndUpdate(data.id, { firstName: data.firstName, lastName: data.lastName, password: hashPass }, { new: true }, (error, data) => {
-      if (error) {
-        logger.error(error);
-        return callback(error, null);
-      } else {
-        return callback(null, data);
+  resetPassword = (userData, callback) =>{
+    Otp.findOne({code: userData.code }, (error, data) =>{
+        if(data){
+          bcrypt.compare(userData.code, data.code, (error, validate)=>{
+            if(!validate){
+              return callback ("User not found this email id", null)
+            }else{
+              utilities.hashing(userData.newPassword, (err, hash) => {
+                if (hash) {
+                    userData.newPassword = hash;
+                    User.updateOne({"password": userData.newPassword}, (error, data) => {
+                        if(data.acknowledged == true){
+                            return callback (null, "Updated successfully")
+                        }
+                        else{
+                            return callback ("Error in updating", null)
+                        }
+                    })
+                }else{
+                  return callback ("Error in hash on password", null)
+                }
+              })
+            }
+          })
+         
+        }else{
+        return callback(error,null)
       }
-    });
-  };
+    })
+  }
 }
 module.exports = new userModel(); 
