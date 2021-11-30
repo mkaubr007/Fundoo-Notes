@@ -111,3 +111,89 @@
 {"level":"error","message":"User not found with this mail Id","timestamp":"2021-11-30T02:15:21.669Z"}
 {"level":"error","message":"Otp doesnt match","timestamp":"2021-11-30T02:16:59.949Z"}
 {"level":"error","message":"Otp doesnt match","timestamp":"2021-11-30T02:16:59.951Z"}
+{"level":"error","message":"User with email id  exists","timestamp":"2021-11-30T07:57:03.471Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T09:11:30.190Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T09:11:30.191Z"}
+{"level":"error","message":"User with email id does not  exists","timestamp":"2021-11-30T09:11:30.254Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:11:30.272Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:11:30.387Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T09:21:52.317Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T09:21:52.318Z"}
+{"level":"error","message":"User with email id does not  exists","timestamp":"2021-11-30T09:21:52.370Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:21:52.378Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:21:52.404Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:21:52.411Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T09:26:53.093Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T09:26:53.094Z"}
+{"level":"error","message":"User with email id does not  exists","timestamp":"2021-11-30T09:26:53.149Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:26:53.166Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:26:53.188Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:26:53.199Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T09:37:37.106Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T09:37:37.108Z"}
+{"level":"error","message":"User with email id does not  exists","timestamp":"2021-11-30T09:37:37.403Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:37:37.415Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:37:37.435Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:37:37.444Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T09:38:35.492Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T09:38:35.493Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-11-30T09:38:35.552Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:38:35.568Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:38:35.612Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:38:35.625Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T09:47:36.999Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T09:47:37.000Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-11-30T09:47:37.057Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:47:37.074Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:47:37.111Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:47:37.123Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T09:50:30.238Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T09:50:30.238Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-11-30T09:50:30.310Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:50:30.325Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:50:30.360Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T09:51:33.671Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T09:51:33.672Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-11-30T09:51:33.726Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:51:33.740Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:51:33.767Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T09:53:57.139Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T09:53:57.140Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-11-30T09:53:57.225Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:53:57.240Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:53:57.276Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T09:55:31.167Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T09:55:31.168Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-11-30T09:55:31.251Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:55:31.264Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:55:31.300Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T09:57:25.068Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T09:57:25.069Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-11-30T09:57:25.121Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:57:25.135Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T09:57:25.194Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T10:00:15.695Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T10:00:15.695Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-11-30T10:00:15.757Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T10:00:15.773Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T10:00:15.797Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T10:01:28.819Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T10:01:28.820Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-11-30T10:01:28.900Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T10:01:28.913Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T10:01:28.946Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T10:18:37.198Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T10:18:37.199Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-11-30T10:18:37.256Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T10:18:37.270Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T10:18:37.304Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T10:24:25.937Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T10:24:25.938Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-11-30T10:24:25.992Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T10:24:26.007Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T10:24:26.043Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-30T10:25:19.162Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-30T10:25:19.164Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-11-30T10:25:19.218Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T10:25:19.232Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-11-30T10:25:19.266Z"}

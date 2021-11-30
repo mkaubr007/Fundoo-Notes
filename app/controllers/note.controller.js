@@ -100,7 +100,6 @@ class Controller {
           });
         }
         userService.forgotPassword(userCredential, (error, result) => {
-
           if (error) {
             return res.status(400).send({
               success: false,
@@ -141,7 +140,6 @@ class Controller {
         }
 
         userService.resetPassword(userData, (error, userData) => {
-          console.log(userData);
           if (error) {
             logger.error(error);
             return res.status(400).send({

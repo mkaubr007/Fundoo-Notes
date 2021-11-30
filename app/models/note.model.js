@@ -1,11 +1,7 @@
 const mongoose = require('mongoose');
 const utilities = require('../utilities/helper.js');
-const bcrypt = require('bcryptjs');
 const { logger } = require('../../logger/logger');
 const Otp = require('./otp.js');
-const { response } = require('express');
-const { checkout } = require('superagent');
-
 
 const userSchema = mongoose.Schema({
   firstName: {
@@ -35,7 +31,6 @@ const User = mongoose.model('User', userSchema);
 class userModel {
 
     registerUser = (userDetails, callback) => {
-      console.log(userDetails);
         const newUser = new User({
           firstName: userDetails.firstName,
           lastName: userDetails.lastName,
@@ -83,9 +78,9 @@ class userModel {
   forgotPassword = (data, callback) => {
      User.findOne({ email: data.email }, (err, data) => {
       if (data) {
-        logger.error('User with email id exists');
         return callback(null,data);
       } else {
+        logger.error('User with email id does not  exists');
         return callback(err,null);
       }
     });

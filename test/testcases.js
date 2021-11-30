@@ -6,6 +6,7 @@ chai.use(chaiHttp);
 const registrationData = require('./user.json');
 const loginData = require('./user.json');
 const userInputs = require('./user.json');
+const inputData=require('./user.json')
 
 chai.should();
 
@@ -126,3 +127,4 @@ describe('forgotPassword', () => {
       });
   });
 });
+

@@ -3,7 +3,6 @@ const bcrypt = require('bcryptjs');
 const utilities=require('../utilities/helper.js');
 const { logger } = require('../../logger/logger');
 const nodemailer = require('../utilities/nodeemailer.js');
-const helper = require('../utilities/helper.js');
 class UserService {
  
     registerUser = (user, callback) => {
