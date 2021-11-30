@@ -94,32 +94,29 @@ class userModel {
   resetPassword = (userData, callback) =>{
     Otp.findOne({code: userData.code }, (error, data) =>{
         if(data){
-          bcrypt.compare(userData.code, data.code, (error, validate)=>{
-            if(!validate){
-              return callback ("User not found this email id", null)
-            }else{
-              utilities.hashing(userData.newPassword, (err, hash) => {
-                if (hash) {
-                    userData.newPassword = hash;
-                    User.updateOne({"password": userData.newPassword}, (error, data) => {
-                        if(data){
-                            return callback (null, "Updated successfully")
-                        }
-                        else{
-                            return callback ("Error in updating", null)
-                        }
-                    })
-                }else{
-                  return callback ("Error in hash on password", null)
-                }
-              })
-            }
-          })
-         
+          if(userData.code==data.code){
+            utilities.hashing(userData.newPassword, (err, hash) => {
+              if (hash) {
+                  userData.newPassword = hash;
+                  User.updateOne({"password": userData.newPassword}, (error, data) => {
+                      if(data){
+                          return callback (null, "Updated successfully")
+                      }
+                      else{
+                          return callback ("Error in updating", null)
+                      }
+                  })
+              }else{
+                return callback ("Error in hash on password", null)
+              }
+            })       
+          }else{
+            return callback("User not found",null)
+          }
         }else{
-        return callback(error,null)
-      }
-    })
-  }
+          return callback("Otp doesnt match",null)
+        }
+      })
+    }
 }
 module.exports = new userModel(); 

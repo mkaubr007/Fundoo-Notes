@@ -763,3 +763,29 @@
 {"level":"error","message":"User not found this email id","timestamp":"2021-11-29T20:56:20.369Z"}
 {"level":"error","message":"User not found this email id","timestamp":"2021-11-29T20:56:24.102Z"}
 {"level":"error","message":"User not found this email id","timestamp":"2021-11-29T20:56:24.104Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-29T21:09:15.063Z"}
+{"level":"info","message":"User registered","timestamp":"2021-11-29T21:09:15.967Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-11-29T21:09:16.385Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-11-29T21:09:16.563Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-29T21:09:16.672Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-29T21:09:16.672Z"}
+{"level":"error","message":"User with email id exists","timestamp":"2021-11-29T21:09:16.687Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-30T02:09:56.796Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-11-30T02:11:48.097Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-30T02:13:53.590Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-30T02:13:57.175Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-30T02:13:59.769Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-30T02:14:09.840Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-30T02:14:12.839Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-30T02:14:25.183Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-30T02:14:29.283Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-30T02:14:56.363Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-11-30T02:15:06.241Z"}
+{"level":"error","message":"User not found with this mail Id","timestamp":"2021-11-30T02:15:21.667Z"}
+{"level":"error","message":"User not found with this mail Id","timestamp":"2021-11-30T02:15:21.669Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-30T02:16:37.544Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-30T02:16:51.586Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-30T02:16:55.843Z"}
+{"level":"info","message":"Server start","timestamp":"2021-11-30T02:16:59.176Z"}
+{"level":"error","message":"Otp doesnt match","timestamp":"2021-11-30T02:16:59.949Z"}
+{"level":"error","message":"Otp doesnt match","timestamp":"2021-11-30T02:16:59.951Z"}

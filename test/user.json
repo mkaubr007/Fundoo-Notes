@@ -3,7 +3,7 @@
         "correctRegister": {
             "firstName": "Vikram",
             "lastName": "Singh",
-            "email": "vikram10101@gmail.com",
+            "email": "vikram100@gmail.com",
             "password": "Vikrm123@&"
         },
         "registrationWithImproperDetails": {
@@ -29,10 +29,10 @@
             "email": "ansh123@gmail.com",
             "password": "Anshas12@$"
         },
-        "userForgotPasswordPos": {
+        "ForgotPasswordPos": {
             "email": "singhmanishkumarsingh700@gmail.com"
         },
-        "userForgotPasswordNegNonRegistered": {
+        "ForgotPasswordNegNonRegistered": {
             "email": "rajendra@gmail.com"
         }
     }   

@@ -104,3 +104,10 @@
 {"level":"error","message":"User not found this email id","timestamp":"2021-11-29T20:56:20.369Z"}
 {"level":"error","message":"User not found this email id","timestamp":"2021-11-29T20:56:24.103Z"}
 {"level":"error","message":"User not found this email id","timestamp":"2021-11-29T20:56:24.104Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-11-29T21:09:16.672Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-11-29T21:09:16.672Z"}
+{"level":"error","message":"User with email id exists","timestamp":"2021-11-29T21:09:16.687Z"}
+{"level":"error","message":"User not found with this mail Id","timestamp":"2021-11-30T02:15:21.667Z"}
+{"level":"error","message":"User not found with this mail Id","timestamp":"2021-11-30T02:15:21.669Z"}
+{"level":"error","message":"Otp doesnt match","timestamp":"2021-11-30T02:16:59.949Z"}
+{"level":"error","message":"Otp doesnt match","timestamp":"2021-11-30T02:16:59.951Z"}
