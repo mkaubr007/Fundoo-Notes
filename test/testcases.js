@@ -128,3 +128,30 @@ describe('forgotPassword', () => {
   });
 });
 
+describe('reset Password API', () => {
+  it('givenresetdetails_whenproper_shouldberesetlinkSent', (done) => {
+    const reset = inputData.user.validDetails;
+    chai
+      .request(server)
+      .put('/reset-Password')
+      .send(reset)
+      .end((error, res) => {
+        res.should.have.status(200);
+        done();
+      });
+  });
+
+  it('givenresetdetails_whenNotproper_shouldberesetlinkSent', (done) => {
+    const reset = inputData.user.invalidDetails;
+    chai
+      .request(server)
+      .put('/reset-Password')
+      .send(reset)
+      .end((error, res) => {
+        res.should.have.status(422);
+        done();
+      });
+  });
+
+});
+
