@@ -3,7 +3,7 @@
         "correctRegister": {
             "firstName": "Vikram",
             "lastName": "Singh",
-            "email": "vikram100@gmail.com",
+            "email": "vikram222@gmail.com",
             "password": "Vikrm123@&"
         },
         "registrationWithImproperDetails": {
@@ -34,6 +34,15 @@
         },
         "ForgotPasswordNegNonRegistered": {
             "email": "rajangmail.com"
+        },
+        "validDetails":{
+            "email":"mkaubr007@gmail.com",
+            "newPassword":"Msingh786@",
+            "code":"3535"
+        },
+        "invalidDetails":{
+            "email":"mkaubr007@gmail.com",
+            "newPassword":"Msingh786@"
         } 
     }   
 }
