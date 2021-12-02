@@ -1675,3 +1675,9 @@
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-02T11:50:11.924Z"}
 {"level":"info","message":"Password reset succesfully","timestamp":"2021-12-02T11:50:12.152Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-02T11:50:12.161Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-02T16:56:34.839Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-02T16:57:40.407Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-02T16:57:40.664Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-02T16:59:39.953Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-02T17:40:56.349Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-02T17:45:03.079Z"}

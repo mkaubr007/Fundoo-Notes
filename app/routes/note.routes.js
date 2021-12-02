@@ -1,6 +1,7 @@
 
 const controller = require('../controllers/note.controller.js');
 const noteController = require('../controllers/notes');
+const helper= require('../utilities/helper');
 module.exports = (app) => {
   // api for registration
   app.post('/register', controller.register);
@@ -11,5 +12,5 @@ module.exports = (app) => {
   //api for reset-password
   app.put('/reset-Password', controller.resetPassword);
   //api for CRUD
-  app.post('/createnotes',noteController.createNote);
+  app.post('/createnotes', helper.validateToken, noteController.createNote);
 }

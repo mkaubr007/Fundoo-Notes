@@ -3,7 +3,7 @@ require('dotenv').config();
 const Otp=require('../models/otp.js');
 
 exports.sendEmail = (mailMessage) => {
-  let otpcode=Math.floor((Math.random()*10000)+1)
+  let otpcode=Math.random().toString(36).substring(2,12);
   let optData=new Otp({
     email:mailMessage.email,
     code:otpcode,
