@@ -11,5 +11,12 @@ class Service {
         }
       });
     }
+
+    getNote = (id, resolve, reject) => {
+      noteModel
+        .getNote(id)
+        .then((data) => resolve(data))
+        .catch(() => reject());
+    };
 }
 module.exports = new Service();

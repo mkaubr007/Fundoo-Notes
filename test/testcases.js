@@ -8,8 +8,6 @@ const loginData = require('./user.json');
 const userInputs = require('./user.json');
 const inputData=require('./user.json');
 const faker = require('faker');
-const { expect } = require('chai');
-const { string } = require('joi');
 
 chai.should();
 
