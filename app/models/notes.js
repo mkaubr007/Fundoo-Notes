@@ -39,5 +39,13 @@ class Model {
           .catch((err) => reject(err));
       });
     };
+
+    getNoteById = async (id) => {
+      try {
+        return await NoteRegister.find({ $and: [{ _id: id.noteId }, { userId: id.userId }] });
+      } catch (err) {
+        return err;
+      }
+    }
 }
 module.exports = new Model();

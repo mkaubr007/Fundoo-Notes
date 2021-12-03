@@ -1,6 +1,7 @@
 const noteService = require('../service/notes');
 const { logger } = require('../../logger/logger');
 
+
 class Note {
     createNote =(req, res) => {
       try {
@@ -62,5 +63,33 @@ class Note {
         });
     }
   };
+
+  getNoteById = async (req, res) => {
+    try {
+      const noteId = req.params.id;
+      const id = { userId: req.user.dataForToken.id, noteId: req.params.id };
+
+      const data = await noteService.getNoteById(id);
+      if (data.message) {
+        return res.status(404).json({
+          message: 'Note not found',
+          success: false
+        });
+      }
+      return res.status(200).json({
+        message: 'Note retrieved succesfully',
+        success: true,
+        data: data
+
+      });
+    } catch (err) {
+      return res.status(500).json({
+        message: 'Internal Error',
+        success: false,
+        data: err
+      });
+    }
+  }
+
 }
 module.exports = new Note();
