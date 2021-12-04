@@ -16,4 +16,5 @@ module.exports = (app) => {
   app.post('/createnotes', helper.validateToken, noteController.createNote);
   app.get('/getnotes', helper.validateToken, noteController.getNote);
   app.get('/getnotes/:id', helper.validateToken, noteController.getNoteById);
+  app.put('/updatenotes/:id', helper.validateToken, noteController.updateNoteById);
 }

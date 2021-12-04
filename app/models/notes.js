@@ -1,8 +1,11 @@
 const { logger } = require('../../logger/logger');
 const mongoose = require('mongoose');
 const noteSchema = mongoose.Schema({
+  userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
   title: {
-    type: String
+    type: String,
+    required: true,
+    minlength: 2
   },
   description: {
     type: String,
@@ -45,6 +48,21 @@ class Model {
         return await NoteRegister.find({ $and: [{ _id: id.noteId }, { userId: id.userId }] });
       } catch (err) {
         return err;
+      }
+    };
+
+    
+    updateNoteById = (updatedNote, callback) => {
+      try {
+        NoteRegister.findByIdAndUpdate(updatedNote.id, { title: updatedNote.title, description: updatedNote.description }, { new: true }, (err, data) => {
+          if (err) {
+            return callback(err, null);
+          } else {
+            return callback(null, data);
+          }
+        });
+      } catch (err) {
+        return callback(err, null);
       }
     }
 }
