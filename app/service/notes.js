@@ -1,14 +1,14 @@
 const { logger } = require('../../logger/logger');
 const noteModel = require('../models/notes');
 class Service {
-    createNote = (note, callback) => {
-      noteModel.createNote(note, (error, data) => {
-        if (error) {
-          logger.error(error);
-          return callback(error, null);
-        } else {
-          return callback(null, data);
-        }
+  createNote = (note, callback) => {
+    noteModel.createNote(note, (error, data) => {
+      if (error) {
+        logger.error(error);
+        return callback(error, null);
+      } else {
+        return callback(null, data);
+      }
       });
     }
 
@@ -37,6 +37,14 @@ class Service {
         }
       }
       );
+    };
+
+    deleteNoteById = async (id) => {
+      try {
+        return await noteModel.deleteNoteById(id);
+      } catch (err) {
+        return err;
+      }
     }
 }
 module.exports = new Service();

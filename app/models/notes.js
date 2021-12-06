@@ -19,21 +19,21 @@ const noteSchema = mongoose.Schema({
 
 const NoteRegister = mongoose.model('NoteRegister', noteSchema);
 class Model {
-    createNote = (info, callback) => {
-      const note = new NoteRegister({
-        userId: info.userId,
-        title: info.title,
-        description: info.description
-      });
-      note.save((error, data) => {
-        if (error) {
-          logger.error(error);
-          return callback(error, null);
-        } else {
-          return callback(null, data);
-        }
-      });
-    }
+  createNote = (info, callback) => {
+    const note = new NoteRegister({
+      userId: info.userId,
+      title: info.title,
+      description: info.description
+    });
+    note.save((error, data) => {
+      if (error) {
+        logger.error(error);
+        return callback(error, null);
+      } else {
+        return callback(null, data);
+      }
+    });
+  }
 
     getNote = (id) => {
       return new Promise((resolve, reject) => {
@@ -63,6 +63,14 @@ class Model {
         });
       } catch (err) {
         return callback(err, null);
+      }
+    };
+
+    deleteNoteById = async (id) => {
+      try {
+        return await NoteRegister.findOneAndDelete({ $and: [{ _id: id.noteId }, { userId: id.userId }] });
+      } catch (err) {
+        return err;
       }
     }
 }
