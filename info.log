@@ -1853,3 +1853,8 @@
 {"level":"info","message":"Successfully inserted note","timestamp":"2021-12-06T06:59:34.455Z"}
 {"level":"info","message":"Email id found","timestamp":"2021-12-06T06:59:49.171Z"}
 {"level":"info","message":" token generated ","timestamp":"2021-12-06T06:59:49.414Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-06T09:52:27.280Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-06T09:53:12.912Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-06T09:55:23.355Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-06T09:55:39.564Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-06T09:57:23.510Z"}
