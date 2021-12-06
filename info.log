@@ -1827,3 +1827,12 @@
 {"level":"info","message":"Email id found","timestamp":"2021-12-06T05:07:50.166Z"}
 {"level":"info","message":" token generated ","timestamp":"2021-12-06T05:07:50.430Z"}
 {"level":"info","message":"Successfully inserted note","timestamp":"2021-12-06T05:09:33.180Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-06T05:48:17.768Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-06T05:49:06.244Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-06T05:49:06.539Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-06T05:49:28.410Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-06T05:49:28.631Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-06T05:52:19.647Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-06T05:53:05.170Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-06T05:54:20.310Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-06T05:54:23.155Z"}

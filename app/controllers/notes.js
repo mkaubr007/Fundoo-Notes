@@ -10,7 +10,6 @@ class Note {
         title: req.body.title,
         description: req.body.description
       };
-      console.log('note for controller :: ' + note);
       noteService.createNote(note, (error, data) => {
         if (error) {
           logger.error('failed to post note');
