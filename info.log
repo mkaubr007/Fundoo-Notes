@@ -1836,3 +1836,8 @@
 {"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-06T05:53:05.170Z"}
 {"level":"info","message":"Server start","timestamp":"2021-12-06T05:54:20.310Z"}
 {"level":"info","message":"Server start","timestamp":"2021-12-06T05:54:23.155Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-06T05:59:55.449Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-06T06:02:31.392Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-06T06:02:31.683Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-06T06:05:50.607Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-06T06:07:52.732Z"}
