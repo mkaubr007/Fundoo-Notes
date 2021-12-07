@@ -496,3 +496,11 @@
 {"level":"error","message":"Note Not Updated or NoteId Is Not Match","timestamp":"2021-12-04T02:19:17.566Z"}
 {"level":"error","message":"Note Not Updated or NoteId Is Not Match","timestamp":"2021-12-04T02:19:19.052Z"}
 {"level":"error","message":"Internal Server Error","timestamp":"2021-12-04T04:30:45.075Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-07T05:13:20.049Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-07T05:13:20.050Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-07T05:13:20.156Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-07T05:13:20.777Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-07T05:57:25.588Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-07T05:57:25.588Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-07T05:57:25.698Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-07T05:57:26.022Z"}
