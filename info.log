@@ -1890,3 +1890,7 @@
 {"level":"error","message":"Invalid label body","timestamp":"2021-12-07T08:13:25.441Z"}
 {"level":"info","message":"Label inserted","timestamp":"2021-12-07T08:14:26.115Z"}
 {"level":"info","message":"Server start","timestamp":"2021-12-07T08:16:00.379Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-07T08:30:49.481Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-07T08:32:02.625Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-07T08:32:02.918Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-07T08:32:59.210Z"}
