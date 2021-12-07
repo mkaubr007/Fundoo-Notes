@@ -504,3 +504,4 @@
 {"level":"error","message":"Invalid Credential","timestamp":"2021-12-07T05:57:25.588Z"}
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-07T05:57:25.698Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-07T05:57:26.022Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-07T08:13:25.442Z"}
