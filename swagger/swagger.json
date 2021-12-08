@@ -378,7 +378,30 @@
                 "400":{"description":"Invalid Token"}
               }
             }  
-        }
+        },
+
+        "/getlabels":{
+            "get":{
+              "tags":["get labels"],
+              "description":"Gets all labels",
+              "parameters":[
+                {
+                  "in":"header",
+                "name":"authorization",
+                "description":"Token for validation",
+                "schema":{
+                  "type":"string",
+                  "required":true
+                }
+                }
+              ],
+              "produces":["application/json"],
+              "responses":{
+                "200":{"description":"labels retrieved"},
+                "500":{"description":"Couldnt retrieve labels"}
+              }
+            }
+          }
     },
     
 
