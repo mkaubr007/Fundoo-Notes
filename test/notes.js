@@ -14,7 +14,6 @@ describe('create notes api', () => {
       title: faker.lorem.word(),
       description: faker.lorem.sentence()
     };
-    console.log(createNotes);
     chai
       .request(server)
       .post('/createnotes')

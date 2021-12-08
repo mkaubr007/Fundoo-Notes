@@ -32,7 +32,6 @@ describe('create label api', () => {
     const createlabel = {
       labelName: faker.lorem.word()
     };
-    console.log(createlabel);
     chai
       .request(server)
       .post('/createlabel')
@@ -41,7 +40,7 @@ describe('create label api', () => {
       .end((err, res) => {
         res.should.have.status(400);
         res.body.should.have.property('success').eql(false);
-        res.body.should.have.property('message').eql('Please enter valid label');
+        res.body.should.have.property('message').eql('Invalid Token');
         done();
       });
   });
@@ -62,6 +61,36 @@ describe('create label api', () => {
         res.should.have.status(400);
         res.body.should.have.property('success').eql(false);
         res.body.should.have.property('message').eql('Please enter valid label');
+        done();
+      });
+  });
+});
+
+describe('get label api', () => {
+  it('notes', (done) => {
+    const token = labelDB.label.getlabelWithValidToken;
+    chai
+      .request(server)
+      .get('/getlabels')
+      .set({ authorization: token })
+      .end((err, res) => {
+        res.should.have.status(200);
+        res.body.should.have.property('success').eql(true);
+        res.body.should.have.property('message').eql('labels retrieved');
+        done();
+      });
+  });
+
+  it('givenCreateNotes_whenInvalidToken_shouldNotbeGet', (done) => {
+    const token = labelDB.label.getlabelWithInValidToken;
+    chai
+      .request(server)
+      .get('/getlabels')
+      .set({ authorization: token })
+      .end((err, res) => {
+        res.should.have.status(400);
+        res.body.should.have.property('success').eql(false);
+        res.body.should.have.property('message').eql('Invalid Token');
         done();
       });
   });
