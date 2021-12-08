@@ -28,6 +28,15 @@ class Model {
         label.save().then((data) => resolve(data))
           .catch((error) => reject(error));
       });
+    };
+
+    getLabel = (id) => {
+      return new Promise((resolve, reject) => {
+        LabelRegister.find({ userId: id }).then((data) => {
+          resolve(data);
+        })
+          .catch((error) => reject(error));
+      });
     }
 }
 module.exports = new Model();

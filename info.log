@@ -1894,3 +1894,13 @@
 {"level":"info","message":"Email id found","timestamp":"2021-12-07T08:32:02.625Z"}
 {"level":"info","message":" token generated ","timestamp":"2021-12-07T08:32:02.918Z"}
 {"level":"info","message":"Label inserted","timestamp":"2021-12-07T08:32:59.210Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-07T14:43:10.925Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-07T14:44:59.619Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-07T14:45:00.130Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-07T14:48:05.282Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-07T14:48:05.537Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-08T05:45:10.909Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-08T05:47:17.691Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-08T05:47:17.952Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-08T05:47:44.147Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-08T05:56:43.090Z"}
