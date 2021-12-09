@@ -22,4 +22,5 @@ module.exports = (app) => {
   //api for level CRUD
   app.post('/createlabel', helper.validateToken, label.createLabel);
   app.get('/getlabels', helper.validateToken, label.getLabel);
+  app.get('/getlabel/:id', helper.validateToken, label.labelGetById);
 }
