@@ -95,3 +95,19 @@ describe('get label api', () => {
       });
   });
 });
+
+describe('Get label by ID api', () => {
+  it('givenPoperDetails_ShouldGetlabel', (done) => {
+    const token = labelDB.label.getlabelWithValidToken;
+    chai
+      .request(server)
+      .get('/getlabel/6169916b1e16505796bc66cf')
+      .set({ authorization: token })
+      .end((err, res) => {
+        res.should.have.status(200);
+        res.body.should.have.property('success').eql(true);
+        res.body.should.have.property('message').eql('label retrieved succesfully');
+        done();
+      });
+  });
+});
