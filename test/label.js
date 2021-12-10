@@ -101,12 +101,46 @@ describe('Get label by ID api', () => {
     const token = labelDB.label.getlabelWithValidToken;
     chai
       .request(server)
-      .get('/getlabel/6169916b1e16505796bc66cf')
+      .get('/getlabel/61af17e23c2e46f6856c3823')
       .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(200);
         res.body.should.have.property('success').eql(true);
         res.body.should.have.property('message').eql('label retrieved succesfully');
+        done();
+      });
+  });
+});
+
+describe('Update label api', () => {
+  it('givenPoperDetails_ShouldUpdatelabel', (done) => {
+    const token = labelDB.label.getlabelWithValidToken;
+    const note = labelDB.updatelabel.validData;
+    chai
+      .request(server)
+      .put('/updatelabel/61af17e23c2e46f6856c3823')
+      .set({ authorization: token })
+      .send(note)
+      .end((err, res) => {
+        res.should.have.status(200);
+        res.body.should.have.property('success').eql(true);
+        res.body.should.have.property('message').eql('label updated');
+        done();
+      });
+  });
+
+  it('givenInvalidToken_ShouldUpdatelabel', (done) => {
+    const token = labelDB.label.getlabelWithInValidToken;
+    const note = labelDB.updatelabel.validData;
+    chai
+      .request(server)
+      .put('/updatelabel/6166c7b44111f13149649f2b')
+      .set({ authorization: token })
+      .send(note)
+      .end((err, res) => {
+        res.should.have.status(400);
+        res.body.should.have.property('success').eql(false);
+        res.body.should.have.property('message').eql('Invalid Token');
         done();
       });
   });

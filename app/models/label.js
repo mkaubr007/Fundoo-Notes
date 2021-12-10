@@ -45,6 +45,14 @@ class Model {
       } catch (err) {
         return err;
       }
+    };
+    
+    async updateLabel (label) {
+      try {
+        return await LabelRegister.findByIdAndUpdate(label.labelId, { labelName: label.labelName }, { new: true });
+      } catch (err) {
+        return err;
+      }
     }
 }
 module.exports = new Model();

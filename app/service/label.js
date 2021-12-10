@@ -20,20 +20,11 @@ class Service {
       }
     };
 
-    
     async updateLabel (label) {
       try {
         return await labelModel.updateLabel(label);
       } catch (error) {
         return error;
-      }
-    };
-
-    async updateLabel (label) {
-      try {
-        return await LabelRegister.findByIdAndUpdate(label.labelId, { labelName: label.labelName }, { new: true });
-      } catch (err) {
-        return err;
       }
     };
 }
