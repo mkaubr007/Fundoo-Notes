@@ -2348,3 +2348,4 @@
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-10T10:50:50.871Z"}
 {"level":"info","message":"Password reset succesfully","timestamp":"2021-12-10T10:50:51.115Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-10T10:50:51.126Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-10T14:36:43.964Z"}

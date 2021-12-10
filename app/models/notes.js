@@ -19,6 +19,11 @@ const noteSchema = mongoose.Schema({
 
 const NoteRegister = mongoose.model('NoteRegister', noteSchema);
 class Model {
+  /**
+   * @description function written to create notes into database
+   * @param {*} a valid info is expected
+   * @returns saved data or if error returns error
+   */
   createNote = (info, callback) => {
     const note = new NoteRegister({
       userId: info.userId,
@@ -34,7 +39,10 @@ class Model {
       }
     });
   }
-
+   /**
+   * @description function written to get all notes from database
+   * @returns retrieved notes or if error returns error
+   */
     getNote = (id) => {
       return new Promise((resolve, reject) => {
         NoteRegister.find({ userId: id.id })
@@ -42,7 +50,11 @@ class Model {
           .catch((err) => reject(err));
       });
     };
-
+     /**
+   * @description function written to get notes by Id into database
+   * @param {*} valid notesId is expected
+   * @returns notes of particular Id or if any error return error
+   */
     getNoteById = async (id) => {
       try {
         return await NoteRegister.find({ $and: [{ _id: id.noteId }, { userId: id.userId }] });
@@ -50,8 +62,10 @@ class Model {
         return err;
       }
     };
-
-    
+     /**
+   * @description function written to update notes by Id into database
+   * @returns notes of particular Id or if any error return error
+   */
     updateNoteById = (updatedNote, callback) => {
       try {
         NoteRegister.findByIdAndUpdate(updatedNote.id, { title: updatedNote.title, description: updatedNote.description }, { new: true }, (err, data) => {
@@ -65,7 +79,12 @@ class Model {
         return callback(err, null);
       }
     };
-
+     /**
+   * @description function written to update isDeleted to true
+   * @param {*} notesId
+   * @param {*} userId
+   * @returns data else if error returns error
+   */
     deleteNoteById = async (id) => {
       try {
         return await NoteRegister.findOneAndDelete({ $and: [{ _id: id.noteId }, { userId: id.userId }] });

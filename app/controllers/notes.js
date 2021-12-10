@@ -3,6 +3,12 @@ const { logger } = require('../../logger/logger');
 const validation = require('../utilities/validation.js');
 
 class Note {
+   /**
+     * @description function written to create notes into the database
+     * @param {*} a valid req body is expected
+     * @param {*} res
+     * @returns response
+     */
   createNote =(req, res) => {
     try {
       const note = {
@@ -43,8 +49,13 @@ class Note {
         success: false
       });
     }
-  }
-
+  };
+   /**
+     * @description function written to get all the notes from the database
+     * @param {*} req
+     * @param {*} res
+     * @returns response
+     */
     getNote = (req, res) => {
       try {
         const id = { id: req.user.dataForToken.id };
@@ -80,7 +91,12 @@ class Note {
         });
     }
   };
-
+   /**
+     * @description function written to get  the notes by Id from the database
+     * @param {*} req
+     * @param {*} res
+     * @returns response
+     */
   getNoteById = async (req, res) => {
     try {
       const noteId = req.params.id;
@@ -115,7 +131,12 @@ class Note {
       });
     }
   };
-
+   /**
+     * @description function written to update notes using ID from the database
+     * @param {*} req
+     * @param {*} res
+     * @returns response
+     */
   updateNoteById =(req, res) => {
     try {
       const updateNote = {
@@ -158,7 +179,12 @@ class Note {
       });
     }
   };
-
+   /**
+     * @description function written to delete note by ID
+     * @param {*} req
+     * @param {*} res
+     * @returns response
+     */
   deleteNoteById = async (req, res) => {
     try {
       const id = { userId: req.user.dataForToken.id, noteId: req.params.id };

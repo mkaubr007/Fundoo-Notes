@@ -18,7 +18,11 @@ const labelSchema = mongoose.Schema({
 const LabelRegister = mongoose.model('labelRegister', labelSchema);
 
 class Model {
-   
+     /**
+      * @description function written to create label
+      * @param {*} data
+      * @returns data else if returns error
+      */
     createLabel = (data) => {
       return new Promise((resolve, reject) => {
         const label = new LabelRegister({
@@ -29,7 +33,12 @@ class Model {
           .catch((error) => reject(error));
       });
     };
-
+     /**
+      * @description function written to get all labels
+      * @returns data else if returns error
+      *
+      *
+      */
     getLabel = (id) => {
       return new Promise((resolve, reject) => {
         LabelRegister.find({ userId: id }).then((data) => {
@@ -38,7 +47,11 @@ class Model {
           .catch((error) => reject(error));
       });
     };
-
+     /**
+      *
+      * @param {*} id
+      * @description retrieve all the label created
+      */
     labelGetById = async (id) => {
       try {
         return await LabelRegister.find({ $and: [{ _id: id.noteId }, { userId: id.userId }] });
@@ -46,7 +59,12 @@ class Model {
         return err;
       }
     };
-    
+     /**
+      * @description : updating the label
+      * @param {*} labelId
+      * @param {*} label
+      * @returns data else if returns error
+      */
     async updateLabel (label) {
       try {
         return await LabelRegister.findByIdAndUpdate(label.labelId, { labelName: label.labelName }, { new: true });

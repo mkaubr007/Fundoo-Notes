@@ -2,6 +2,12 @@ const validation = require('../utilities/validation.js');
 const { logger } = require('../../logger/logger');
 const labelService = require('../service/label');
 class Label {
+   /**
+     * @description function writt
+     * en to create label into database
+     * @param {*} a valid req body is expected
+     * @param {*} res
+     */
    
     createLabel = (req, res) => {
       try {
@@ -43,6 +49,12 @@ class Label {
         });
       }
     };
+    
+    /**
+     * @description function written to get all labels
+     * @param {*} req
+     * @param {*} res
+     */
 
     getLabel = (req, res) => {
       const id = req.user.dataForToken.id;
@@ -63,6 +75,13 @@ class Label {
         }
       });
     };
+
+     /**
+     * @description function written  to get label by ID
+     * @param {*} req
+     *
+     * @param {*} res
+     */
 
     labelGetById = async (req, res) => {
       try {
@@ -87,6 +106,12 @@ class Label {
         });
       }
     };
+
+     /**
+     * @description function written to update label
+     * @param {*} a valid req body is expected
+     * @param {*} res
+     */
 
     updateLabel =async (req, res) => {
       try {

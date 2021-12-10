@@ -29,7 +29,11 @@ const userSchema = mongoose.Schema({
 const User = mongoose.model('User', userSchema);
 
 class userModel {
-
+  /**
+      * @description register User in the database
+      * @param User
+      * @param callback
+      */
     registerUser = (userDetails, callback) => {
         const newUser = new User({
           firstName: userDetails.firstName,
@@ -58,7 +62,11 @@ class userModel {
           return callback('Internal Error', null)
       }
   }  
-  
+    /**
+      * @description login User from the database
+      * @param loginInfo
+      * @param callback for service
+      */
   loginUser= (loginData, callBack) => {
     //To find a user email in the database
     User.findOne({ email: loginData.email }, (error, data) => {
@@ -74,7 +82,11 @@ class userModel {
         }
     });
   }
-
+   /**
+     * @description mongoose function for forgot password
+     * @param {*} email
+     * @param {*} callback
+     */
   forgotPassword = (data, callback) => {
      User.findOne({ email: data.email }, (err, data) => {
       if (data) {
@@ -85,7 +97,13 @@ class userModel {
       }
     });
   };
-
+  
+     /**
+     * @description mongooose method for reseting the password
+     * @param {*} userData
+     * @param {*} callback
+     * @returns
+     */
   resetPassword = (userData, callback) =>{
     Otp.findOne({code: userData.code }, (error, data) =>{
         if(data){
