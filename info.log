@@ -2137,3 +2137,49 @@
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-09T10:11:24.226Z"}
 {"level":"info","message":"Password reset succesfully","timestamp":"2021-12-09T10:11:24.428Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-09T10:11:24.436Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T10:32:57.601Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:35:48.001Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:36:37.254Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-09T10:36:54.446Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:37:13.848Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T10:41:11.309Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:41:16.350Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:41:17.802Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:41:19.201Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:41:52.142Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:42:33.855Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:08:20.945Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:08:28.319Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:08:37.460Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:09:20.381Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:09:35.401Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:09:51.161Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:09:56.516Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:10:37.214Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:10:41.700Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:13:17.867Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:13:21.638Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:13:30.647Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:13:34.155Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:13:48.331Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:13:54.697Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:14:04.184Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-09T15:15:01.755Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-09T15:15:02.098Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:15:46.941Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:16:30.662Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:16:40.033Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:16:43.901Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:16:49.984Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:22:18.796Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:23:01.347Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:23:21.936Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:26:23.258Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:26:31.265Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:27:03.499Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:27:49.516Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:27:52.878Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:27:59.672Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-09T15:28:06.105Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T15:28:53.661Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-09T15:29:53.467Z"}

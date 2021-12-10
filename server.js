@@ -1,9 +1,9 @@
 const express = require('express');
+const dbConfig = require('./config/database.config.js');
 const { logger } = require('./logger/logger');
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger/swagger.json');
 require('dotenv').config();
-//const bodyParser = require('body-parser');
 
 // create express app
 const app = express();
@@ -15,16 +15,7 @@ app.use(express.urlencoded({ extended: true }))
 
 // parse requests of content-type - application/json
 app.use(express.json())
-
-// Configuring the database
-const dbConfig = require('./config/database.config.js');
-
-
-
-//mongoose.Promise = global.Promise;
-
 // Connecting to the database
-
 dbConfig.connection();
 // define a simple route
 app.get('/', (req, res) => {

@@ -581,3 +581,12 @@
 {"level":"error","message":"Invalid Credential","timestamp":"2021-12-09T10:11:24.143Z"}
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-09T10:11:24.226Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-09T10:11:24.436Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:35:48.001Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:36:37.254Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:37:13.849Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:41:16.350Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:41:17.802Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:41:19.201Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:41:52.142Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T10:42:33.855Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-09T15:28:53.662Z"}
