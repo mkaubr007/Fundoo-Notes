@@ -434,7 +434,46 @@
                 "400":{"description":"Invalid Token"}
               }
             }
-        }
+        },
+
+        "/updatelabel/{id}":{
+            "put":{
+              "tags":["Update label"],
+              "description":"Updates label",
+              "parameters":[
+                {
+                  "in":"header",
+                  "name":"authorization",
+                  "description":"Token for validation",
+                  "schema":{
+                    "type":"string",
+                    "required":true
+                }
+              },
+              {
+                "in":"path",
+                "name":"id",
+                "description":"Label id",
+                "schema":{
+                  "type":"string",
+                  "required":true
+                }
+              },
+              {
+                "in":"body",
+                "name":"label",
+                "description":"Label to be updated",
+                  "schema":{"$ref":"#/definitions/label"}
+                }
+              ],
+              "produces":["application/json"],
+              "responses":{
+                "200":{"description":"label updated"},
+                "500":{"description":"Failed to update label"},
+                "400":{"description":"Invalid Token"}
+              }
+            }
+          }
     },
     
 
