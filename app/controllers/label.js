@@ -151,6 +151,19 @@ class Label {
           data: error
         });
       }
-    }
+    };
+
+    deleteLabelById = async (req, res) => {
+      try{
+        const id = { userId: req.user.dataForToken.id, labelId: req.params.id }; 
+        const data = await labelService.deleteLabelById(id);
+        if (data.message) {
+          return res.status(404).json({
+            message: 'label not found',
+            success: false
+          });
+        }
+      }catch (err) {}
+    }   
 }
 module.exports = new Label();

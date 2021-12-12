@@ -5,6 +5,7 @@ const faker = require('faker');
 
 chai.use(chaiHttp);
 const labelDB = require('./label.json');
+const { expect } = require('chai');
 chai.should();
 
 describe('create label api', () => {
@@ -118,7 +119,7 @@ describe('Update label api', () => {
     const note = labelDB.updatelabel.validData;
     chai
       .request(server)
-      .put('/updatelabel/61af17e23c2e46f6856c3823')
+      .put('/updatelabel/61b047007cbf1e163e8728b3')
       .set({ authorization: token })
       .send(note)
       .end((err, res) => {
@@ -134,7 +135,7 @@ describe('Update label api', () => {
     const note = labelDB.updatelabel.validData;
     chai
       .request(server)
-      .put('/updatelabel/6166c7b44111f13149649f2b')
+      .put('/updatelabel/61af1c3bfff30f91b6156807')
       .set({ authorization: token })
       .send(note)
       .end((err, res) => {
@@ -142,6 +143,22 @@ describe('Update label api', () => {
         res.body.should.have.property('success').eql(false);
         res.body.should.have.property('message').eql('Invalid Token');
         done();
+      });
+  });
+});
+
+describe('Delete label api', () => {
+  it('Success should return false', (done) => {
+    const token = labelDB.label.getlabelWithValidToken;
+    chai
+      .request(server)
+      .delete('/deletelabel/61af17e23c246f6856c3823')
+      .set({ authorization: token })
+      .end((err, res) => {
+        res.should.have.status(404);
+        res.body.should.have.property('success').eql(false);
+        res.body.should.have.property('message').eql('label not found');
+       done();
       });
   });
 });
