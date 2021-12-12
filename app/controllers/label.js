@@ -163,14 +163,19 @@ class Label {
             message: 'Wrong Input Validations',
             data: deleteLabelValidation
           });
-        }
+        };
         const data = await labelService.deleteLabelById(id);
         if (data.message) {
           return res.status(404).json({
             message: 'label not found',
             success: false
           });
-        }
+        };
+        return res.status(200).json({
+          message: 'label Deleted succesfully',
+          success: true,
+          data: data
+        });
       }catch (err) {}
     }   
 }

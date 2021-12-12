@@ -119,7 +119,7 @@ describe('Update label api', () => {
     const note = labelDB.updatelabel.validData;
     chai
       .request(server)
-      .put('/updatelabel/61b047007cbf1e163e8728b3')
+      .put('/updatelabel/61b05a89fa1bcd903cb01ca8')
       .set({ authorization: token })
       .send(note)
       .end((err, res) => {
@@ -174,6 +174,22 @@ describe('Delete label api', () => {
         res.should.have.status(400);
         res.body.should.have.property('success').eql(false);
         res.body.should.have.property('message').eql('Invalid Token');
+       done();
+      });
+  });
+  it('Success should return true when valid', (done) => {
+    const token = labelDB.label.validToken;
+    chai
+      .request(server)
+      .delete('/deletelabel/61b61e585da52449f9695776')
+      .set({ authorization: token })
+      .end((err, res) => {
+        if (err) {
+          return done(err,"Please check details again and re-enter the details with proper format");
+        }
+        res.should.have.status(200);
+        res.body.should.have.property('success').eql(true);
+        res.body.should.have.property('message').eql('label Deleted succesfully');
        done();
       });
   });
