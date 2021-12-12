@@ -193,4 +193,20 @@ describe('Delete label api', () => {
        done();
       });
   });
+  it('givenImppoperDetails_ShouldNotDeletelabel', (done) => {
+    const token = labelDB.label.getlabelWithValidToken;
+    chai
+      .request(server)
+      .delete('/deletelabel/61b61e585da52449f9695776')
+      .set({ authorization: token })
+      .end((err, res) => {
+        if (err) {
+          return done(err,"Please check details again and re-enter the details with proper format");
+        }
+        res.should.have.status(500);
+        res.body.should.have.property('success').eql(false);
+        res.body.should.have.property('message').eql('label not deleted');
+       done();
+      });
+  });
 });

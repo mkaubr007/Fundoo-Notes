@@ -176,7 +176,13 @@ class Label {
           success: true,
           data: data
         });
-      }catch (err) {}
-    }   
+      }catch (err) {
+        return res.status(500).json({
+          message: 'label not deleted',
+          success: false,
+          data: err
+        });
+      }
+    }
 }
 module.exports = new Label();
