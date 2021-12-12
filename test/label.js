@@ -161,4 +161,20 @@ describe('Delete label api', () => {
        done();
       });
   });
+  it('Success should return false when invalid', (done) => {
+    const token = labelDB.label.getlabelWithInValidToken;
+    chai
+      .request(server)
+      .delete('/deletelabel/61af17e23c2e46f6856c3823')
+      .set({ authorization: token })
+      .end((err, res) => {
+        if (err) {
+          return done(err,"Please check details again and re-enter the details with proper format");
+        }
+        res.should.have.status(400);
+        res.body.should.have.property('success').eql(false);
+        res.body.should.have.property('message').eql('Invalid Token');
+       done();
+      });
+  });
 });
