@@ -153,20 +153,29 @@ describe('Add notes by ID api', () => {
        done();
   });
   it('givenInvalidToken_ShouldAddabel', (done) => {
-    // const token = noteDB.notes.getNoteWithValidToken;
-    const note = noteDB.notelabel.labelName;
+    const token = noteDB.notes.getNoteWithValidToken;
     chai
       .request(server)
-      .put('/addlabel/:id')
-      // .set({ authorization: token })
-      .send(note)
+      .put('/addlabel/61b787772a7c45ba6cde1bb8')
+      .set({ authorization: token })
       .end((err, res) => {
-        res.should.have.status(400);
-        res.body.should.have.property('success').eql(false);
-        res.body.should.have.property('message').eql('Wrong Input Validations');
+        res.should.have.status(404);
         done();
       });
+      it('givenvalidToken_WhenDataShouldNotAddabel', (done) => {
+        const token = noteDB.notes.getNoteWithValidToken;
+        const note = noteDB.notelabel.labelName;
+        chai
+          .request(server)
+          .put('/addlabel/61b787772a7c45ba6cde1bb8')
+          .set({ authorization: token })
+          .send(note)
+          .end((err, res) => {
+            res.should.have.status(400);
+            res.body.should.have.property('success').eql(false);
+            res.body.should.have.property('message').eql('Note not found');
+            done();
+          });
+      });
   });
-
 });
-

@@ -232,11 +232,18 @@ class Note {
     };
     let dataValidation = validation.validateLabel.validate(id);
     if (dataValidation.error) {
-        return res.status(400).send({
-          success: false,
+        return res.status(404).send({
           message: 'Wrong Input Validations',
-          data: dataValidation
+          success: false,
+          data:dataValidation
         });
+    };
+    const labels=await noteService.addLabelById(id);
+    if (labels.message) {
+      return res.status(400).json({
+        message: 'Note not found',
+        success: false
+      });
     }
   } catch (err) {}
  }
