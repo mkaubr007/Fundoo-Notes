@@ -5,6 +5,8 @@ const faker = require('faker');
 
 chai.use(chaiHttp);
 const noteDB = require('./notes.json');
+const { expect } = require('chai');
+const { string } = require('joi');
 chai.should();
 
 describe('create notes api', () => {
@@ -141,6 +143,14 @@ describe('Get notes by ID api', () => {
         res.should.have.status(200);
         done();
       });
+  });
+});
+
+describe('Add notes by ID api', () => {
+  it('givenPoperDetails_ShouldGetApPI', (done) => {
+    const data = noteDB.addlabel.isLabel;
+       expect(data).equal(true);  
+       done();
   });
 });
 

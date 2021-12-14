@@ -14,7 +14,6 @@ describe('create label api', () => {
     const createlabel = {
       labelName: faker.lorem.word()
     };
-    console.log(createlabel);
     chai
       .request(server)
       .post('/createlabel')
@@ -181,7 +180,7 @@ describe('Delete label api', () => {
     const token = labelDB.label.validToken;
     chai
       .request(server)
-      .delete('/deletelabel/')
+      .delete('/deletelabel/:id')
       .set({ authorization: token })
       .end((err, res) => {
         if (err) {
