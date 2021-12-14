@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
     res.json({"message": "Welcome to fundooNotes application. Take notes quickly. Organize and keep track of all your notes."});
 });
 // Require Notes routes
-require('./app/routes/note.routes.js')(app);
+require('./app/routes/routes.js')(app);
 
 // listen for requests
 app.listen(process.env.PORT, () => {

@@ -1,4 +1,4 @@
-const controller = require('../controllers/note.controller.js');
+const controller = require('../controllers/user.js');
 const helper= require('../utilities/helper');
 const noteController = require('../controllers/notes');
 const label = require('../controllers/label');

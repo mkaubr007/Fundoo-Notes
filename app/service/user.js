@@ -1,4 +1,4 @@
-const userModel = require('../models/note.model.js');
+const userModel = require('../models/user.js');
 const bcrypt = require('bcryptjs');
 const utilities=require('../utilities/helper.js');
 const { logger } = require('../../logger/logger');

@@ -1,4 +1,4 @@
-const userService = require('../service/service.js');
+const userService = require('../service/user.js');
 const validation = require('../utilities/validation.js');
 const { logger } = require('../../logger/logger');
 require('dotenv').config();
