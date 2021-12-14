@@ -230,22 +230,19 @@ class Note {
       labelName: req.body.labelName,
       userId: req.user.dataForToken.id
     };
-    let dataValidation = validation.validateLabel.validate(id);
-    if (dataValidation.error) {
-        return res.status(404).send({
-          message: 'Wrong Input Validations',
-          success: false,
-          data:dataValidation
-        });
-    };
     const labels=await noteService.addLabelById(id);
-    if (labels.message) {
-      return res.status(400).json({
-        message: 'Note not found',
-        success: false
+      res.status(200).json({
+        message: 'Label added',
+        success: true,
+        data: labels
       });
-    }
-  } catch (err) {}
+  } catch  (err) {
+    res.status(500).send({
+      message: 'Label wasnt added',
+      success: false,
+      error: err
+    });
+  }
  }
 }
 module.exports = new Note();

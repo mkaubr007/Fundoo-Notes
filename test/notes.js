@@ -106,18 +106,6 @@ describe('Update notes api', () => {
 
 // delete note test cases
 describe('delete notes api', () => {
-  it('givenPoperDetails_ShouldDeleteNote', (done) => {
-    const token = noteDB.notes.getNoteWithValidToken;
-    chai
-      .request(server)
-      .delete('/deletenotes/61653c4e458259447e4e225f')
-      .set({ authorization: token })
-      .end((err, res) => {
-        res.should.have.status(500);
-        done();
-      });
-  });
-
   it('givenInvalidToken_ShouldUpdateNote', (done) => {
     const token = noteDB.notes.getNoteWithInValidToken;
     chai
@@ -151,31 +139,30 @@ describe('Add notes by ID api', () => {
     const data = noteDB.addlabel.isLabel;
        expect(data).equal(true);  
        done();
-  });
-  it('givenInvalidToken_ShouldAddabel', (done) => {
-    const token = noteDB.notes.getNoteWithValidToken;
-    chai
-      .request(server)
-      .put('/addlabel/61b787772a7c45ba6cde1bb8')
-      .set({ authorization: token })
-      .end((err, res) => {
-        res.should.have.status(404);
-        done();
-      });
+     });
       it('givenvalidToken_WhenDataShouldNotAddabel', (done) => {
         const token = noteDB.notes.getNoteWithValidToken;
-        const note = noteDB.notelabel.labelName;
         chai
           .request(server)
           .put('/addlabel/61b787772a7c45ba6cde1bb8')
           .set({ authorization: token })
-          .send(note)
           .end((err, res) => {
-            res.should.have.status(400);
-            res.body.should.have.property('success').eql(false);
-            res.body.should.have.property('message').eql('Note not found');
+            res.should.have.status(200);
+            res.body.should.have.property('success').eql(true);
+            res.body.should.have.property('message').eql('Label added');
             done();
           });
       });
+      it('givenPoperDetails_ShouldAddlabel', (done) => {
+        const token = noteDB.notes.getNoteWithValidToken;
+        chai
+          .request(server)
+          .delete('/deletenotes/61653c4e458259447e4e225f')
+          .set({ authorization: token })
+          .end((err, res) => {
+            res.should.have.status(500);
+            done();
+          });
+      });  
   });
-});
+
