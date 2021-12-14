@@ -2,6 +2,13 @@ const { logger } = require('../../logger/logger');
 const mongoose = require('mongoose');
 const noteSchema = mongoose.Schema({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+  labelId: {
+    type: [{ type: mongoose.Schema.Types.ObjectId, ref: 'LabelRegister' }]
+  },
+  labelName:{
+    type:String,
+    require:true
+  },
   title: {
     type: String,
     required: true,
@@ -102,7 +109,7 @@ class Model {
 
   addLabelById = async (id) => {
     try {
-      const data = await NoteRegister.findByIdAndUpdate(id.noteId, { $push: { labelId: id.labelId } }, { new: true });
+      const data = await NoteRegister.findByIdAndUpdate(id.noteId, { $push: { labelName: id.labelName } }, { new: true });
       console.log(data);
     } catch (error) {
       return error;

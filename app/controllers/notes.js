@@ -1,5 +1,4 @@
 const noteService = require('../service/notes');
-const labelController=require('../controllers/label');
 const { logger } = require('../../logger/logger');
 const validation = require('../utilities/validation.js');
 
@@ -228,11 +227,10 @@ class Note {
     try {
       const id = {
         noteId: req.params.id,
-        labelId: req.body.labelId,
+        labelName: req.body.labelName,
         userId: req.user.dataForToken.id
       };
-      await noteService.addLabelById(id);
-      // await labelController.addNoteId(id);
+      const labels=await noteService.addLabelById(id);
       res.status(200).json({
         message: 'Label added',
         success: true,

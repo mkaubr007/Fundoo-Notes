@@ -104,32 +104,32 @@ class userModel {
      * @param {*} callback
      * @returns
      */
-  resetPassword = (userData, callback) =>{
-    Otp.findOne({code: userData.code }, (error, data) =>{
-        if(data){
-          if(userData.code==data.code){
-            utilities.hashing(userData.newPassword, (err, hash) => {
-              if (hash) {
-                  userData.newPassword = hash;
-                  User.updateOne({'$set':{'password':userData.newPassword}},{new:true},(error, data) => {
-                      if(data){
-                          return callback (null,data)
-                      }
-                      else{
-                          return callback ("Error in updating", null)
-                      }
-                  })
+      resetPassword = (userData, callback) =>{
+        Otp.findOne({code: userData.code }, (error, data) =>{
+            if(data){
+              if(userData.code==data.code){
+                utilities.hashing(userData.newPassword, (err, hash) => {
+                  if (hash) {
+                      userData.newPassword = hash;
+                      User.updateOne({"password": userData.newPassword}, (error, data) => {
+                          if(data){
+                              return callback (null, "Updated successfully")
+                          }
+                          else{
+                              return callback ("Error in updating", null)
+                          }
+                      })
+                  }else{
+                    return callback ("Error in hash on password", null)
+                  }
+                })       
               }else{
-                return callback ("Error in hash on password", null)
+                return callback("User not found",null)
               }
-            })       
-          }else{
-            return callback("User not found",null)
-          }
-        }else{
-          return callback("Otp doesnt match",null)
+            }else{
+              return callback("Otp doesnt match",null)
+            }
+          })
         }
-      })
-    }
 }
 module.exports = new userModel(); 
