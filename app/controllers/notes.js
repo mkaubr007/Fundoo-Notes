@@ -188,7 +188,7 @@ class Note {
   deleteNoteById = async (req, res) => {
     try {
       const id = { userId: req.user.dataForToken.id, noteId: req.params.id };
-      const deleteNoteValidation = validation.notesdeleteValidation.validate(id);
+      const deleteNoteValidation = validation.validateLabel.validate(id);
       if (deleteNoteValidation.error) {
         console.log(deleteNoteValidation.error);
         return res.status(400).send({
@@ -224,7 +224,21 @@ class Note {
      */
 
  addLabelById = async (req, res) => {
-   return true;
+  try {
+    const id = {
+      noteId: req.params.id,
+      labelName: req.body.labelName,
+      userId: req.user.dataForToken.id
+    };
+    let dataValidation = validation.validateLabel.validate(id);
+    if (dataValidation.error) {
+        return res.status(400).send({
+          success: false,
+          message: 'Wrong Input Validations',
+          data: dataValidation
+        });
+    }
+  } catch (err) {}
  }
 }
 module.exports = new Note();

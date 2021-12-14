@@ -152,5 +152,21 @@ describe('Add notes by ID api', () => {
        expect(data).equal(true);  
        done();
   });
+  it('givenInvalidToken_ShouldAddabel', (done) => {
+    // const token = noteDB.notes.getNoteWithValidToken;
+    const note = noteDB.notelabel.labelName;
+    chai
+      .request(server)
+      .put('/addlabel/:id')
+      // .set({ authorization: token })
+      .send(note)
+      .end((err, res) => {
+        res.should.have.status(400);
+        res.body.should.have.property('success').eql(false);
+        res.body.should.have.property('message').eql('Wrong Input Validations');
+        done();
+      });
+  });
+
 });
 

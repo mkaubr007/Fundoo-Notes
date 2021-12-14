@@ -26,6 +26,6 @@
        "isLabel":true 
     },
     "notelabel":{
-        "validData":"Books"
+        "labelName":"Books"
     }
 }
