@@ -1,4 +1,5 @@
 const noteService = require('../service/notes');
+const labelController=require('../controllers/label');
 const { logger } = require('../../logger/logger');
 const validation = require('../utilities/validation.js');
 
@@ -214,6 +215,34 @@ class Note {
         message: 'Note not updated',
         success: false,
         data: err
+      });
+    }
+  };
+  /**
+     * @description function written to add label to note
+     * @param {*} a valid noteId is expected
+     * @param {*} a valid labelId is expecte
+     */
+
+   addLabelById = async (req, res) => {
+    try {
+      const id = {
+        noteId: req.params.id,
+        labelId: req.body.labelId,
+        userId: req.user.dataForToken.id
+      };
+      await noteService.addLabelById(id);
+      // await labelController.addNoteId(id);
+      res.status(200).json({
+        message: 'Label added',
+        success: true,
+        data: labels
+      });
+    } catch (err) {
+      res.status(500).send({
+        message: 'Label wasnt added',
+        success: false,
+        error: err
       });
     }
   }

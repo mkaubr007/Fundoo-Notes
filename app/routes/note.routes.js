@@ -20,10 +20,12 @@ module.exports = (app) => {
   app.put('/updatenotes/:id', helper.validateToken, noteController.updateNoteById);
   app.delete('/deletenotes/:id', helper.validateToken, noteController.deleteNoteById);
   
-  //api for level CRUD
+  //api for label CRUD
   app.post('/createlabel', helper.validateToken, label.createLabel);
   app.get('/getlabels', helper.validateToken, label.getLabel);
   app.get('/getlabel/:id', helper.validateToken, label.labelGetById);
   app.put('/updatelabel/:id', helper.validateToken, label.updateLabel);
   app.delete('/deletelabel/:id', helper.validateToken, label.deleteLabelById);
+  
+  app.post('/addlabel/:id', helper.validateToken, noteController.addLabelById);
 }

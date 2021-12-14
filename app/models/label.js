@@ -83,6 +83,15 @@ class Model {
         } catch (err) {
           return err;
         }
+      };
+
+      async addNoteId (id) {
+        try {
+          const data = await LabelRegister.findByIdAndUpdate(id.labelId, { $push: { noteId: id.noteId } }, { new: true });
+          console.log(data);
+        } catch (err) {
+          return err;
+        }
       }
 }
 module.exports = new Model();
