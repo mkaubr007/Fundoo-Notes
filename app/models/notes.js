@@ -105,15 +105,14 @@ class Model {
      * @param {*} a valid labelId is expected
      * @returns
      */
-  addLabelById = async (id) => {
-    try {
-      const data = await NoteRegister.findByIdAndUpdate(id.noteId, { $push: { labelName: id.labelName } }, { new: true });
-      console.log(data);
-    } catch (error) {
-      return error;
-    }
-  }
-
-
+  
+     addLabelById = async (id) => {
+      try {
+        const data = await NoteRegister.findByIdAndUpdate(id.noteId, { $addToSet: { labelName: id.labelName } });
+        console.log(data);
+      } catch (error) {
+        return error;
+      }
+    };
 }
 module.exports = new Model();
