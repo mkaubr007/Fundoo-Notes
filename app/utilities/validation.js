@@ -96,10 +96,9 @@ class Validation {
         });
 
         deleteLabelValidation =Joi.object({
-          labelName: Joi.string().min(24)
-            .required(),
-          noteID: Joi.string().min(20)
-            .required()
+          noteId: Joi.string().required(),
+          userId: Joi.string().required(),
+          labelName: Joi.string().required()  
         });
     }
     module.exports = new Validation();

@@ -154,8 +154,7 @@ class Note {
           message: 'Wrong Input Validations',
           data: updateNoteValidation
         });
-      }
-      console.log('note for controller :: ' + updateNote);
+      };
       noteService.updateNoteById(updateNote, (error, data) => {
         if (error) {
           logger.error('failed to update note');
@@ -247,24 +246,41 @@ class Note {
   } 
  };
 
- deleteLabel =  (req, res) => {
+ deleteLabel = async (req, res) => {
   try {
     const id = {
+      noteId: req.params.id,
       labelName: req.body.labelName,
-      noteID: req.params.noteID,
+      userId: req.user.dataForToken.id
     };
     const noteValidation = validation.deleteLabelValidation.validate(id);
     if (noteValidation.error) {
       logger.error(noteValidation.error);
       res.status(422).send({
+        message:'Validation error',
         success: false
       });
       return;
+    };
+    await noteService.deleteLabel(id);
+    if (data.message) {
+      return res.status(404).json({
+        message: 'Label not found',
+        success: false
+      });
     }
-    res.status(201).json({
-      success: true
+    return res.status(200).json({
+      message: 'Label Deleted succesfully',
+      success: true,
+      data: data
     });
-  }catch{}
+  }catch (error) {
+    res.status(500).send({
+      message: "internal error occurs",
+      success: false,
+      error: error,
+    });
+  }
  }
 }
 module.exports = new Note();
