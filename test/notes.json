@@ -27,5 +27,9 @@
     },
     "notelabel":{
         "labelName":"Books"
+    },
+    "deletelabel":{
+        "labelName":"odio",
+        "noteID":"61ad8dffdb6575d0d4b48e7a"
     }
 }

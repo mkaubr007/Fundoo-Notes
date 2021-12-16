@@ -247,8 +247,20 @@ class Note {
   } 
  };
 
- deleteLabel = async (req, res) => {
+ deleteLabel =  (req, res) => {
   try {
+    const id = {
+      labelName: req.body.labelName,
+      noteID: req.params.noteID,
+    };
+    const noteValidation = validation.deleteLabelValidation.validate(id);
+    if (noteValidation.error) {
+      logger.error(noteValidation.error);
+      res.status(422).send({
+        success: false
+      });
+      return;
+    }
     res.status(201).json({
       success: true
     });

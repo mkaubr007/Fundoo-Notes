@@ -94,5 +94,12 @@ class Validation {
           userId: Joi.string().required(),
           labelId: Joi.string().required()
         });
+
+        deleteLabelValidation =Joi.object({
+          labelName: Joi.string().min(24)
+            .required(),
+          noteID: Joi.string().min(20)
+            .required()
+        });
     }
     module.exports = new Validation();

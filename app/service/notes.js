@@ -78,6 +78,6 @@ class Service {
     } catch (error) {
       return error;
     }
-  }
+  };
 }
 module.exports = new Service();

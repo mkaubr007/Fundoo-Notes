@@ -5294,3 +5294,290 @@
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T11:58:50.687Z"}
 {"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T11:58:50.910Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-16T11:58:50.919Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T12:32:28.684Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T12:32:29.096Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:32:29.217Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T12:32:29.306Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T12:32:29.397Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:32:29.524Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T12:32:29.639Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:32:29.699Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:32:29.781Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:32:29.802Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T12:32:30.041Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T12:32:30.091Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T12:32:30.271Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:32:30.293Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:32:30.294Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:32:30.342Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T12:32:30.688Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:32:30.697Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T12:50:41.910Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T12:50:42.132Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:50:42.200Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T12:50:42.322Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T12:50:42.459Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:50:42.573Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T12:50:42.693Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:50:42.749Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:50:42.826Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:50:42.855Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T12:50:43.178Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T12:50:43.224Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T12:50:43.407Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:50:43.420Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:50:43.421Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:50:43.472Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T12:50:43.700Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:50:43.708Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T12:52:05.016Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T12:52:05.252Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:52:05.295Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T12:52:05.381Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T12:52:05.460Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:52:05.570Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T12:52:05.680Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:52:05.733Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:52:05.813Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:52:05.841Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T12:52:06.082Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T12:52:06.129Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T12:52:06.310Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:52:06.323Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:52:06.323Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:52:06.396Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T12:52:06.598Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:52:06.606Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T12:54:04.424Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T12:54:04.594Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:54:04.632Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T12:54:04.715Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T12:54:04.795Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:54:04.897Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T12:54:05.006Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:54:05.064Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:54:05.143Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:54:05.164Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T12:54:05.403Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T12:54:05.448Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T12:54:05.630Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:54:05.644Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:54:05.644Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:54:05.692Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T12:54:05.923Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:54:05.931Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T12:56:57.923Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T12:56:58.092Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:56:58.136Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T12:56:58.226Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T12:56:58.300Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:56:58.401Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T12:56:58.510Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:56:58.565Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:56:58.645Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:56:58.664Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T12:56:58.906Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T12:56:58.956Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T12:56:59.142Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:56:59.156Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:56:59.157Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:56:59.204Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T12:56:59.429Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:56:59.438Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T12:58:02.224Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T12:58:02.381Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:58:02.421Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T12:58:02.506Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T12:58:02.582Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:58:02.690Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T12:58:02.798Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:58:02.852Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:58:02.926Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:58:02.948Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T12:58:03.197Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T12:58:03.241Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T12:58:03.422Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:58:03.435Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:58:03.435Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:58:03.488Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T12:58:03.707Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:58:03.715Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T12:59:22.383Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T12:59:22.547Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:59:22.592Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T12:59:22.675Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T12:59:22.753Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:59:22.856Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T12:59:22.967Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T12:59:23.028Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:59:23.111Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:59:23.133Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T12:59:23.376Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T12:59:23.415Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T12:59:23.598Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:59:23.613Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:59:23.613Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:59:23.661Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T12:59:23.886Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:59:23.894Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T13:07:11.041Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T13:07:11.204Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T13:07:11.253Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T13:07:11.343Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T13:07:11.428Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T13:07:11.537Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T13:07:11.654Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T13:07:11.710Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T13:07:11.792Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T13:07:11.813Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T13:07:12.066Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T13:07:12.124Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T13:07:12.309Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T13:07:12.324Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T13:07:12.324Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T13:07:12.372Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T13:07:12.597Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T13:07:12.605Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T13:16:01.851Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T13:16:02.042Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T13:16:02.092Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T13:16:02.190Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T13:16:02.275Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T13:16:02.381Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T13:16:02.499Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T13:16:02.558Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T13:16:02.637Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T13:16:02.660Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T13:16:02.901Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T13:16:02.948Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T13:16:03.128Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T13:16:03.141Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T13:16:03.142Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T13:16:03.188Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T13:16:03.413Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T13:16:03.422Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T13:22:02.511Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T13:22:02.683Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T13:22:02.728Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T13:22:02.813Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T13:22:02.891Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T13:22:02.993Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T13:22:03.108Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T13:22:03.160Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T13:22:03.237Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T13:22:03.259Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T13:22:03.504Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T13:22:03.546Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T13:22:03.724Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T13:22:03.740Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T13:22:03.741Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T13:22:03.790Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T13:22:04.015Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T13:22:04.023Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T13:34:00.399Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T13:34:00.563Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T13:34:00.608Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T13:34:00.700Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T13:34:00.779Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T13:34:00.883Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T13:34:00.996Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T13:34:01.073Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T13:34:01.159Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T13:34:01.186Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T13:34:01.443Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T13:34:01.517Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T13:34:01.696Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T13:34:01.710Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T13:34:01.711Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T13:34:01.758Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T13:34:02.000Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T13:34:02.010Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T14:09:31.928Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T14:09:32.207Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T14:09:32.263Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T14:09:32.358Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T14:09:32.446Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T14:09:32.550Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T14:09:32.672Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T14:09:32.732Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:09:32.820Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:09:32.847Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T14:09:33.089Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T14:09:33.133Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T14:09:33.314Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T14:09:33.327Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T14:09:33.328Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T14:09:33.378Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T14:09:33.600Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T14:09:33.608Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T14:27:14.923Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T14:27:15.083Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T14:27:15.126Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T14:27:15.215Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T14:27:15.294Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T14:27:15.400Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T14:27:15.518Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T14:27:15.589Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:27:15.762Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:27:15.790Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T14:27:15.892Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T14:27:16.115Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T14:27:16.130Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T14:27:16.130Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T14:27:16.185Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T14:27:16.409Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T14:27:16.417Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T14:29:03.122Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T14:29:03.364Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T14:29:03.408Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T14:29:03.493Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T14:29:03.573Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T14:29:03.677Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T14:29:03.795Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T14:29:03.865Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:29:03.950Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:29:03.972Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T14:29:04.223Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T14:29:04.269Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T14:29:04.451Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T14:29:04.466Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T14:29:04.466Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T14:29:04.517Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T14:29:04.750Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T14:29:04.758Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T14:32:49.123Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T14:32:49.279Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T14:32:49.323Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T14:32:49.411Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T14:32:49.497Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T14:32:49.601Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T14:32:49.734Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T14:32:49.795Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:32:49.878Z"}
+{"_original":{"labelName":""},"details":[{"context":{"key":"labelName","label":"labelName","value":""},"message":"\"labelName\" is not allowed to be empty","path":["labelName"],"type":"string.empty"}],"level":"error","timestamp":"2021-12-16T14:32:49.898Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T14:32:50.144Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T14:32:50.245Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T14:32:50.428Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T14:32:50.441Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T14:32:50.442Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T14:32:50.487Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T14:32:50.702Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T14:32:50.711Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-16T14:47:08.925Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-16T14:47:09.235Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T14:47:09.279Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-16T14:47:09.374Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-16T14:47:09.449Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T14:47:09.547Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-16T14:47:09.737Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-16T14:47:09.802Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:47:09.888Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:47:09.909Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-16T14:47:10.149Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-16T14:47:10.196Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-16T14:47:10.377Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T14:47:10.391Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T14:47:10.392Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T14:47:10.446Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-16T14:47:10.670Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T14:47:10.678Z"}

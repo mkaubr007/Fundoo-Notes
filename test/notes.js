@@ -166,15 +166,31 @@ describe('Add notes by ID api', () => {
   });
 
   describe('Delete label from note ID api', () => {
-    it('givenPoperDetails_ShouldGetApPI', (done) => {
-      const token = noteDB.notes.getNoteWithValidToken
+    it('givenPoperDetails_ShouldGetAPI', (done) => {
+      const token = noteDB.notes.getNoteWithValidToken;
+      const note = noteDB.deletelabel;
       chai
       .request(server)
       .delete('/deleteLabelFromNote/:id')
       .set({ authorization: token })
+      .send(note)
       .end((err, res) => {
         res.should.have.status(201);
         res.body.should.have.property('success').eql(true);
+        done();
+      });
+    });
+    it('givenInvalidDetails_ShouldNotDeleteAPI', (done) => {
+      const token = noteDB.notes.getNoteWithValidToken;
+      const note = noteDB.notelabel;
+      chai
+      .request(server)
+      .delete('/deleteLabelFromNote/:id')
+      .set({ authorization: token })
+      .send(note)
+      .end((err, res) => {
+        res.should.have.status(422);
+        res.body.should.have.property('success').eql(false);
         done();
       });
     });

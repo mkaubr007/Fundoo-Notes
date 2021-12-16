@@ -1525,3 +1525,115 @@
 {"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T11:58:50.640Z"}
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T11:58:50.687Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-16T11:58:50.919Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:32:29.217Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:32:29.782Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:32:29.802Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:32:30.293Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:32:30.294Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:32:30.342Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:32:30.697Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:50:42.201Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:50:42.826Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:50:42.856Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:50:43.421Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:50:43.421Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:50:43.472Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:50:43.708Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:52:05.296Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:52:05.814Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:52:05.841Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:52:06.323Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:52:06.323Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:52:06.396Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:52:06.607Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:54:04.633Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:54:05.144Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:54:05.165Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:54:05.644Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:54:05.644Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:54:05.692Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:54:05.931Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:56:58.136Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:56:58.645Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:56:58.664Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:56:59.157Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:56:59.157Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:56:59.205Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:56:59.438Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:58:02.421Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:58:02.926Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:58:02.948Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:58:03.435Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:58:03.435Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:58:03.488Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:58:03.715Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T12:59:22.592Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T12:59:23.111Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T12:59:23.134Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T12:59:23.613Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T12:59:23.613Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T12:59:23.661Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T12:59:23.894Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T13:07:11.254Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T13:07:11.792Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T13:07:11.813Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T13:07:12.324Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T13:07:12.324Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T13:07:12.372Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T13:07:12.605Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T13:16:02.093Z"}
+{"_original":{},"details":[{"context":{"key":"labelName","label":"labelName"},"message":"\"labelName\" is required","path":["labelName"],"type":"any.required"}],"level":"error","timestamp":"2021-12-16T13:16:02.637Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T13:16:02.661Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T13:16:03.141Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T13:16:03.142Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T13:16:03.188Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T13:16:03.422Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T13:22:02.729Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T13:22:03.237Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T13:22:03.259Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T13:22:03.741Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T13:22:03.741Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T13:22:03.790Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T13:22:04.023Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T13:34:00.609Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T13:34:01.159Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T13:34:01.186Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T13:34:01.711Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T13:34:01.711Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T13:34:01.758Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T13:34:02.010Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T14:09:32.263Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:09:32.821Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:09:32.847Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T14:09:33.327Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T14:09:33.328Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T14:09:33.379Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T14:09:33.608Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T14:27:15.126Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:27:15.763Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:27:15.791Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T14:27:16.130Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T14:27:16.130Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T14:27:16.185Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T14:27:16.417Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T14:29:03.408Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:29:03.951Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:29:03.972Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T14:29:04.466Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T14:29:04.466Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T14:29:04.517Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T14:29:04.759Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T14:32:49.323Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:32:49.878Z"}
+{"_original":{"labelName":""},"details":[{"context":{"key":"labelName","label":"labelName","value":""},"message":"\"labelName\" is not allowed to be empty","path":["labelName"],"type":"string.empty"}],"level":"error","timestamp":"2021-12-16T14:32:49.899Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T14:32:50.441Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T14:32:50.442Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T14:32:50.487Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T14:32:50.712Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-16T14:47:09.279Z"}
+{"_original":{"labelName":"odio"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"odio"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:47:09.889Z"}
+{"_original":{"labelName":"Books"},"details":[{"context":{"key":"labelName","label":"labelName","limit":24,"value":"Books"},"message":"\"labelName\" length must be at least 24 characters long","path":["labelName"],"type":"string.min"}],"level":"error","timestamp":"2021-12-16T14:47:09.909Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-16T14:47:10.392Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-16T14:47:10.392Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-16T14:47:10.447Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-16T14:47:10.678Z"}
