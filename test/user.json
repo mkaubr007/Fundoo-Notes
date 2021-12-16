@@ -37,12 +37,12 @@
         },
         "validDetails":{
             "email":"mkaubr007@gmail.com",
-            "newPassword":"Msingh786@",
+            "password":"Msingh786@",
             "code":"3535"
         },
         "invalidDetails":{
             "email":"mkaubr007@gmail.com",
-            "newPassword":"Msingh786@"
+            "password":"Msingh786@"
         } 
     }   
 }

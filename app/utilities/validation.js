@@ -44,7 +44,7 @@ class Validation {
           email: Joi.string()
             .pattern(new RegExp('^[a-zA-Z0-9]+([+_.-][a-zA-Z0-9]+)*[@][a-zA-Z0-9]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2,4})?$'))
             .required(),
-          newPassword: Joi.string()
+          password: Joi.string()
             .pattern(new RegExp('(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$'))
             .required(),
           code: Joi.string()

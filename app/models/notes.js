@@ -109,7 +109,6 @@ class Model {
      addLabelById = async (id) => {
       try {
         const data = await NoteRegister.findByIdAndUpdate(id.noteId, { $addToSet: { labelName: id.labelName } });
-        console.log(data);
       } catch (error) {
         return error;
       }

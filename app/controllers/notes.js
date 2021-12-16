@@ -244,7 +244,15 @@ class Note {
       success: false,
       error: err
     });
-  }
-}
+  } 
+ };
+
+ deleteLabel = async (req, res) => {
+  try {
+    res.status(201).json({
+      success: true
+    });
+  }catch{}
+ }
 }
 module.exports = new Note();
