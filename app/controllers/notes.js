@@ -230,7 +230,6 @@ class Note {
       labelName: req.body.labelName,
       userId: req.user.dataForToken.id
     };
-    console.log(id);
     const labels = await noteService.addLabelById(id);
     res.status(200).json({
       message: 'Label added',
@@ -262,18 +261,12 @@ class Note {
       });
       return;
     };
-    await noteService.deleteLabel(id);
-    if (data.message) {
-      return res.status(404).json({
-        message: 'Label not found',
-        success: false
+    const data=await noteService.deleteLabel(id);
+       res.status(200).json({
+        message: 'Label Deleted succesfully',
+        success: true,
+        data: data
       });
-    }
-    return res.status(200).json({
-      message: 'Label Deleted succesfully',
-      success: true,
-      data: data
-    });
   }catch (error) {
     res.status(500).send({
       message: "internal error occurs",
