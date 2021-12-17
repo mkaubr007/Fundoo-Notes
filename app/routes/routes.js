@@ -2,7 +2,7 @@ const controller = require('../controllers/user.js');
 const helper= require('../utilities/helper');
 const noteController = require('../controllers/notes');
 const label = require('../controllers/label');
-
+const redis = require('../middleware/redis');
 module.exports = (app) => {
   // api for registration
   app.post('/register', controller.register);
@@ -16,7 +16,7 @@ module.exports = (app) => {
   //api for CRUD
   app.post('/createnotes', helper.validateToken, noteController.createNote);
   app.get('/getnotes', helper.validateToken, noteController.getNote);
-  app.get('/getnotes/:id', helper.validateToken, noteController.getNoteById);
+  app.get('/getnotes/:id', helper.validateToken, redis.redis_NOteById, noteController.getNoteById);
   app.put('/updatenotes/:id', helper.validateToken, noteController.updateNoteById);
   app.delete('/deletenotes/:id', helper.validateToken, noteController.deleteNoteById);
   

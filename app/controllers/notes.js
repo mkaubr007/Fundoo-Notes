@@ -1,7 +1,7 @@
 const noteService = require('../service/notes');
-const labelService=require('../service/label')
 const { logger } = require('../../logger/logger');
 const validation = require('../utilities/validation.js');
+const redisjs = require('../middleware/redis');
 
 class Note {
    /**
@@ -118,6 +118,7 @@ class Note {
           success: false
         });
       }
+      redisjs.setData(noteId, 60, JSON.stringify(data));
       return res.status(200).json({
         message: 'Note retrieved succesfully',
         success: true,
@@ -163,6 +164,7 @@ class Note {
             success: false
           });
         } else {
+          redisjs.clearCache(noteId);
           logger.info('Successfully inserted note');
           return res.status(201).send({
             message: 'Successfully update note',

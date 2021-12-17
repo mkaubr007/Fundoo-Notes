@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 const redis = require('redis');
 const client = redis.createClient();
 const { logger } = require('../../logger/logger');
@@ -55,3 +54,4 @@ class Redis {
         });
       }
 }
+module.exports = new Redis();
