@@ -118,7 +118,7 @@ class Note {
           success: false
         });
       }
-      redisjs.setData(noteId, 60, JSON.stringify(data));
+      redisjs.setData("noteId", 60, JSON.stringify(data));
       return res.status(200).json({
         message: 'Note retrieved succesfully',
         success: true,
@@ -141,6 +141,7 @@ class Note {
      */
   updateNoteById =(req, res) => {
     try {
+      const noteId = req.params.id;
       const updateNote = {
         id: req.params.id,
         userId: req.user.dataForToken.id,

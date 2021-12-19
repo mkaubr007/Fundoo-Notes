@@ -1,5 +1,5 @@
 const redis = require('redis');
-const client = redis.createClient();
+const client = redis.createClient(process.env.REDIS_PORT);
 const { logger } = require('../../logger/logger');
 
 class Redis {
@@ -12,6 +12,7 @@ class Redis {
    redis_NOteById = (req, res, next) => {
      const noteId = req.params.id;
      client.get(noteId, (error, redis_data) => {
+       console.log("redis",redis_data)
        if (error) {
          logger.error(error);
          throw error;
@@ -36,7 +37,7 @@ class Redis {
     */
 
   setData = (key, time, redis_data) => {
-    client.setex(key, time, redis_data);
+    client.setEx(key, time, redis_data);
   };
 
    /**
