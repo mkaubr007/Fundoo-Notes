@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const noteSchema = mongoose.Schema({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
   labelId: {
-    type: [{ type: mongoose.Schema.Types.ObjectId, ref: 'labelRegister' }]
+    type: [{ type: mongoose.Schema.Types.ObjectId, ref: 'LabelRegister' }]
   },
   labelName:{
     type:String,

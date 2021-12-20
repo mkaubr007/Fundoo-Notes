@@ -1,4 +1,7 @@
-const redis = require('redis');
+/* eslint-disable no-unused-expressions */
+/* eslint-disable no-undef */
+/* eslint-disable camelcase */
+const redis = require("redis");
 const client = redis.createClient(process.env.REDIS_PORT);
 const { logger } = require('../../logger/logger');
 
@@ -10,9 +13,7 @@ class Redis {
      * @param {*} if there is no data function calls for next function
      */
    redis_NOteById = (req, res, next) => {
-     const noteId = req.params.id;
-     client.get(noteId, (error, redis_data) => {
-       console.log("redis",redis_data)
+     client.get("getNoteById", (error, redis_data) => {
        if (error) {
          logger.error(error);
          throw error;
@@ -27,7 +28,32 @@ class Redis {
          next();
        }
      });
-   }
+   };
+
+    /**
+    * @description function written to provide data to user in minimal time using caching
+    * @param {*} a req valid request is expected
+    * @param {*} res depends on the request of user
+    * @param {*} if there is no data function calls for next function
+    */
+     redis_LabelById = (req, res, next) => {
+      client.get("getLabelById", (error, redis_data) => {
+        if (error) {
+          logger.error(error);
+          throw error;
+        } else if (redis_data) {
+          logger.info("getLabels successfully retrieved");
+          res.status(200).send({
+            redis_LabelById: JSON.parse(redis_data),
+            message: "getLabels successfully retrieved",
+            success: true
+          });
+        } else {
+          next();
+        }
+      });
+    }
+ 
 
 
  /**

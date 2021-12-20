@@ -1,6 +1,7 @@
 const validation = require('../utilities/validation.js');
 const { logger } = require('../../logger/logger');
 const labelService = require('../service/label');
+const redisjs=require('../middleware/redis')
 class Label {
    /**
      * @description function writt
@@ -93,6 +94,7 @@ class Label {
             success: false
           });
         };
+        redisjs.setData("getLabelById", 60, JSON.stringify(data));
         return res.status(200).json({
           message: 'label retrieved succesfully',
           success: true,

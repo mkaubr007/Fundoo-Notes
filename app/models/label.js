@@ -15,7 +15,7 @@ const labelSchema = mongoose.Schema({
   timestamps: true
 });
 
-const LabelRegister = mongoose.model('labelRegister', labelSchema);
+const LabelRegister = mongoose.model('LabelRegister', labelSchema);
 
 class Model {
      /**

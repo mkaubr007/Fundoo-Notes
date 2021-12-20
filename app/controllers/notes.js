@@ -100,8 +100,8 @@ class Note {
      */
   getNoteById = async (req, res) => {
     try {
-      const noteId = req.params.id;
       const id = { userId: req.user.dataForToken.id, noteId: req.params.id };
+      const data = await noteService.getNoteById(id);
       const getNoteValidation = validation.notesdeleteValidation.validate(id);
       if (getNoteValidation.error) {
         console.log(getNoteValidation.error);
@@ -111,20 +111,19 @@ class Note {
           data: getNoteValidation
         });
       }
-      const data = await noteService.getNoteById(id);
       if (data.message) {
         return res.status(404).json({
           message: 'Note not found',
           success: false
         });
-      }
-      redisjs.setData("noteId", 60, JSON.stringify(data));
+      }else{
+      redisjs.setData("getNoteById", 60, JSON.stringify(data));
       return res.status(200).json({
         message: 'Note retrieved succesfully',
         success: true,
         data: data
-
       });
+    }
     } catch (err) {
       return res.status(500).json({
         message: 'Internal Error',
@@ -165,7 +164,6 @@ class Note {
             success: false
           });
         } else {
-          redisjs.clearCache(noteId);
           logger.info('Successfully inserted note');
           return res.status(201).send({
             message: 'Successfully update note',
