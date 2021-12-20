@@ -117,34 +117,38 @@ class Label {
 
     updateLabel =async (req, res) => {
       try {
+        const updateLabel = {
+          id: req.params.id,
+          userId: req.userData.dataForToken.id,
+          labelName: req.body.labelName
+        };
+        console.log(updateLabel);
         const valid = validation.validateLabel.validate(req.body);
         if (valid.error) {
-          logger.error('Invalid label given to update');
+          logger.error("Invalid label body");
           return res.status(400).send({
-            message: 'Please enter valid label',
+            message: "Please enter valid label",
             success: false,
             error: valid.error
           });
-        } else {
-          const label = {
-            labelName: req.body.labelName,
-            labelId: req.params.id
-          };
-          const updatedlabel = await labelService.updateLabel(label);
-          if (updatedlabel.message) {
-            logger.error('Label to be updated not found');
-            return res.status(404).send({
-              message: 'Label Not Found',
+        }
+        labelServices.updateLabelById(updateLabel, (error, data) => {
+          if (error) {
+            logger.error("failed to update label");
+            return res.status(400).json({
+              message: "failed to update label",
               success: false
             });
+          } else {
+            redisjs.clearCache("getLabelById");
+            logger.info("Successfully Update label");
+            return res.status(201).send({
+              message: "Successfully update label",
+              success: true,
+              data: data
+            });
           }
-          logger.info('label updated');
-          return res.status(200).send({
-            message: 'label updated',
-            success: true,
-            data: updatedlabel
-          });
-        }
+        });
       } catch (error) {
         logger.error('Label to be updated not foudn due to error');
         return res.status(500).send({

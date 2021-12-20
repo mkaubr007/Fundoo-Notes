@@ -18,10 +18,10 @@ class Redis {
          logger.error(error);
          throw error;
        } else if (redis_data) {
-         logger.info('getLabels successfully retrieved');
+         logger.info('get note successfully retrieved');
          res.status(200).send({
            redis_NoteById: JSON.parse(redis_data),
-           message: 'getlabels successfully retrieved',
+           message: 'get note successfully retrieved',
            success: true
          });
        } else {
