@@ -1,7 +1,7 @@
 const validation = require('../utilities/validation.js');
 const { logger } = require('../../logger/logger');
 const labelService = require('../service/label');
-// const redisjs=require('../middleware/redis')
+const redisjs=require('../middleware/redis')
 class Label {
    /**
      * @description function writt
@@ -86,6 +86,7 @@ class Label {
 
     labelGetById = async (req, res) => {
       try {
+        const labelId = req.params.id;
         const id = { userId: req.user.dataForToken.id, noteId: req.params.id };
         const data = await labelService.labelGetById(id);
         if (data.message) {
@@ -94,6 +95,7 @@ class Label {
             success: false
           });
         };
+        redisjs.setData(labelId, 60, JSON.stringify(data));
         return res.status(200).json({
           message: 'label retrieved succesfully',
           success: true,
@@ -101,7 +103,7 @@ class Label {
         });
       } catch (err) {
         return res.status(500).json({
-          message: 'label not updated',
+          message: 'label not get',
           success: false,
           data: err
         });

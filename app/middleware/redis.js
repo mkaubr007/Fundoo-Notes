@@ -31,6 +31,33 @@ class Redis {
      });
    };
 
+   
+   /**
+    * @description function written to provide data to user in minimal time using caching
+    * @param {*} a req valid request is expected
+    * @param {*} res depends on the request of user
+    * @param {*} if there is no data function calls for next function
+    */
+
+    redis_LabelById = (req, res, next) => {
+      const labelId = req.params.id;
+      client.get(labelId, (error, redis_data) => {
+        if (error) {
+          logger.error(error);
+          throw error;
+        } else if (redis_data) {
+          logger.info('getLabels successfully retrieved');
+          res.status(200).send({
+            redis_LabelById: JSON.parse(redis_data),
+            message: 'getLabels successfully retrieved',
+            success: true
+          });
+        } else {
+          next();
+        }
+      });
+    }
+
  /**
     * @description setting data to key into redis
     * @param userId
