@@ -141,6 +141,7 @@ class Note {
      */
   updateNoteById =(req, res) => {
     try {
+      const noteId=req.params.id;
       const updateNote = {
         id: req.params.id,
         userId: req.user.dataForToken.id,
@@ -164,6 +165,7 @@ class Note {
             success: false
           });
         } else {
+          redisjs.clearCache(noteId);
           logger.info('Successfully inserted note');
           return res.status(201).send({
             message: 'Successfully update note',
