@@ -20,4 +20,15 @@ describe('Get notes by ID api with redis', () => {
           done();
         });
     });
+    it('givenPoperDetails_ShouldGetNote', (done) => {
+        const token = redisDB.redis.getNoteWithInValidToken;
+        chai
+          .request(server)
+          .get('/getnotes/6165357e39139e12b1b2986f')
+          .set({ authorization: token })
+          .end((err, res) => {
+            res.should.have.status(400);
+            done();
+          });
+      });
   });
