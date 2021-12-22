@@ -34,7 +34,7 @@ class Service {
       * @param {*} a valid label is expected
       * @returns
       */
-    async updateLabel (label) {
+    updateLabel =async (label)=> {
       try {
         return await labelModel.updateLabel(label);
       } catch (error) {

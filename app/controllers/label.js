@@ -1,7 +1,7 @@
 const validation = require('../utilities/validation.js');
 const { logger } = require('../../logger/logger');
 const labelService = require('../service/label');
-const redisjs=require('../middleware/redis')
+// const redisjs=require('../middleware/redis')
 class Label {
    /**
      * @description function writt
@@ -94,7 +94,6 @@ class Label {
             success: false
           });
         };
-        redisjs.setData("getLabelById", 60, JSON.stringify(data));
         return res.status(200).json({
           message: 'label retrieved succesfully',
           success: true,
@@ -117,38 +116,34 @@ class Label {
 
     updateLabel =async (req, res) => {
       try {
-        const updateLabel = {
-          id: req.params.id,
-          userId: req.userData.dataForToken.id,
-          labelName: req.body.labelName
-        };
-        console.log(updateLabel);
         const valid = validation.validateLabel.validate(req.body);
         if (valid.error) {
-          logger.error("Invalid label body");
+          logger.error('Invalid label given to update');
           return res.status(400).send({
-            message: "Please enter valid label",
+            message: 'Please enter valid label',
             success: false,
             error: valid.error
           });
-        }
-        labelServices.updateLabelById(updateLabel, (error, data) => {
-          if (error) {
-            logger.error("failed to update label");
-            return res.status(400).json({
-              message: "failed to update label",
+        } else {
+          const label = {
+            labelName: req.body.labelName,
+            labelId: req.params.id
+          };
+          const updatedlabel = await labelService.updateLabel(label);
+          if (updatedlabel.message) {
+            logger.error('Label to be updated not found');
+            return res.status(404).send({
+              message: 'Label Not Found',
               success: false
             });
-          } else {
-            redisjs.clearCache("getLabelById");
-            logger.info("Successfully Update label");
-            return res.status(201).send({
-              message: "Successfully update label",
-              success: true,
-              data: data
-            });
           }
-        });
+          logger.info('label updated');
+          return res.status(200).send({
+            message: 'label updated',
+            success: true,
+            data: updatedlabel
+          });
+        }
       } catch (error) {
         logger.error('Label to be updated not foudn due to error');
         return res.status(500).send({

@@ -98,10 +98,10 @@ describe('get label api', () => {
 
 describe('Get label by ID api', () => {
   it('givenPoperDetails_ShouldGetlabel', (done) => {
-    const token = labelDB.label.getlabelWithValidToken;
+    const token = labelDB.label.validToken;
     chai
       .request(server)
-      .get('/getlabel/61af17e23c2e46f6856c3823')
+      .get('/getlabel/61b31eed880372b4f25dedc8')
       .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(200);

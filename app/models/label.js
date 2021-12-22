@@ -65,7 +65,7 @@ class Model {
       * @param {*} label
       * @returns data else if returns error
       */
-    async updateLabel (label) {
+    updateLabel = async (label)=> {
       try {
         return await LabelRegister.findByIdAndUpdate(label.labelId, { labelName: label.labelName }, { new: true });
       } catch (err) {

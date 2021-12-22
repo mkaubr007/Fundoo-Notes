@@ -175,13 +175,13 @@ describe('Add notes by ID api', () => {
       .set({ authorization: token })
       .send(note)
       .end((err, res) => {
-        res.should.have.status(201);
+        res.should.have.status(200);
         res.body.should.have.property('success').eql(true);
         done();
       });
     });
     it('givenInvalidDetails_ShouldNotDeleteAPI', (done) => {
-      const token = noteDB.notes.getNoteWithValidToken;
+      const token = noteDB.notes.getNoteWithInValidToken;
       const note = noteDB.notelabel;
       chai
       .request(server)
@@ -189,7 +189,7 @@ describe('Add notes by ID api', () => {
       .set({ authorization: token })
       .send(note)
       .end((err, res) => {
-        res.should.have.status(422);
+        res.should.have.status(400);
         res.body.should.have.property('success').eql(false);
         done();
       });
