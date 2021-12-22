@@ -1792,3 +1792,28 @@
 {"level":"error","message":"Invalid Credential","timestamp":"2021-12-22T10:34:36.151Z"}
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-22T10:34:36.217Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-22T10:34:36.534Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-22T11:01:32.551Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-22T11:01:33.791Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-22T11:01:33.791Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-22T11:01:33.861Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-22T11:01:34.282Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-22T11:03:12.790Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-22T11:03:13.896Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-22T11:03:13.896Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-22T11:03:13.974Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-22T11:03:14.178Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-22T11:06:34.545Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-22T11:06:35.622Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-22T11:06:35.623Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-22T11:06:35.682Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-22T11:06:35.916Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-22T11:11:07.068Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-22T11:11:08.207Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-22T11:11:08.207Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-22T11:11:08.254Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-22T11:11:08.483Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-22T11:20:22.775Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-22T11:20:23.906Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-22T11:20:23.907Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-22T11:20:23.956Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-22T11:20:24.253Z"}

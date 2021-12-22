@@ -100,7 +100,7 @@ class Note {
      */
   getNoteById = async (req, res) => {
     try {
-      
+      const noteId = req.params.id;
       const id = { userId: req.user.dataForToken.id, noteId: req.params.id };
       const data = await noteService.getNoteById(id);
       const getNoteValidation = validation.notesdeleteValidation.validate(id);
@@ -118,7 +118,7 @@ class Note {
           success: false
         });
       }else{
-      
+      redisjs.setData(noteId, 60, JSON.stringify(data));
       return res.status(200).json({
         message: 'Note retrieved succesfully',
         success: true,
