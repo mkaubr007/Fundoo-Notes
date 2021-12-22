@@ -45,4 +45,15 @@ describe('Get notes by ID api with redis', () => {
           done();
         });
     });
+    it('givenImPoperDetails_ShouldGetlabel', (done) => {
+        const token = redisDB.redis.getNoteWithInValidToken;
+        chai
+          .request(server)
+          .get('/getlabel/61b31eed880372b4f25dedc8')
+          .set({ authorization: token })
+          .end((err, res) => {
+            res.should.have.status(400);
+            done();
+          });
+      });
   });
