@@ -6383,3 +6383,7 @@
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-22T16:23:08.217Z"}
 {"level":"info","message":"Password reset succesfully","timestamp":"2021-12-22T16:23:08.426Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-22T16:23:08.436Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-22T17:04:37.627Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-22T17:07:06.755Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-22T17:07:19.377Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-22T17:45:05.087Z"}
