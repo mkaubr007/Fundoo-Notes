@@ -2,84 +2,59 @@
 /* eslint-disable no-undef */
 /* eslint-disable camelcase */
 const redis = require("redis");
-const client = redis.createClient();
-const { logger } = require('../../logger/logger');
-
+const { logger } = require("../../logger/logger");
+let client;
 class Redis {
-  /**
-     * @description function written to provide data to user in minimal time using caching
-     * @param {*} a req valid request is expected
-     * @param {*} res depends on the request of user
-     * @param {*} if there is no data function calls for next function
-     */
-   redis_NOteById = (req, res, next) => {
-     const id= req.params.id;
-     client.get(id, (error, redis_data) => {
-       if (error) {
-         logger.error(error);
-         throw error;
-       } else if (redis_data) {
-         logger.info('get note successfully retrieved');
-         res.status(200).send({
-           redis_NoteById: JSON.parse(redis_data),
-           message: 'get note successfully retrieved',
-           success: true
-         });
-       } else {
-         next();
-       }
-     });
-   };
-
-   
-   /**
-    * @description function written to provide data to user in minimal time using caching
-    * @param {*} a req valid request is expected
-    * @param {*} res depends on the request of user
-    * @param {*} if there is no data function calls for next function
-    */
-
-    redis_LabelById = (req, res, next) => {
-      const labelId = req.params.id;
-      client.get(labelId, (error, redis_data) => {
-        if (error) {
-          logger.error(error);
-          throw error;
-        } else if (redis_data) {
-          logger.info('getLabels successfully retrieved');
-          res.status(200).send({
-            redis_LabelById: JSON.parse(redis_data),
-            message: 'getLabels successfully retrieved',
-            success: true
-          });
-        } else {
-          next();
-        }
-      });
-    }
-
- /**
-    * @description setting data to key into redis
-    * @param userId
-    * @param data
-    */
-
-  setData = (key, time, redis_data) => {
-    client.setEx(key, time, redis_data);
+  constructor() {
+    this.connect();
+  }
+  connect = () => {
+    client = redis.createClient(6379, "127.0.0.1");
+    client.connect();
+    client.on("connect", function () {
+      console.log("Connected!");
+    });
   };
-   /**
-    * @description clearing cache
-    */
-    clearCache = (key) => {
-      client.del(key, (err, res) => {
-        if (err) {
-          logger.error("cache not cleared");
-        } else {
-          console.log("Cache cleared");
-          logger.info("Cache cleared");
-        }
-      });
-    }
 
+  /**
+   * @description function written to provide data to user in minimal time using caching
+   * @param {*} a req valid request is expected
+   * @param {*} res depends on the request of user
+   * @param {*} if there is no data function calls for next function
+   */
+   getData = async(key) => {
+    client.get('getredisById', (error, data) => {
+      if (error) {
+        logger.error(error);
+        throw error;
+      } else if (data) {
+        return JSON.parse(data); 
+      } else {
+        return null;
+      }
+    });
+  };
+
+  /**
+   * @description setting data to key into redis
+   * @param userId
+   * @param data
+   */
+  setData = async(key, time, data) => {
+    client.setEx(key,time,data);
+  };
+
+  /**
+   * @description clearing cache
+   */
+  clearCache = (key) => {
+    client.del(key, (err, res) => {
+      if (err) {
+        logger.error("cache not cleared");
+      } else {
+        logger.info("Cache cleared");
+      }
+    });
+  };
 }
 module.exports = new Redis();

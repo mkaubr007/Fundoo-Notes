@@ -1,14 +1,14 @@
 {
-    "label": {
-        "validToken": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MWE5OGVkZTU1OTkzYjAxYjg0MjA4NDMiLCJmaXJzdE5hbWUiOiJSYWtlc2giLCJsYXN0TmFtZSI6IlNpbmdoIiwiZW1haWwiOiJzaW5naGt1bWFyc2luZ2g3MDBAZ21haWwuY29tIn0sImlhdCI6MTY0MDE2MjE4MCwiZXhwIjoxNjQwMjQ4NTgwfQ.Y5bioRNfICM2-xslU7V13jHQHDI3oGmpOiPnHpwY_BM",
-        "invalidToken":  "bearer eyJhbGciOR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiZW1haWwiOiJ2aXZlay5paXRkOTNAZ21haWwuY29tIn0sImlhdCI6MTYzMzU1NTAyOH0.wJqpcpyzvlQPT684BKIeup28MMdy8M37gRuWuU-RhTY",
-        "getlabelWithValidToken":  "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MWE5OGVkZTU1OTkzYjAxYjg0MjA4NDMiLCJmaXJzdE5hbWUiOiJSYWtlc2giLCJsYXN0TmFtZSI6IlNpbmdoIiwiZW1haWwiOiJzaW5naGt1bWFyc2luZ2g3MDBAZ21haWwuY29tIn0sImlhdCI6MTY0MDE2MjE4MCwiZXhwIjoxNjQwMjQ4NTgwfQ.Y5bioRNfICM2-xslU7V13jHQHDI3oGmpOiPnHpwY_BM",
-        "getlabelWithInValidToken":  "bearer eyJhbGciOR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiZW1haWwiOiJ2aXZlay5paXRkOTNAZ21haWwuY29tIn0sImlhdCI6MTYzMzU1NTAyOH0.wJqpcpyzvlQPT684BKIeup28MMdy8M37gRuWuU-RhTY"
-    },
+  "label": {
+    "validToken": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MWE5OGVkZTU1OTkzYjAxYjg0MjA4NDMiLCJmaXJzdE5hbWUiOiJSYWtlc2giLCJsYXN0TmFtZSI6IlNpbmdoIiwiZW1haWwiOiJzaW5naGt1bWFyc2luZ2g3MDBAZ21haWwuY29tIn0sImlhdCI6MTY0MDI1MTI1OSwiZXhwIjoxNjQwMzM3NjU5fQ.iQFi7Zkk1wma2iAjYgjwU5eby9jBciVj9dOYnVA1eJ8",
+    "invalidToken": "bearer eyJhbGciOR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiZW1haWwiOiJ2aXZlay5paXRkOTNAZ21haWwuY29tIn0sImlhdCI6MTYzMzU1NTAyOH0.wJqpcpyzvlQPT684BKIeup28MMdy8M37gRuWuU-RhTY",
+    "getlabelWithValidToken": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MWE5OGVkZTU1OTkzYjAxYjg0MjA4NDMiLCJmaXJzdE5hbWUiOiJSYWtlc2giLCJsYXN0TmFtZSI6IlNpbmdoIiwiZW1haWwiOiJzaW5naGt1bWFyc2luZ2g3MDBAZ21haWwuY29tIn0sImlhdCI6MTY0MDI1MTI1OSwiZXhwIjoxNjQwMzM3NjU5fQ.iQFi7Zkk1wma2iAjYgjwU5eby9jBciVj9dOYnVA1eJ8",
+    "getlabelWithInValidToken": "bearer eyJhbGciOR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiZW1haWwiOiJ2aXZlay5paXRkOTNAZ21haWwuY29tIn0sImlhdCI6MTYzMzU1NTAyOH0.wJqpcpyzvlQPT684BKIeup28MMdy8M37gRuWuU-RhTY"
+  },
 
-    "updatelabel": {
-        "validData": {
-            "labelName":"Books"
-        }
+  "updatelabel": {
+    "validData": {
+      "labelName": "Books"
     }
+  }
 }

@@ -1,14 +1,14 @@
 {
-    "redis": {
-        "validToken": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MWE5OGVkZTU1OTkzYjAxYjg0MjA4NDMiLCJmaXJzdE5hbWUiOiJSYWtlc2giLCJsYXN0TmFtZSI6IlNpbmdoIiwiZW1haWwiOiJzaW5naGt1bWFyc2luZ2g3MDBAZ21haWwuY29tIn0sImlhdCI6MTY0MDE2MjE4MCwiZXhwIjoxNjQwMjQ4NTgwfQ.Y5bioRNfICM2-xslU7V13jHQHDI3oGmpOiPnHpwY_BM",
-        "invalidToken": "bearer eyJhbGciOR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiZW1haWwiOiJ2aXZlay5paXRkOTNAZ21haWwuY29tIn0sImlhdCI6MTYzMzU1NTAyOH0.wJqpcpyzvlQPT684BKIeup28MMdy8M37gRuWuU-RhTY",
-        "getNoteWithValidToken": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MWE5OGVkZTU1OTkzYjAxYjg0MjA4NDMiLCJmaXJzdE5hbWUiOiJSYWtlc2giLCJsYXN0TmFtZSI6IlNpbmdoIiwiZW1haWwiOiJzaW5naGt1bWFyc2luZ2g3MDBAZ21haWwuY29tIn0sImlhdCI6MTY0MDE2MjE4MCwiZXhwIjoxNjQwMjQ4NTgwfQ.Y5bioRNfICM2-xslU7V13jHQHDI3oGmpOiPnHpwY_BM",
-        "getNoteWithInValidToken": "bearer eyJ.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MTU1ZTU1NWRkNjk3MmFjZThhNmU1MDkiLCJmaXJzdE5hbWUiOiJHYW5lc2giLCJsYXN0TmFtZSI6Imd2IiwiZW1haWwiOiJnYW5lc2hnYXZoYWQ5QGdtYWlsLmNvbSJ9LCJpYXQiOjE2MzM3NTAzOTh9.6V3rC5r0Jhr34iuBCEUIggc_OkmqYk14znDeJA6DpHg"
-    },
-    "updateNote": {
-        "validData": {
-            "title": "Agricluture ",
-            "description": "coffee areca nut pepper "
-        }
+  "redis": {
+    "validToken": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MWE5OGVkZTU1OTkzYjAxYjg0MjA4NDMiLCJmaXJzdE5hbWUiOiJSYWtlc2giLCJsYXN0TmFtZSI6IlNpbmdoIiwiZW1haWwiOiJzaW5naGt1bWFyc2luZ2g3MDBAZ21haWwuY29tIn0sImlhdCI6MTY0MDI1MTI1OSwiZXhwIjoxNjQwMzM3NjU5fQ.iQFi7Zkk1wma2iAjYgjwU5eby9jBciVj9dOYnVA1eJ8",
+    "invalidToken": "bearer eyJhbGciOR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiZW1haWwiOiJ2aXZlay5paXRkOTNAZ21haWwuY29tIn0sImlhdCI6MTYzMzU1NTAyOH0.wJqpcpyzvlQPT684BKIeup28MMdy8M37gRuWuU-RhTY",
+    "getNoteWithValidToken": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MWE5OGVkZTU1OTkzYjAxYjg0MjA4NDMiLCJmaXJzdE5hbWUiOiJSYWtlc2giLCJsYXN0TmFtZSI6IlNpbmdoIiwiZW1haWwiOiJzaW5naGt1bWFyc2luZ2g3MDBAZ21haWwuY29tIn0sImlhdCI6MTY0MDI1MTI1OSwiZXhwIjoxNjQwMzM3NjU5fQ.iQFi7Zkk1wma2iAjYgjwU5eby9jBciVj9dOYnVA1eJ8",
+    "getNoteWithInValidToken": "bearer eyJ.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MTU1ZTU1NWRkNjk3MmFjZThhNmU1MDkiLCJmaXJzdE5hbWUiOiJHYW5lc2giLCJsYXN0TmFtZSI6Imd2IiwiZW1haWwiOiJnYW5lc2hnYXZoYWQ5QGdtYWlsLmNvbSJ9LCJpYXQiOjE2MzM3NTAzOTh9.6V3rC5r0Jhr34iuBCEUIggc_OkmqYk14znDeJA6DpHg"
+  },
+  "updateNote": {
+    "validData": {
+      "title": "Agricluture ",
+      "description": "coffee areca nut pepper "
     }
+  }
 }

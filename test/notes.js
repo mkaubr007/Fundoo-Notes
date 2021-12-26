@@ -1,24 +1,24 @@
-const chai = require('chai');
-const chaiHttp = require('chai-http');
-const server = require('../server');
-const faker = require('faker');
+const chai = require("chai");
+const chaiHttp = require("chai-http");
+const server = require("../server");
+const faker = require("faker");
 
 chai.use(chaiHttp);
-const noteDB = require('./notes.json');
-const { expect } = require('chai');
-const { string } = require('joi');
+const noteDB = require("./notes.json");
+const { expect } = require("chai");
+const { string } = require("joi");
 chai.should();
 
-describe('create notes api', () => {
-  it('notes', (done) => {
+describe("create notes api", () => {
+  it("notes", (done) => {
     const token = noteDB.notes.validToken;
     const createNotes = {
       title: faker.lorem.word(),
-      description: faker.lorem.sentence()
+      description: faker.lorem.sentence(),
     };
     chai
       .request(server)
-      .post('/createnotes')
+      .post("/createnotes")
       .set({ authorization: token })
       .send(createNotes)
       .end((err, res) => {
@@ -27,16 +27,16 @@ describe('create notes api', () => {
       });
   });
 
-  it('givenCreateNotes_whenInvalidToken_shouldNotbeCreated', (done) => {
+  it("givenCreateNotes_whenInvalidToken_shouldNotbeCreated", (done) => {
     const token = noteDB.notes.invalidToken;
     const createNotes = {
       title: faker.lorem.word(),
-      description: faker.lorem.sentence()
+      description: faker.lorem.sentence(),
     };
     console.log(createNotes);
     chai
       .request(server)
-      .post('/createnotes')
+      .post("/createnotes")
       .set({ authorization: token })
       .send(createNotes)
       .end((err, res) => {
@@ -47,12 +47,12 @@ describe('create notes api', () => {
 });
 
 // get note test cases
-describe('get notes api', () => {
-  it('notes', (done) => {
+describe("get notes api", () => {
+  it("notes", (done) => {
     const token = noteDB.notes.getNoteWithValidToken;
     chai
       .request(server)
-      .get('/getnotes')
+      .get("/getnotes")
       .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(201);
@@ -60,11 +60,11 @@ describe('get notes api', () => {
       });
   });
 
-  it('givenCreateNotes_whenInvalidToken_shouldNotbeGet', (done) => {
+  it("givenCreateNotes_whenInvalidToken_shouldNotbeGet", (done) => {
     const token = noteDB.notes.getNoteWithInValidToken;
     chai
       .request(server)
-      .get('/getnotes')
+      .get("/getnotes")
       .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(400);
@@ -74,13 +74,13 @@ describe('get notes api', () => {
 });
 
 // update note test cases
-describe('Update notes api', () => {
-  it('givenPoperDetails_ShouldUpdateNote', (done) => {
+describe("Update notes api", () => {
+  it("givenPoperDetails_ShouldUpdateNote", (done) => {
     const token = noteDB.notes.getNoteWithValidToken;
     const note = noteDB.updateNote.validData;
     chai
       .request(server)
-      .put('/updatenotes/6165357e39139e12b1b2986f')
+      .put("/updatenotes/6165357e39139e12b1b2986f")
       .set({ authorization: token })
       .send(note)
       .end((err, res) => {
@@ -89,12 +89,12 @@ describe('Update notes api', () => {
       });
   });
 
-  it('givenInvalidToken_ShouldUpdateNote', (done) => {
+  it("givenInvalidToken_ShouldUpdateNote", (done) => {
     const token = noteDB.notes.getNoteWithInValidToken;
     const note = noteDB.updateNote.validData;
     chai
       .request(server)
-      .put('/updatenotes/6163a92b4ec773015a13abb0')
+      .put("/updatenotes/6163a92b4ec773015a13abb0")
       .set({ authorization: token })
       .send(note)
       .end((err, res) => {
@@ -105,12 +105,12 @@ describe('Update notes api', () => {
 });
 
 // delete note test cases
-describe('delete notes api', () => {
-  it('givenInvalidToken_ShouldUpdateNote', (done) => {
+describe("delete notes api", () => {
+  it("givenInvalidToken_ShouldUpdateNote", (done) => {
     const token = noteDB.notes.getNoteWithInValidToken;
     chai
       .request(server)
-      .delete('/deletenotes/6165357e39139e12b1b2986f')
+      .delete("/deletenotes/6165357e39139e12b1b2986f")
       .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(400);
@@ -120,12 +120,12 @@ describe('delete notes api', () => {
 });
 
 // get data by id
-describe('Get notes by ID api', () => {
-  it('givenPoperDetails_ShouldGetNote', (done) => {
+describe("Get notes by ID api", () => {
+  it("givenPoperDetails_ShouldGetNote", (done) => {
     const token = noteDB.notes.getNoteWithValidToken;
     chai
       .request(server)
-      .get('/getnotes/6165357e39139e12b1b2986f')
+      .get("/getnotes/6165357e39139e12b1b2986f")
       .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(200);
@@ -134,67 +134,64 @@ describe('Get notes by ID api', () => {
   });
 });
 
-describe('Add notes by ID api', () => {
-  it('givenPoperDetails_ShouldGetApPI', (done) => {
+describe("Add notes by ID api", () => {
+  it("givenPoperDetails_ShouldGetApPI", (done) => {
     const data = noteDB.addlabel.isLabel;
-       expect(data).equal(true);  
-       done();
-     });
-      it('givenvalidToken_WhenDataShouldAddabel', (done) => {
-        const token = noteDB.notes.getNoteWithValidToken;
-        chai
-          .request(server)
-          .post('/addlabel/61ada51342b5e9f382f0f69f')
-          .set({ authorization: token })
-          .end((err, res) => {
-            res.should.have.status(200);
-            res.body.should.have.property('success').eql(true);
-            done();
-          });
-      });
-      it('givenNotPoperDetails_ShouldNotAddlabel', (done) => {
-        const token = noteDB.notes.validToken;
-        chai
-          .request(server)
-          .post('/deletenotes/61ada51342b5e9f0f69f')
-          .set({ authorization: token })
-          .end((err, res) => {
-            res.should.have.status(404);
-            done();
-          });
-      });  
+    expect(data).equal(true);
+    done();
   });
-
-  describe('Delete label from note ID api', () => {
-    it('givenPoperDetails_ShouldGetAPI', (done) => {
-      const token = noteDB.notes.getNoteWithValidToken;
-      const note = noteDB.deletelabel;
-      chai
+  it("givenvalidToken_WhenDataShouldAddabel", (done) => {
+    const token = noteDB.notes.getNoteWithValidToken;
+    chai
       .request(server)
-      .delete('/deleteLabelFromNote/:id')
+      .post("/addlabel/61ada51342b5e9f382f0f69f")
+      .set({ authorization: token })
+      .end((err, res) => {
+        res.should.have.status(200);
+        res.body.should.have.property("success").eql(true);
+        done();
+      });
+  });
+  it("givenNotPoperDetails_ShouldNotAddlabel", (done) => {
+    const token = noteDB.notes.validToken;
+    chai
+      .request(server)
+      .post("/deletenotes/61ada51342b5e9f0f69f")
+      .set({ authorization: token })
+      .end((err, res) => {
+        res.should.have.status(404);
+        done();
+      });
+  });
+});
+
+describe("Delete label from note ID api", () => {
+  it("givenPoperDetails_ShouldGetAPI", (done) => {
+    const token = noteDB.notes.getNoteWithValidToken;
+    const note = noteDB.deletelabel;
+    chai
+      .request(server)
+      .delete("/deleteLabelFromNote/:id")
       .set({ authorization: token })
       .send(note)
       .end((err, res) => {
         res.should.have.status(200);
-        res.body.should.have.property('success').eql(true);
+        res.body.should.have.property("success").eql(true);
         done();
       });
-    });
-    it('givenInvalidDetails_ShouldNotDeleteAPI', (done) => {
-      const token = noteDB.notes.getNoteWithInValidToken;
-      const note = noteDB.notelabel;
-      chai
+  });
+  it("givenInvalidDetails_ShouldNotDeleteAPI", (done) => {
+    const token = noteDB.notes.getNoteWithInValidToken;
+    const note = noteDB.notelabel;
+    chai
       .request(server)
-      .delete('/deleteLabelFromNote/:id')
+      .delete("/deleteLabelFromNote/:id")
       .set({ authorization: token })
       .send(note)
       .end((err, res) => {
         res.should.have.status(400);
-        res.body.should.have.property('success').eql(false);
+        res.body.should.have.property("success").eql(false);
         done();
       });
-    });
-  })
-
-
-  
+  });
+});
