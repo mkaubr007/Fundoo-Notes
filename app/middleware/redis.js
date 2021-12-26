@@ -22,13 +22,13 @@ class Redis {
    * @param {*} res depends on the request of user
    * @param {*} if there is no data function calls for next function
    */
-   getData = async(key) => {
-    client.get('getredisById', (error, data) => {
+  getData = async (key) => {
+    client.get("getredisById", (error, data) => {
       if (error) {
         logger.error(error);
         throw error;
       } else if (data) {
-        return JSON.parse(data); 
+        return JSON.parse(data);
       } else {
         return null;
       }
@@ -40,21 +40,8 @@ class Redis {
    * @param userId
    * @param data
    */
-  setData = async(key, time, data) => {
-    client.setEx(key,time,data);
-  };
-
-  /**
-   * @description clearing cache
-   */
-  clearCache = (key) => {
-    client.del(key, (err, res) => {
-      if (err) {
-        logger.error("cache not cleared");
-      } else {
-        logger.info("Cache cleared");
-      }
-    });
+  setData = async (key, time, data) => {
+    client.setEx(key, time, data);
   };
 }
 module.exports = new Redis();

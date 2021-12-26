@@ -1,4 +1,5 @@
 const labelModel = require("../models/label");
+const redisjs = require("../middleware/redis");
 class Service {
   /**
    * @param {data}  : data will come from the controller body.
@@ -10,6 +11,7 @@ class Service {
       .then((data) => resolve(data))
       .catch(() => reject());
   };
+
   /**
    * @description function written to get all labels
    * @returns data else returns error
@@ -24,18 +26,30 @@ class Service {
         callback(null, err);
       });
   };
+
   /**
    * @description function written to get label by ID
    * @param {*} a valid id is expected
    * @returns data else returns error
    */
-  labelGetById = async (id) => {
+  labelGetById =  async (id) => {
     try {
-      return await labelModel.labelGetById(id);
+      let data = await redisjs.getData(id.labelId);
+      if (!data) {
+        data = await labelModel.labelGetById (id);
+        if (data) {
+          await redisjs.setData('getredisById', 6000, JSON.stringify(data));
+          return data;
+        } else {
+          return null;
+        }
+      }
     } catch (err) {
       return err;
     }
   };
+
+
   /**
    * @description   : createLabel will takes the data from controller and send it to models
    * @param {*} a valid label is expected
@@ -48,6 +62,7 @@ class Service {
       return error;
     }
   };
+
   /**
    * @param {data}  : data will come from the controller body.
    * @description   : createLabel will takes the data from controller and send it to models

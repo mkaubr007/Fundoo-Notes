@@ -82,8 +82,7 @@ class Label {
    */
   labelGetById = async (req, res) => {
     try {
-      const labelId = req.params.id;
-      const id = { userId: req.user.dataForToken.id, noteId: req.params.id };
+      const id = { userId: req.user.dataForToken.id, labelId: req.params.id };
       const data = await labelService.labelGetById(id);
       if (data.message) {
         return res.status(404).json({

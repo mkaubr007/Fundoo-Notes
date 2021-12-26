@@ -60,7 +60,7 @@ class Model {
   labelGetById = async (id) => {
     try {
       return await LabelRegister.find({
-        $and: [{ _id: id.noteId }, { userId: id.userId }],
+        $and: [{ _id: id.labelId }, { userId: id.userId }],
       });
     } catch (err) {
       return err;
