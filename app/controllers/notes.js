@@ -139,7 +139,6 @@ class Note {
    */
   updateNoteById = (req, res) => {
     try {
-      const noteId = req.params.id;
       const updateNote = {
         id: req.params.id,
         userId: req.user.dataForToken.id,
@@ -180,6 +179,7 @@ class Note {
       });
     }
   };
+  
   /**
    * @description function written to delete note by ID
    * @param {*} req

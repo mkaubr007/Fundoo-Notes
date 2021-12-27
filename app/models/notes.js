@@ -98,6 +98,7 @@ class Model {
       return callback(err, null);
     }
   };
+  
   /**
    * @description function written to update isDeleted to true
    * @param {*} notesId

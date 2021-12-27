@@ -107,6 +107,7 @@ class Validation {
 
   validateLabel = Joi.object({
     labelName: Joi.string().required(),
+    id:Joi.string().required(),
   });
 
   labeldeleteValidation = Joi.object({

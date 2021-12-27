@@ -60,10 +60,12 @@ class Service {
         logger.error(error);
         return callback(error, null);
       } else {
+        redisjs.clearCache(data.id);
         return callback(null, data);
       }
     });
   };
+
   /**
    * @description deleting notes by id
    * @param {*} notesId

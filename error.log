@@ -1905,3 +1905,44 @@
 {"level":"error","message":"Invalid Credential","timestamp":"2021-12-26T15:34:11.510Z"}
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-26T15:34:11.627Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-26T15:34:11.968Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-26T16:02:56.165Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-26T16:02:57.682Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-26T16:02:57.683Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-26T16:02:57.847Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-26T16:02:59.110Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-26T16:10:13.345Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-26T16:10:14.690Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-26T16:10:14.690Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-26T16:10:14.796Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-26T16:10:15.028Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-26T16:12:19.818Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-26T16:12:21.037Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-26T16:12:21.037Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-26T16:12:21.091Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-26T16:12:21.313Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-26T16:13:51.181Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-26T16:13:52.390Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-26T16:13:52.391Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-26T16:13:52.440Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-26T16:13:52.671Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:55:02.018Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:55:39.954Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:55:41.438Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:55:42.619Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:55:48.084Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:55:49.392Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:55:50.773Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:55:52.590Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:55:53.662Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:55:54.690Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:55:55.673Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:55:56.951Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:55:58.151Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:59:22.561Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:59:23.963Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:59:25.088Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:59:26.236Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:59:27.475Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:59:28.596Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:59:29.828Z"}
+{"level":"error","message":"Label to be updated not found","timestamp":"2021-12-27T07:59:31.014Z"}

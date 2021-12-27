@@ -55,12 +55,16 @@ class Service {
    * @param {*} a valid label is expected
    * @returns
    */
-  updateLabel = async (label) => {
-    try {
-      return await labelModel.updateLabel(label);
-    } catch (error) {
-      return error;
-    }
+  updateLabel =(label, callback) => {
+    labelModel.updateLabel(label, (error, data) => {
+      if (error) {
+        logger.error(error);
+        return callback(error, null);
+      } else {
+        redisjs.clearCache(data.id);
+        return callback(null, data);
+      }
+    });
   };
 
   /**

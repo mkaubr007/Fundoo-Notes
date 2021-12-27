@@ -189,7 +189,7 @@ describe("Delete label api", () => {
     const token = labelDB.label.validToken;
     chai
       .request(server)
-      .delete("/deletelabel/:id")
+      .delete("/deletelabel/61c350ea88b8c66964a4fbc3")
       .set({ authorization: token })
       .end((err, res) => {
         if (err) {

@@ -72,17 +72,25 @@ class Model {
    * @param {*} label
    * @returns data else if returns error
    */
-  updateLabel = async (label) => {
+  updateLabel = (label, callback) => {
     try {
-      return await LabelRegister.findByIdAndUpdate(
-        label.labelId,
-        { labelName: label.labelName },
-        { new: true }
+      LabelRegister.findByIdAndUpdate(
+        label.id,
+        { title: label.title, description: label.description },
+        { new: true },
+        (err, data) => {
+          if (err) {
+            return callback(err, null);
+          } else {
+            return callback(null, data);
+          }
+        }
       );
     } catch (err) {
-      return err;
+      return callback(err, null);
     }
   };
+
   /**
    * @description function written to delete label
    * @param {*} id

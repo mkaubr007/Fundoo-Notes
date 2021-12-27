@@ -43,5 +43,20 @@ class Redis {
   setData = async (key, time, data) => {
     client.setEx(key, time, data);
   };
+
+   /**
+    * @description clearing cache
+    */
+
+    clearCache = (key) => {
+      client.del(key, (err, res) => {
+        if (err) {
+          logger.error('cache not cleared');
+        } else {
+          console.log('Cache cleared');
+          logger.info('Cache cleared');
+        }
+      });
+    }
 }
 module.exports = new Redis();
