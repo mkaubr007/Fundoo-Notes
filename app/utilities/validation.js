@@ -101,7 +101,7 @@ class Validation {
     noteId: Joi.string().required(),
   });
 
-  validateLabel = Joi.object({
+  validatelabel = Joi.object({
     labelName: Joi.string().required(),
   });
 

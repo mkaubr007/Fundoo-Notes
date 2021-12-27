@@ -42,6 +42,9 @@ describe("Get label by ID api with redis", () => {
       .end((err, res) => {
         res.should.have.status(200);
         res.body.should.have.property("success").eql(true);
+        res.body.should.have
+          .property("message")
+          .eql("label retrieved succesfully");
         done();
       });
   });

@@ -80,7 +80,7 @@ describe("Update notes api", () => {
     const note = noteDB.updateNote.validData;
     chai
       .request(server)
-      .put("/updatenotes/6165357e39139e12b1b2986f")
+      .put("/updatenotes/61aef7c4942261f63e8bdefd")
       .set({ authorization: token })
       .send(note)
       .end((err, res) => {

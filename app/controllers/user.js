@@ -49,6 +49,15 @@ class Controller {
       });
     }
   };
+
+  confirmRegister = (req, res) => {
+    try {
+      return res.status(200).json({
+        success: true,
+      });
+    } catch {}
+  };
+
   /**
    * @description retrieving login info from user by email and password
    * @method login
@@ -92,6 +101,7 @@ class Controller {
       });
     }
   };
+
   /**
    * description controller function for forgot password
    * @param {*} req
@@ -136,6 +146,7 @@ class Controller {
       });
     }
   };
+
   /**
    * description controller function for reset password
    * @param {*} req

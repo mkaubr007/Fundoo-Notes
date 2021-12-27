@@ -10,7 +10,7 @@ class Label {
    */
   createLabel = (req, res) => {
     try {
-      const valid = validation.validateLabel.validate(req.body);
+      const valid = validation.validatelabel.validate(req.body);
       if (valid.error) {
         logger.error("Invalid label body");
         return res.status(400).send({

@@ -10,7 +10,7 @@ chai.should();
 
 describe("create label api", () => {
   it("label", (done) => {
-    const token = labelDB.label.validToken;
+    const token = labelDB.label.getlabelWithValidToken;
     const createlabel = {
       labelName: faker.lorem.word(),
     };

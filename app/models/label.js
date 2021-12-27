@@ -37,6 +37,7 @@ class Model {
         .catch((error) => reject(error));
     });
   };
+  
   /**
    * @description function written to get all labels
    * @returns data else if returns error
