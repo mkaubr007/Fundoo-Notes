@@ -8126,3 +8126,98 @@
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-27T20:57:58.268Z"}
 {"level":"info","message":"Password reset succesfully","timestamp":"2021-12-27T20:57:58.487Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-27T20:57:58.496Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-27T21:07:49.605Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-27T21:07:49.826Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-27T21:07:49.873Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-27T21:07:49.981Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-27T21:07:50.087Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-27T21:07:50.201Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-27T21:07:50.376Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-27T21:07:50.468Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-27T21:07:50.881Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-27T21:07:50.927Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-27T21:07:51.108Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-27T21:07:51.121Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-27T21:07:51.122Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-27T21:07:51.172Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-27T21:07:51.394Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-27T21:07:51.402Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-27T21:09:04.661Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-27T21:09:04.832Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-27T21:09:04.879Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-27T21:09:04.983Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-27T21:09:05.083Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-27T21:09:05.198Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-27T21:09:05.370Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-27T21:09:05.457Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-27T21:09:05.978Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-27T21:09:06.028Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-27T21:09:06.210Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-27T21:09:06.225Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-27T21:09:06.225Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-27T21:09:06.277Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-27T21:09:06.502Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-27T21:09:06.510Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-27T21:09:55.784Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-27T21:09:56.015Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-27T21:09:56.056Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-27T21:09:56.166Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-27T21:09:56.266Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-27T21:09:56.373Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-27T21:09:56.548Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-27T21:09:56.625Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-27T21:09:57.344Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-27T21:09:57.394Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-27T21:09:57.576Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-27T21:09:57.590Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-27T21:09:57.590Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-27T21:09:57.648Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-27T21:09:57.876Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-27T21:09:57.884Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-27T21:12:42.871Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-27T21:12:43.104Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-27T21:12:43.155Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-27T21:12:43.268Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-27T21:12:43.372Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-27T21:12:43.481Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-27T21:12:43.645Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-27T21:12:43.737Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-27T21:12:46.026Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-27T21:12:46.292Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-27T21:12:46.309Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-27T21:12:46.310Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-27T21:12:46.388Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-27T21:12:46.840Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-27T21:12:46.849Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T02:14:44.947Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-28T02:14:45.647Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T02:14:45.701Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-28T02:14:45.816Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-28T02:14:45.920Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-28T02:14:46.065Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-28T02:14:46.225Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-28T02:14:46.322Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-28T02:14:49.109Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-28T02:14:49.158Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-28T02:14:49.342Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-28T02:14:49.360Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-28T02:14:49.360Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T02:14:49.410Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-28T02:14:49.638Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T02:14:49.646Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T02:44:20.343Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-28T02:44:20.784Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T02:44:20.966Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-28T02:44:21.139Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-28T02:44:21.253Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-28T02:44:21.419Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-28T02:44:21.807Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-28T02:44:21.973Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-28T02:44:24.522Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-28T02:44:24.576Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-28T02:44:24.768Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-28T02:44:24.782Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-28T02:44:24.782Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T02:44:24.848Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-28T02:44:25.205Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T02:44:25.214Z"}

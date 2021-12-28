@@ -19,6 +19,10 @@ class UserService {
     });
   };
 
+  confirmRegister = (data) => {
+    return  data;
+  };
+
   /**
    * @description sends the data to loginApi in the controller
    * @method userLogin
