@@ -22,6 +22,11 @@ const userSchema = mongoose.Schema(
       type: String,
       required: true,
     },
+    googleLogin: { type: Boolean },
+    verified: {
+      type: Boolean,
+      default: false
+    },
   },
   {
     timestamps: true,
@@ -63,10 +68,22 @@ class userModel {
       return callback("Internal Error", null);
     }
   };
-  confirmRegister = (data, callback) => {
-    return callback(null, data);
-  };
   
+  confirmRegister = (data, callback) => {
+    console.log("con mod 78: ",data.firstName);
+    User.findOneAndUpdate({ email: data.email },{
+      verified: true
+      }, (error, data) => {
+      if (error) {
+        logger.error('data not found in database');
+        return callback(error, null);
+      } else {
+        logger.info('data found in database');
+        return callback(null, data);
+      }
+    });
+  }
+
   /**
    * @description login User from the database
    * @param loginInfo

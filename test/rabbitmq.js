@@ -38,4 +38,15 @@ describe("rabbitmq_sucessShould_returnTrue ", () => {
         done();
       });
   });
+  it.only("givendetails_whenproper_shouldNotbesendlink", (done) => {
+    const data=({email:"mkaubr007@gmail.com"})
+    chai
+      .request(server)
+      .get("/confirmregister/:token")
+      .send({ token: "req.params.token" ,data})
+      .end((err, res) => {
+        res.should.have.status(200);
+        done();
+      });
+  });
 });
