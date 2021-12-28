@@ -22,11 +22,11 @@ const userSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-     googleLogin: { type: Boolean },
-  verified: {
-    type: Boolean,
-    default: false
-  }
+    googleLogin: { type: Boolean },
+    verified: {
+      type: Boolean,
+      default: false,
+    },
   },
   {
     timestamps: true,
@@ -68,21 +68,25 @@ class userModel {
       return callback("Internal Error", null);
     }
   };
-  
+
   confirmRegister = (data, callback) => {
-    console.log("con mod 78: ",data.firstName);
-    User.findOneAndUpdate({ email: data.email },{
-      verified: true
-      }, (error, data) => {
-      if (error) {
-        logger.error('data not found in database');
-        return callback(error, null);
-      } else {
-        logger.info('data found in database');
-        return callback(null, data);
+    console.log("con mod 78: ", data.firstName);
+    User.findOneAndUpdate(
+      { email: data.email },
+      {
+        verified: true,
+      },
+      (error, data) => {
+        if (error) {
+          logger.error("data not found in database");
+          return callback(error, null);
+        } else {
+          logger.info("data found in database");
+          return callback(null, data);
+        }
       }
-    });
-  }
+    );
+  };
 
   /**
    * @description login User from the database
@@ -93,18 +97,22 @@ class userModel {
     //To find a user email in the database
     User.findOne({ email: loginData.email }, (error, data) => {
       if (error) {
-        logger.error("Find error while loggin user");
+        logger.error("data not found in database");
         return callBack(error, null);
-      } else if (!data) {
-        logger.error("Invalid User");
-        return callBack("Invalid Credential", null);
       } else {
-        logger.info("Email id found");
-        return callBack(null, data);
+        console.log("104: verified: ", data.verified);
+
+        if (data.verified == true) {
+          logger.info("data found in database");
+          return callBack(null, data);
+        } else {
+          logger.info("data found in database but not verified");
+          return callBack("not verified mail", null);
+        }
       }
     });
   };
-  
+
   /**
    * @description mongoose function for forgot password
    * @param {*} email

@@ -4,6 +4,7 @@ const server = require("../server");
 const faker = require("faker");
 
 chai.use(chaiHttp);
+const rabbitmqData = require("./rabbitmq.json");
 const { expect } = require("chai");
 const { string } = require("joi");
 chai.should();
@@ -29,22 +30,22 @@ describe("rabbitmq_sucessShould_returnTrue ", () => {
       });
   });
   it("givendetails_whenNotproper_shouldNotbesendlink", (done) => {
-    const data=({email:"mkaubr007@gmail.com"})
+    const data = { email: "mkaubr007@gmail.com" };
     chai
       .request(server)
       .get("/confirmregister/:token")
-      .send({ token: "req.params.token" ,data})
+      .send({ token: "req.params.token", data })
       .end((err, res) => {
         res.should.have.status(400);
         done();
       });
   });
   it("givendetails_whenproper_shouldNotbesendlink", (done) => {
-    const data=({email:"mkaubr007@gmail.com"})
+    const data = { email: "mkaubr007@gmail.com" };
     chai
       .request(server)
       .get("/confirmregister/:token")
-      .send({ token: "req.params.token" ,data})
+      .send({ token: "req.params.token", data })
       .end((err, res) => {
         res.should.have.status(200);
         done();
@@ -71,6 +72,24 @@ describe("rabbitmq_sucessShould_returnTrue ", () => {
         res.should.have.status(200);
         res.body.should.have.property("success").eql(true);
         res.body.should.have.property("message").eql("User Registered");
+        done();
+      });
+  });
+  it.only("givenLoginDetails_whenProperAndLinkVerified_shouldAbleToLogin", (done) => {
+    const loginDetails = rabbitmqData.login;
+    chai
+      .request(server)
+      .post("/login")
+      .send(loginDetails)
+      .end((err, res) => {
+        if (err) {
+          return done(err);
+        }
+        res.should.have.status(400);
+        res.body.should.have.property("success").eql(false);
+        res.body.should.have
+          .property("message")
+          .eql("Unable to login. Please enter correct info");
         done();
       });
   });

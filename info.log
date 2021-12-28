@@ -8367,3 +8367,55 @@
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T12:11:52.267Z"}
 {"level":"info","message":"Password reset succesfully","timestamp":"2021-12-28T12:11:52.875Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-28T12:11:52.944Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T15:42:48.184Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-28T15:42:49.516Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-28T15:42:49.720Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T16:35:45.000Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-28T16:38:14.605Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-28T16:38:15.024Z"}
+{"level":"info","message":"data found in database but not verified","timestamp":"2021-12-28T16:38:36.888Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T16:38:36.888Z"}
+{"level":"info","message":"data found in database","timestamp":"2021-12-28T16:39:13.851Z"}
+{"level":"info","message":"data found in database","timestamp":"2021-12-28T16:39:20.509Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-28T16:39:20.722Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T16:44:00.942Z"}
+{"level":"info","message":"data found in database but not verified","timestamp":"2021-12-28T16:44:01.203Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T16:44:01.204Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T16:55:41.094Z"}
+{"level":"info","message":"data found in database but not verified","timestamp":"2021-12-28T16:55:41.445Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T16:55:41.446Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:04:56.885Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:06:48.415Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:09:00.964Z"}
+{"level":"info","message":"data found in database but not verified","timestamp":"2021-12-28T17:09:01.272Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:09:01.273Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:11:53.845Z"}
+{"level":"info","message":"data found in database but not verified","timestamp":"2021-12-28T17:11:54.109Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:11:54.109Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:14:33.676Z"}
+{"level":"info","message":"data found in database but not verified","timestamp":"2021-12-28T17:14:33.964Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:14:33.964Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:24:08.017Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:24:53.456Z"}
+{"level":"info","message":"data found in database but not verified","timestamp":"2021-12-28T17:24:53.676Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:24:53.677Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:27:46.827Z"}
+{"level":"info","message":"data found in database but not verified","timestamp":"2021-12-28T17:27:47.051Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:27:47.052Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:32:05.813Z"}
+{"_original":{},"details":[{"context":{"key":"email","label":"email"},"message":"\"email\" is required","path":["email"],"type":"any.required"}],"level":"error","timestamp":"2021-12-28T17:32:06.023Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:34:02.541Z"}
+{"_original":{},"details":[{"context":{"key":"email","label":"email"},"message":"\"email\" is required","path":["email"],"type":"any.required"}],"level":"error","timestamp":"2021-12-28T17:34:02.742Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:43:10.619Z"}
+{"_original":{},"details":[{"context":{"key":"email","label":"email"},"message":"\"email\" is required","path":["email"],"type":"any.required"}],"level":"error","timestamp":"2021-12-28T17:43:10.780Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:44:00.649Z"}
+{"_original":{},"details":[{"context":{"key":"email","label":"email"},"message":"\"email\" is required","path":["email"],"type":"any.required"}],"level":"error","timestamp":"2021-12-28T17:44:00.751Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:46:16.100Z"}
+{"level":"info","message":"data found in database but not verified","timestamp":"2021-12-28T17:46:16.404Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:46:16.405Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:46:49.198Z"}
+{"level":"info","message":"data found in database but not verified","timestamp":"2021-12-28T17:46:49.416Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:46:49.417Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T17:47:35.816Z"}
+{"level":"info","message":"data found in database but not verified","timestamp":"2021-12-28T17:47:36.030Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:47:36.031Z"}

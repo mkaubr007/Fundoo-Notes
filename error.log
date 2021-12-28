@@ -2312,3 +2312,18 @@
 {"level":"error","message":"Invalid Credential","timestamp":"2021-12-28T12:11:52.213Z"}
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T12:11:52.267Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-28T12:11:52.945Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T16:38:36.889Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T16:44:01.204Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T16:55:41.446Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:09:01.273Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:11:54.110Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:14:33.965Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:24:53.677Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:27:47.052Z"}
+{"_original":{},"details":[{"context":{"key":"email","label":"email"},"message":"\"email\" is required","path":["email"],"type":"any.required"}],"level":"error","timestamp":"2021-12-28T17:32:06.024Z"}
+{"_original":{},"details":[{"context":{"key":"email","label":"email"},"message":"\"email\" is required","path":["email"],"type":"any.required"}],"level":"error","timestamp":"2021-12-28T17:34:02.743Z"}
+{"_original":{},"details":[{"context":{"key":"email","label":"email"},"message":"\"email\" is required","path":["email"],"type":"any.required"}],"level":"error","timestamp":"2021-12-28T17:43:10.780Z"}
+{"_original":{},"details":[{"context":{"key":"email","label":"email"},"message":"\"email\" is required","path":["email"],"type":"any.required"}],"level":"error","timestamp":"2021-12-28T17:44:00.752Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:46:16.405Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:46:49.417Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:47:36.031Z"}
