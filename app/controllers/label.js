@@ -64,11 +64,12 @@ class Label {
           success: true,
           data: resolve,
         });
-      } else {
+      } else{
         logger.error("Label Not found");
         res.status(404).send({
           message: "Labels not found ",
           success: false,
+          data:reject
         });
       }
     });

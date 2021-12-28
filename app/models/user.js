@@ -63,6 +63,10 @@ class userModel {
       return callback("Internal Error", null);
     }
   };
+  confirmRegister = (data, callback) => {
+    return callback(null, data);
+  };
+  
   /**
    * @description login User from the database
    * @param loginInfo

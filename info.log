@@ -8221,3 +8221,71 @@
 {"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T02:44:24.848Z"}
 {"level":"info","message":"Password reset succesfully","timestamp":"2021-12-28T02:44:25.205Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-12-28T02:44:25.214Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T03:17:04.459Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-28T03:17:06.466Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T03:17:06.623Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-28T03:17:07.023Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-28T03:17:07.461Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-28T03:17:07.620Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-28T03:17:07.835Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-28T03:17:07.968Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-28T03:17:12.484Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-28T03:17:12.733Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-28T03:17:12.754Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-28T03:17:12.754Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T03:17:12.839Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-28T03:17:13.244Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T03:17:13.253Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T03:17:47.614Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-28T03:17:47.858Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T03:17:47.908Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-28T03:17:48.032Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-28T03:17:48.138Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-28T03:17:48.269Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2021-12-28T03:17:48.449Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-28T03:17:48.537Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-28T03:17:53.021Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-28T03:17:53.085Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-28T03:17:53.275Z"}
+{"level":"error","message":"Invalid User","timestamp":"2021-12-28T03:17:53.294Z"}
+{"level":"error","message":"Invalid Credential","timestamp":"2021-12-28T03:17:53.294Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T03:17:53.346Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-12-28T03:17:53.599Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T03:17:53.609Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T03:41:19.486Z"}
+{"level":"info","message":"User registered","timestamp":"2021-12-28T03:43:08.725Z"}
+{"level":"info","message":"Email id found","timestamp":"2021-12-28T03:43:58.824Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-12-28T03:43:59.059Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-12-28T03:44:45.332Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:47:39.373Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:47:59.136Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:48:05.067Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:48:13.240Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:48:42.899Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:49:16.604Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:49:21.521Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:49:24.590Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:50:17.867Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:50:52.786Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:51:01.264Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:54:03.174Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:54:04.592Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:54:05.908Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T03:59:50.678Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T04:05:28.840Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T04:07:00.663Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T04:07:20.213Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T04:08:15.845Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T04:08:40.701Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T04:08:50.654Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T04:09:48.311Z"}
+{"level":"error","message":"Label Not found","timestamp":"2021-12-28T04:11:12.950Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-28T04:13:11.682Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-28T04:13:17.235Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-28T04:14:35.759Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-28T04:16:54.074Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-12-28T04:17:13.319Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T04:26:26.288Z"}
+{"level":"info","message":"label updated","timestamp":"2021-12-28T04:26:58.918Z"}
+{"level":"info","message":"Found all labels","timestamp":"2021-12-28T04:27:04.128Z"}
+{"level":"info","message":"Server start","timestamp":"2021-12-28T04:31:59.650Z"}

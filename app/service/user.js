@@ -1,6 +1,7 @@
 const userModel = require("../models/user.js");
 const bcrypt = require("bcryptjs");
 const utilities = require("../utilities/helper.js");
+const rabit = require("../utilities/rabitmq");
 const { logger } = require("../../logger/logger");
 const nodemailer = require("../utilities/nodeemailer.js");
 class UserService {
@@ -19,10 +20,25 @@ class UserService {
     });
   };
 
-  confirmRegister = (data) => {
-    return  data;
+  confirmRegister = (data, callback) => {
+    const decode = jwt.verify(data.token, process.env.SECRET_KEY_FOR_CONFIRM);
+    if (decode) {
+      rabit.receiver(decode.email),
+        (val, error) => {
+          if (val) {
+            userModel.confirmRegister(JSON.parse(val), (error, data) => {
+              if (data) {
+                return callback(null, data);
+              } else {
+                return callback(error, null);
+              }
+            });
+          } else {
+            return callback(error, null);
+          }
+        };
+    }
   };
-
   /**
    * @description sends the data to loginApi in the controller
    * @method userLogin
