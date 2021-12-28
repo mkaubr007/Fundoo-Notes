@@ -2327,3 +2327,70 @@
 {"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:46:16.405Z"}
 {"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:46:49.417Z"}
 {"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:47:36.031Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T17:49:04.427Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:49:12.805Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T17:49:13.172Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T17:49:13.255Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T17:49:13.591Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:06:29.437Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:06:36.587Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:06:37.589Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:06:37.832Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:12:54.769Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:13:01.930Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:13:02.777Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:13:03.062Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:13:37.357Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:13:44.354Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:13:44.928Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:13:45.156Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:21:32.852Z"}
+{"_original":{"email":"ansh123@gmail.com"},"details":[{"context":{"key":"password","label":"password"},"message":"\"password\" is required","path":["password"],"type":"any.required"}],"level":"error","timestamp":"2021-12-28T18:21:33.474Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:21:33.529Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:21:33.759Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:24:00.402Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:24:07.121Z"}
+{"_original":{"email":"ansh123@gmail.com"},"details":[{"context":{"key":"password","label":"password"},"message":"\"password\" is required","path":["password"],"type":"any.required"}],"level":"error","timestamp":"2021-12-28T18:24:07.661Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:24:07.714Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:24:07.948Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:25:17.248Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:25:23.961Z"}
+{"_original":{"email":"ansh123@gmail.com"},"details":[{"context":{"key":"password","label":"password"},"message":"\"password\" is required","path":["password"],"type":"any.required"}],"level":"error","timestamp":"2021-12-28T18:25:24.519Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:25:24.559Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:25:24.775Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:26:38.934Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:26:45.609Z"}
+{"_original":{"email":"ansh123@gmail.com"},"details":[{"context":{"key":"password","label":"password"},"message":"\"password\" is required","path":["password"],"type":"any.required"}],"level":"error","timestamp":"2021-12-28T18:26:46.168Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:26:46.208Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:26:46.424Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:27:27.641Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:27:34.602Z"}
+{"_original":{"email":"ansh123@gmail.com"},"details":[{"context":{"key":"password","label":"password"},"message":"\"password\" is required","path":["password"],"type":"any.required"}],"level":"error","timestamp":"2021-12-28T18:27:35.145Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:29:17.388Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:29:24.317Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:29:24.942Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:29:25.157Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:30:05.575Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:30:12.421Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:30:12.896Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:30:13.119Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:33:01.947Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:33:02.791Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:33:03.358Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:33:03.577Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:36:21.502Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:36:22.295Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:36:22.937Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:36:23.183Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:37:25.847Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:37:26.542Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:37:27.087Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:37:27.310Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:44:32.085Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:44:32.749Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:44:33.543Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:44:33.770Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-12-28T18:47:04.453Z"}
+{"level":"error","message":"not verified mail","timestamp":"2021-12-28T18:47:05.109Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2021-12-28T18:47:05.718Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-12-28T18:47:05.954Z"}

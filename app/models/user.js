@@ -100,8 +100,8 @@ class userModel {
         logger.error("data not found in database");
         return callBack(error, null);
       } else {
-        console.log("104: verified: ", data.verified);
-
+        console.log("10: verified: ", data.verified);
+        
         if (data.verified == true) {
           logger.info("data found in database");
           return callBack(null, data);

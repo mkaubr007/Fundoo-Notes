@@ -110,7 +110,7 @@ describe("delete notes api", () => {
     const token = noteDB.notes.getNoteWithInValidToken;
     chai
       .request(server)
-      .delete("/deletenotes/6165357e39139e12b1b2986f")
+      .delete("/deletenotes/61c893e5792fc8c4e081fec3")
       .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(400);
@@ -125,7 +125,7 @@ describe("Get notes by ID api", () => {
     const token = noteDB.notes.getNoteWithValidToken;
     chai
       .request(server)
-      .get("/getnotes/6165357e39139e12b1b2986f")
+      .get("/getnotes/61bb198538c8e24dd8c3fcf3")
       .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(200);
