@@ -22,11 +22,11 @@ const userSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    googleLogin: { type: Boolean },
-    verified: {
-      type: Boolean,
-      default: false
-    },
+     googleLogin: { type: Boolean },
+  verified: {
+    type: Boolean,
+    default: false
+  }
   },
   {
     timestamps: true,
@@ -104,6 +104,7 @@ class userModel {
       }
     });
   };
+  
   /**
    * @description mongoose function for forgot password
    * @param {*} email

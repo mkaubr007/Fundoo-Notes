@@ -87,7 +87,7 @@ class Controller {
       if (loginValidation.error) {
         console.log(loginValidation.error);
         logger.error(loginValidation.error);
-        res.status(400).send({
+        res.status(404).send({
           success: false,
           message: loginValidation.error.message,
         });

@@ -23,7 +23,7 @@ class Redis {
    * @param {*} if there is no data function calls for next function
    */
   getData = async (key) => {
-    client.get("getredisById", (error, data) => {
+    client.get(key + "getredisById", (error, data) => {
       if (error) {
         logger.error(error);
         throw error;
@@ -44,19 +44,19 @@ class Redis {
     client.setEx(key, time, data);
   };
 
-   /**
-    * @description clearing cache
-    */
+  /**
+   * @description clearing cache
+   */
 
-    clearCache = (key) => {
-      client.del(key, (err, res) => {
-        if (err) {
-          logger.error('cache not cleared');
-        } else {
-          console.log('Cache cleared');
-          logger.info('Cache cleared');
-        }
-      });
-    }
+  clearCache = (key) => {
+    client.del(key, (err, res) => {
+      if (err) {
+        logger.error("cache not cleared");
+      } else {
+        console.log("Cache cleared");
+        logger.info("Cache cleared");
+      }
+    });
+  };
 }
 module.exports = new Redis();

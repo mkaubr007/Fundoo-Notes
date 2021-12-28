@@ -1,3 +1,4 @@
+const amqp = require('amqplib/callback_api');
 class RabitMq {
   sender = (data, queue) => {
     amqp.connect("amqp://localhost", (error, connection) => {
