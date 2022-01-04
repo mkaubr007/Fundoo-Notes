@@ -28,6 +28,7 @@ class RabitMq {
           connection.createChannel((error, channel) => {
             if (error) {
               throw error;
+              reject()
             } else {
               console.log("mq: ");
               channel.assertQueue(queue);
