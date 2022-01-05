@@ -24,11 +24,11 @@ class RabitMq {
       amqp.connect("amqp://localhost", (error, connection) => {
         if (error) {
           throw error;
+          reject(error)
         } else {
           connection.createChannel((error, channel) => {
             if (error) {
               throw error;
-              reject()
             } else {
               console.log("mq: ");
               channel.assertQueue(queue);

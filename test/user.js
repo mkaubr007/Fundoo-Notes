@@ -113,24 +113,24 @@ describe("login", () => {
         done();
       });
   });
-  // it("givenLoginDetails_whenImproper_shouldUnableToLogin", (done) => {
-  //   const loginDetails = loginData.user.loginWithImproperDetails;
-  //   chai
-  //     .request(server)
-  //     .post("/login")
-  //     .send(loginDetails)
-  //     .end((err, res) => {
-  //       if (err) {
-  //         return done(err);
-  //       }
-  //       res.should.have.status(400);
-  //       res.body.should.have.property("success").eql(false);
-  //       res.body.should.have
-  //         .property("message")
-  //         .eql("Unable to login. Please enter correct info");
-  //       done();
-  //     });
-  // });
+  it("givenLoginDetails_whenImproper_shouldUnableToLogin", (done) => {
+    const loginDetails = loginData.user.loginWithImproperDetails;
+    chai
+      .request(server)
+      .post("/login")
+      .send(loginDetails)
+      .end((err, res) => {
+        if (err) {
+          return done(err);
+        }
+        res.should.have.status(400);
+        res.body.should.have.property("success").eql(false);
+        res.body.should.have
+          .property("message")
+          .eql("Unable to login. Please enter correct info");
+        done();
+      });
+  });
 });
 
 describe("forgotPassword", () => {

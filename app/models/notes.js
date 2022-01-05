@@ -126,6 +126,7 @@ class Model {
       const data = await NoteRegister.findByIdAndUpdate(id.noteId, {
         $addToSet: { labelName: id.labelName },
       });
+      return data;
     } catch (error) {
       return error;
     }

@@ -21,7 +21,7 @@ class Note {
         validation.notesCreationValidation.validate(note);
       if (createNoteValidation.error) {
         console.log(createNoteValidation.error);
-        return res.status(400).send({
+        return res.status(404).send({
           success: false,
           message: "Wrong Input Validations",
           data: createNoteValidation,
@@ -51,6 +51,7 @@ class Note {
       });
     }
   };
+  
   /**
    * @description function written to get all the notes from the database
    * @param {*} req
@@ -92,6 +93,7 @@ class Note {
       });
     }
   };
+
   /**
    * @description function written to get  the notes by Id from the database
    * @param {*} req
@@ -218,6 +220,7 @@ class Note {
       });
     }
   };
+
   /**
    * @description function written to add label to note
    * @param {*} a valid noteId is expected

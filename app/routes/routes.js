@@ -2,7 +2,7 @@ const controller = require("../controllers/user.js");
 const helper = require("../utilities/helper");
 const noteController = require("../controllers/notes");
 const label = require("../controllers/label");
-const redis = require("../middleware/redis");
+
 module.exports = (app) => {
   // api for registration
   app.post("/register", controller.register);
@@ -16,28 +16,19 @@ module.exports = (app) => {
   app.put("/reset-Password", controller.resetPassword);
 
   //api for CRUD
-  app.post("/createnotes", helper.validateToken, noteController.createNote);
-  app.get("/getnotes", helper.validateToken, noteController.getNote);
-  app.get("/getnotes/:id", helper.validateToken, noteController.getNoteById);
-  app.put(
-    "/updatenotes/:id",
-    helper.validateToken,
-    noteController.updateNoteById
-  );
-  app.delete(
-    "/deletenotes/:id",
-    helper.validateToken,
-    noteController.deleteNoteById
-  );
+  app.post("/notes", helper.validateToken, noteController.createNote);
+  app.get("/notes", helper.validateToken, noteController.getNote);
+  app.get("/notes/:id", helper.validateToken, noteController.getNoteById);
+  app.put("/notes/:id",helper.validateToken,noteController.updateNoteById);
+  app.delete("/notes/:id",helper.validateToken,noteController.deleteNoteById);
 
   //api for label CRUD
-  app.post("/createlabel", helper.validateToken, label.createLabel);
-  app.get("/getlabels", helper.validateToken, label.getLabel);
-  app.get("/getlabel/:id", helper.validateToken, label.labelGetById);
-  app.put("/updatelabel/:id", helper.validateToken, label.updateLabel);
-  app.delete("/deletelabel/:id", helper.validateToken, label.deleteLabelById);
+  app.post("/label", helper.validateToken, label.createLabel);
+  app.get("/labels", helper.validateToken, label.getLabel);
+  app.get("/label/:id", helper.validateToken, label.labelGetById);
+  app.put("/label/:id", helper.validateToken, label.updateLabel);
+  app.delete("/label/:id", helper.validateToken, label.deleteLabelById);
 
   app.post("/addlabel/:id", helper.validateToken, noteController.addLabelById);
-  app.delete("/deleteLabelFromNote/:id", helper.validateToken, noteController.deleteLabel
-  );
+  app.delete("/labelFromNote/:id", helper.validateToken, noteController.deleteLabel);
 };
