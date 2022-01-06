@@ -16,19 +16,19 @@ module.exports = (app) => {
   app.put("/reset-Password", controller.resetPassword);
 
   //api for CRUD
-  app.post("/notes", helper.validateToken, noteController.createNote);
-  app.get("/notes", helper.validateToken, noteController.getNote);
-  app.get("/notes/:id", helper.validateToken, noteController.getNoteById);
-  app.put("/notes/:id",helper.validateToken,noteController.updateNoteById);
-  app.delete("/notes/:id",helper.validateToken,noteController.deleteNoteById);
+  app.post("/buildNote", helper.validateToken, noteController.createNote);
+  app.get("/grabNotes", helper.validateToken, noteController.getNote);
+  app.get("/grabNote/:id", helper.validateToken, noteController.getNoteById);
+  app.put("/renewNote/:id",helper.validateToken,noteController.updateNoteById);
+  app.delete("/excludeNote/:id",helper.validateToken,noteController.deleteNoteById);
 
   //api for label CRUD
-  app.post("/label", helper.validateToken, label.createLabel);
-  app.get("/labels", helper.validateToken, label.getLabel);
-  app.get("/label/:id", helper.validateToken, label.labelGetById);
-  app.put("/label/:id", helper.validateToken, label.updateLabel);
-  app.delete("/label/:id", helper.validateToken, label.deleteLabelById);
+  app.post("/buildLabel", helper.validateToken, label.createLabel);
+  app.get("/grabLabels", helper.validateToken, label.getLabel);
+  app.get("/grabLabel/:id", helper.validateToken, label.labelGetById);
+  app.put("/renewLabel/:id", helper.validateToken, label.updateLabel);
+  app.delete("/excludeLabel/:id", helper.validateToken, label.deleteLabelById);
 
   app.post("/addlabel/:id", helper.validateToken, noteController.addLabelById);
-  app.delete("/labelFromNote/:id", helper.validateToken, noteController.deleteLabel);
+  app.delete("/excludeLabelFromNote/:id", helper.validateToken, noteController.deleteLabel);
 };

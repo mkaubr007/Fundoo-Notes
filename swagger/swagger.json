@@ -126,7 +126,7 @@
       }
     },
 
-    "/createnotes": {
+    "/buildNote": {
       "post": {
         "tags": ["Create Notes"],
         "description": "Create a  note !!",
@@ -167,7 +167,7 @@
       }
     },
 
-    "/getnotes": {
+    "/grabNotes": {
       "get": {
         "tags": ["Get Notes"],
         "description": "Get a  note !!",
@@ -200,7 +200,7 @@
       }
     },
 
-    "/getnotes/{id}": {
+    "/grabNote/{id}": {
       "get": {
         "tags": ["Get Notes"],
         "description": "Get a note by ID for perticuler person id",
@@ -241,7 +241,7 @@
       }
     },
 
-    "/updatenotes/{id}": {
+    "/renewNote/{id}": {
       "put": {
         "tags": ["update Notes"],
         "description": "update a note by ID for perticuler person id !!",
@@ -287,7 +287,7 @@
       }
     },
 
-    "/deletenotes/{id}": {
+    "/excludeNote/{id}": {
       "delete": {
         "tags": ["Delete Notes"],
         "description": "Delete a note by ID for perticuler person id !!",
@@ -325,7 +325,7 @@
       }
     },
 
-    "/createlabel": {
+    "/buildLabel": {
       "post": {
         "tags": ["create label"],
         "description": "Creates a new label",
@@ -355,7 +355,7 @@
       }
     },
 
-    "/getlabels": {
+    "/grabLabels": {
       "get": {
         "tags": ["get labels"],
         "description": "Gets all labels",
@@ -378,7 +378,7 @@
       }
     },
 
-    "/getlabel/{id}": {
+    "/grabLabel/{id}": {
       "get": {
         "tags": ["get label by id"],
         "description": "Gets label by id",
@@ -411,7 +411,7 @@
       }
     },
 
-    "/updatelabel/{id}": {
+    "/renewLabel/{id}": {
       "put": {
         "tags": ["Update label"],
         "description": "Updates label",
@@ -450,7 +450,7 @@
       }
     },
 
-    "/deletelabel/{id}": {
+    "/excludeLabel/{id}": {
       "delete": {
         "tags": ["Delete Label"],
         "description": "Delete a label by ID for perticuler person id !!",

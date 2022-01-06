@@ -9150,3 +9150,31 @@
 {"level":"error","message":"Wrong Input Validations","timestamp":"2022-01-05T08:57:53.835Z"}
 {"level":"info","message":"Password reset succesfully","timestamp":"2022-01-05T08:57:54.054Z"}
 {"level":"error","message":"Invalid password","timestamp":"2022-01-05T08:57:54.062Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T08:00:13.747Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T08:02:37.725Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T08:09:46.434Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T08:10:20.076Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T08:10:28.415Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T08:10:36.181Z"}
+{"level":"info","message":"data found in database","timestamp":"2022-01-06T08:11:39.793Z"}
+{"level":"info","message":" token generated ","timestamp":"2022-01-06T08:11:40.077Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T09:08:49.546Z"}
+{"level":"info","message":"data found in database","timestamp":"2022-01-06T09:19:42.850Z"}
+{"level":"info","message":" token generated ","timestamp":"2022-01-06T09:19:43.102Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2022-01-06T09:21:59.563Z"}
+{"level":"info","message":"Get All Notes successfully","timestamp":"2022-01-06T09:24:01.119Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T09:29:27.537Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T09:30:31.722Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T09:31:19.931Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T09:31:38.471Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T09:32:01.378Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T09:32:30.786Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T09:32:46.567Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T09:33:03.334Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T09:33:21.009Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T09:33:42.672Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T09:34:01.321Z"}
+{"level":"info","message":"Server start","timestamp":"2022-01-06T09:34:26.898Z"}
+{"level":"info","message":"data found in database","timestamp":"2022-01-06T09:45:25.457Z"}
+{"level":"info","message":" token generated ","timestamp":"2022-01-06T09:45:25.717Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2022-01-06T09:46:16.041Z"}
