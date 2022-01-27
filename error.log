@@ -2468,3 +2468,205 @@
 {"level":"error","message":null,"timestamp":"2022-01-05T08:57:53.801Z"}
 {"level":"error","message":"Wrong Input Validations","timestamp":"2022-01-05T08:57:53.836Z"}
 {"level":"error","message":"Invalid password","timestamp":"2022-01-05T08:57:54.062Z"}
+{"level":"error","message":"Wrong Input Validations","timestamp":"2022-01-12T10:23:35.171Z"}
+{"_original":{"email":"","password":""},"details":[{"context":{"key":"email","label":"email","value":""},"message":"\"email\" is not allowed to be empty","path":["email"],"type":"string.empty"}],"level":"error","timestamp":"2022-01-12T15:03:56.528Z"}
+{"_original":{"email":"Mkaubr007@gmailcom","password":"Msingh007@"},"details":[{"context":{"key":"email","label":"email","regex":{},"value":"Mkaubr007@gmailcom"},"message":"\"email\" with value \"Mkaubr007@gmailcom\" fails to match the required pattern: /^[a-zA-Z0-9]+([+_.-][a-zA-Z0-9]+)*[@][a-zA-Z0-9]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2,4})?$/","path":["email"],"type":"string.pattern.base"}],"level":"error","timestamp":"2022-01-13T02:41:13.451Z"}
+{"_original":{"email":"mkaubr007@gmailcom","password":"Msingh007@"},"details":[{"context":{"key":"email","label":"email","regex":{},"value":"mkaubr007@gmailcom"},"message":"\"email\" with value \"mkaubr007@gmailcom\" fails to match the required pattern: /^[a-zA-Z0-9]+([+_.-][a-zA-Z0-9]+)*[@][a-zA-Z0-9]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2,4})?$/","path":["email"],"type":"string.pattern.base"}],"level":"error","timestamp":"2022-01-13T02:42:54.807Z"}
+{"_original":{"email":"mkaubr007@gmailcom","password":"Msingh007@"},"details":[{"context":{"key":"email","label":"email","regex":{},"value":"mkaubr007@gmailcom"},"message":"\"email\" with value \"mkaubr007@gmailcom\" fails to match the required pattern: /^[a-zA-Z0-9]+([+_.-][a-zA-Z0-9]+)*[@][a-zA-Z0-9]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2,4})?$/","path":["email"],"type":"string.pattern.base"}],"level":"error","timestamp":"2022-01-13T02:43:41.304Z"}
+{"_original":{"email":"mkaubr007@gmailcom","password":"Msingh007@"},"details":[{"context":{"key":"email","label":"email","regex":{},"value":"mkaubr007@gmailcom"},"message":"\"email\" with value \"mkaubr007@gmailcom\" fails to match the required pattern: /^[a-zA-Z0-9]+([+_.-][a-zA-Z0-9]+)*[@][a-zA-Z0-9]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2,4})?$/","path":["email"],"type":"string.pattern.base"}],"level":"error","timestamp":"2022-01-13T02:44:48.323Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:48.500Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:49.549Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:50.019Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:50.156Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:50.925Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:50.926Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:50.931Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:51.934Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:51.935Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:51.938Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:51.941Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:52.076Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:52.990Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:53.022Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:53.023Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:53.117Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:53.119Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:53.627Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:54.130Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:54.374Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:54.375Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:54.382Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:54.388Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:54.817Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:55.283Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:55.284Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:55.526Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:55.527Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:55.533Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:56.228Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:56.229Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:56.480Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:56.481Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:51:56.484Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:31.396Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:34.650Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:46.795Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:48.258Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:49.592Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:50.566Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:50.809Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:51.152Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:51.580Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:51.585Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:52.148Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:52.152Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:52.309Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:53.035Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:53.036Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:53.044Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:53.499Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:53.631Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:53.861Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:54.308Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:54.313Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:54.315Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:55.439Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:55.441Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:55.447Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:55.746Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:55.759Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:55.761Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:56.286Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:56.389Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:56.391Z"}
+{"level":"error","message":null,"timestamp":"2022-01-13T07:54:56.622Z"}
+{"level":"error","message":"Invalid password","timestamp":"2022-01-13T11:16:01.088Z"}
+{"level":"error","message":"Invalid password","timestamp":"2022-01-13T11:42:10.232Z"}
+{"level":"error","message":"Invalid password","timestamp":"2022-01-13T11:44:34.137Z"}
+{"_original":{"email":"string","password":"string"},"details":[{"context":{"key":"email","label":"email","regex":{},"value":"string"},"message":"\"email\" with value \"string\" fails to match the required pattern: /^[a-zA-Z0-9]+([+_.-][a-zA-Z0-9]+)*[@][a-zA-Z0-9]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2,4})?$/","path":["email"],"type":"string.pattern.base"}],"level":"error","timestamp":"2022-01-18T10:51:23.260Z"}
+{"level":"error","message":null,"timestamp":"2022-01-19T03:57:38.614Z"}
+{"level":"error","message":null,"timestamp":"2022-01-20T04:24:26.046Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"reqPayload.id\"","timestamp":"2022-01-20T08:33:13.889Z","value":"reqPayload.id","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T08:33:13.953Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"reqPayload.id\"","timestamp":"2022-01-20T08:33:24.937Z","value":"reqPayload.id","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T08:33:24.937Z"}
+{"level":"error","message":null,"timestamp":"2022-01-20T11:04:05.666Z"}
+{"level":"error","message":null,"timestamp":"2022-01-20T11:04:05.918Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"reqPayload.id\"","timestamp":"2022-01-20T16:13:10.612Z","value":"reqPayload.id","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T16:13:10.612Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"reqPayload.id\"","timestamp":"2022-01-20T16:13:25.518Z","value":"reqPayload.id","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T16:13:25.518Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"reqPayload.id\"","timestamp":"2022-01-20T16:14:58.145Z","value":"reqPayload.id","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T16:14:58.146Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"reqPayload.id\"","timestamp":"2022-01-20T16:16:15.911Z","value":"reqPayload.id","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T16:16:15.912Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"reqPayload.id\"","timestamp":"2022-01-20T16:18:35.231Z","value":"reqPayload.id","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T16:18:35.232Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"reqPayload.id\"","timestamp":"2022-01-20T16:24:01.417Z","value":"reqPayload.id","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T16:24:01.417Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"id\"","timestamp":"2022-01-20T16:25:33.709Z","value":"id","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T16:25:33.709Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"'reqPayload.id'\"","timestamp":"2022-01-20T16:40:56.135Z","value":"'reqPayload.id'","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T16:40:56.136Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-20T16:49:46.328Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T16:49:46.329Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-20T16:50:11.546Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T16:50:11.547Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{reqPayload.id}\"","timestamp":"2022-01-20T16:51:22.847Z","value":"{reqPayload.id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T16:51:22.847Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{reqPayload.id}\"","timestamp":"2022-01-20T17:50:37.571Z","value":"{reqPayload.id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T17:50:37.571Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{reqPayload.id}\"","timestamp":"2022-01-20T18:05:53.714Z","value":"{reqPayload.id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T18:05:53.716Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{reqPayload.id}\"","timestamp":"2022-01-20T19:01:13.615Z","value":"{reqPayload.id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-20T19:01:13.615Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{reqPayload.id}\"","timestamp":"2022-01-21T02:27:18.335Z","value":"{reqPayload.id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T02:27:18.335Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{reqPayload.id}\"","timestamp":"2022-01-21T02:46:33.130Z","value":"{reqPayload.id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T02:46:33.131Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{reqPayload.id}\"","timestamp":"2022-01-21T02:46:55.131Z","value":"{reqPayload.id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T02:46:55.132Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{reqPayload.id}\"","timestamp":"2022-01-21T02:49:55.038Z","value":"{reqPayload.id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T02:49:55.039Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{reqPayload.id}\"","timestamp":"2022-01-21T02:50:18.513Z","value":"{reqPayload.id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T02:50:18.513Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T04:01:59.303Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T04:01:59.304Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T04:09:24.859Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T04:09:24.859Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T04:15:28.807Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T04:15:28.807Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T07:56:10.840Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T07:56:10.841Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{reqPayload.id}\"","timestamp":"2022-01-21T07:57:26.090Z","value":"{reqPayload.id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T07:57:26.090Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{reqPayload.id}\"","timestamp":"2022-01-21T07:57:48.546Z","value":"{reqPayload.id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T07:57:48.546Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"'+reqPayload.id'\"","timestamp":"2022-01-21T08:24:09.777Z","value":"'+reqPayload.id'","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:24:09.777Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"'+reqPayload.id'\"","timestamp":"2022-01-21T08:24:28.492Z","value":"'+reqPayload.id'","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:24:28.492Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{reqPayload.id}\"","timestamp":"2022-01-21T08:32:36.699Z","value":"{reqPayload.id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:32:36.699Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T08:32:57.278Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:32:57.327Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T08:33:10.672Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:33:10.672Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T08:33:12.003Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:33:12.004Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T08:33:12.051Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:33:12.051Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T08:33:12.338Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:33:12.339Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T08:45:05.473Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:45:05.473Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T08:46:16.510Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:46:16.511Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T08:46:19.871Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:46:19.872Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T08:46:27.367Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:46:27.367Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T08:47:28.716Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:47:28.716Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T08:47:29.386Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:47:29.386Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T08:47:29.517Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:47:29.517Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T08:47:29.768Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T08:47:29.768Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T09:28:33.518Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T09:28:33.519Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T10:44:37.500Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T10:44:37.502Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T10:44:38.442Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T10:44:38.442Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T10:46:10.751Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T10:46:10.752Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T10:50:51.555Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T10:50:51.555Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T10:51:19.264Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T10:51:19.264Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T18:50:48.187Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T18:50:48.188Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T18:50:56.579Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T18:50:56.579Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T18:50:57.540Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T18:50:57.541Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-21T18:50:58.141Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-21T18:50:58.142Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-22T07:32:28.251Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-22T07:32:28.253Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-22T07:33:05.969Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-22T07:33:05.969Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-24T03:05:41.570Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-24T03:05:41.570Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-24T03:05:44.514Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-24T03:05:44.515Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-24T03:05:44.721Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-24T03:05:44.722Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-24T03:05:59.797Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-24T03:05:59.798Z"}
+{"kind":"ObjectId","level":"error","path":"_id","reason":{},"stringValue":"\"{id}\"","timestamp":"2022-01-24T04:24:30.711Z","value":"{id}","valueType":"string"}
+{"level":"error","message":"failed to update note","timestamp":"2022-01-24T04:24:30.711Z"}
+{"level":"error","message":null,"timestamp":"2022-01-24T05:24:39.490Z"}
+{"level":"error","message":null,"timestamp":"2022-01-24T05:24:42.779Z"}

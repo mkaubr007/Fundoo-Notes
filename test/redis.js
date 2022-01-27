@@ -13,7 +13,7 @@ describe("Get notes by ID api with redis", () => {
     const token = redisDB.redis.getNoteWithValidToken;
     chai
       .request(server)
-      .get("/grabNote/6165357e39139e12b1b2986f")
+      .get("/label/6165357e39139e12b1b2986f")
       .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(200);
@@ -24,7 +24,7 @@ describe("Get notes by ID api with redis", () => {
     const token = redisDB.redis.getNoteWithInValidToken;
     chai
       .request(server)
-      .get("/grabNote/6165357e39139e12b1b2986f")
+      .get("/label/6165357e39139e12b1b2986f")
       .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(400);
@@ -37,7 +37,7 @@ describe("Get label by ID api with redis", () => {
     const token = redisDB.redis.validToken;
     chai
       .request(server)
-      .get("/grabLabel/61b31eed880372b4f25dedc8")
+      .get("/label/61b31eed880372b4f25dedc8")
       .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(200);
@@ -52,7 +52,7 @@ describe("Get label by ID api with redis", () => {
     const token = redisDB.redis.getNoteWithInValidToken;
     chai
       .request(server)
-      .get("/grabLabel/61b31eed880372b4f25dedc8")
+      .get("/label/61b31eed880372b4f25dedc8")
       .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(400);

@@ -103,7 +103,7 @@ class Note {
   getNoteById = async (req, res) => {
     try {
       const id = { userId: req.user.dataForToken.id, noteId: req.params.id };
-      const getNoteValidation = validation.notesdeleteValidation.validate(id);
+      const getNoteValidation = validation.getNoteValidationById.validate(id);
       if (getNoteValidation.error) {
         return res.status(400).send({
           success: false,
@@ -151,7 +151,7 @@ class Note {
         validation.notesUpdateValidation.validate(updateNote);
       if (updateNoteValidation.error) {
         console.log(updateNoteValidation.error);
-        return res.status(400).send({
+        return res.status(404).send({
           success: false,
           message: "Wrong Input Validations",
           data: updateNoteValidation,
@@ -191,7 +191,7 @@ class Note {
   deleteNoteById = async (req, res) => {
     try {
       const id = { userId: req.user.dataForToken.id, noteId: req.params.id };
-      const deleteNoteValidation = validation.validateLabel.validate(id);
+      const deleteNoteValidation = validation.notesdeleteValidation.validate(id);
       if (deleteNoteValidation.error) {
         console.log(deleteNoteValidation.error);
         return res.status(400).send({

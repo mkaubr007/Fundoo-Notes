@@ -87,7 +87,10 @@ class Validation {
   getNoteValidation = Joi.object({
     id: Joi.string().required(),
   });
-
+  getNoteValidationById = Joi.object({
+    userId: Joi.string().required(),
+    noteId: Joi.string().required(),
+  });
   notesUpdateValidation = Joi.object({
     id: Joi.string().required(),
     userId: Joi.string().required(),

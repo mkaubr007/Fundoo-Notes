@@ -99,9 +99,11 @@ class userModel {
       if (error) {
         logger.error("data not found in database");
         return callBack(error, null);
-      } else {
-        console.log("10: verified: ", data.verified);
-        
+      } else if(data.verified == false) {
+        // console.log("10: verified: ", data.verified);
+        logger.error("Invalid User");
+        return callBack("Invalid Credential / invalid user", null);
+      }else{
         if (data.verified == true) {
           logger.info("data found in database");
           return callBack(null, data);

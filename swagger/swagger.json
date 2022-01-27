@@ -126,7 +126,7 @@
       }
     },
 
-    "/buildNote": {
+    "/note": {
       "post": {
         "tags": ["Create Notes"],
         "description": "Create a  note !!",
@@ -164,10 +164,7 @@
             "description": "Internal server error"
           }
         }
-      }
-    },
-
-    "/grabNotes": {
+      },
       "get": {
         "tags": ["Get Notes"],
         "description": "Get a  note !!",
@@ -200,7 +197,9 @@
       }
     },
 
-    "/grabNote/{id}": {
+ 
+
+    "/note/{id}": {
       "get": {
         "tags": ["Get Notes"],
         "description": "Get a note by ID for perticuler person id",
@@ -238,10 +237,7 @@
             "description": "Internal server error"
           }
         }
-      }
-    },
-
-    "/renewNote/{id}": {
+      },
       "put": {
         "tags": ["update Notes"],
         "description": "update a note by ID for perticuler person id !!",
@@ -284,10 +280,7 @@
             "description": "Internal server error"
           }
         }
-      }
-    },
-
-    "/excludeNote/{id}": {
+      },
       "delete": {
         "tags": ["Delete Notes"],
         "description": "Delete a note by ID for perticuler person id !!",
@@ -325,7 +318,9 @@
       }
     },
 
-    "/buildLabel": {
+ 
+
+    "/label": {
       "post": {
         "tags": ["create label"],
         "description": "Creates a new label",
@@ -352,10 +347,7 @@
           "500": { "description": "Label Not created" },
           "400": { "description": "Invalid Token" }
         }
-      }
-    },
-
-    "/grabLabels": {
+      },
       "get": {
         "tags": ["get labels"],
         "description": "Gets all labels",
@@ -375,10 +367,12 @@
           "200": { "description": "labels retrieved" },
           "500": { "description": "Couldnt retrieve labels" }
         }
-      }
+      } 
     },
+  
 
-    "/grabLabel/{id}": {
+
+    "/label/{id}": {
       "get": {
         "tags": ["get label by id"],
         "description": "Gets label by id",
@@ -408,10 +402,7 @@
           "500": { "description": "label not Found" },
           "400": { "description": "Invalid Token" }
         }
-      }
-    },
-
-    "/renewLabel/{id}": {
+      },
       "put": {
         "tags": ["Update label"],
         "description": "Updates label",
@@ -447,10 +438,7 @@
           "500": { "description": "Failed to update label" },
           "400": { "description": "Invalid Token" }
         }
-      }
-    },
-
-    "/excludeLabel/{id}": {
+      },
       "delete": {
         "tags": ["Delete Label"],
         "description": "Delete a label by ID for perticuler person id !!",
@@ -487,6 +475,7 @@
         }
       }
     },
+
     "/addlabel/{id}": {
       "post": {
         "tags": ["Add label"],
@@ -522,6 +511,49 @@
           "200": { "description": "label added" },
           "500": { "description": "Failed to add label" },
           "400": { "description": "Invalid Token" }
+        }
+      }
+    },
+    "/deleteLabelFromNote/{id}":{
+      "delete": {
+        "tags": ["Delete Label From Note"],
+        "description": "Delete a label by ID for perticuler person id !!",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Authorization",
+            "description": "Token for vaidation",
+            "schema": {
+              "type": "string",
+              "required": true
+            }
+          },
+          {
+            "in": "body",
+            "name": "deletelabel",
+            "description": "Label to be deleted",
+            "schema": { "$ref": "#/definitions/deleteLabel" }
+          },
+          {
+            "in": "path",
+            "name": "id",
+            "description": "Id of note you want to delete",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "201": {
+            "description": "Delete note succesfully !!"
+          },
+          "401": {
+            "description": "Please enter Valid Token"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
         }
       }
     }
@@ -570,7 +602,7 @@
         "email": {
           "type": "string"
         },
-        "newPassword": {
+        "password": {
           "type": "string"
         },
         "code": {
@@ -620,6 +652,14 @@
     },
 
     "addlabel": {
+      "type": "object",
+      "properties": {
+        "labelName": {
+          "type": "string"
+        }
+      }
+    },
+    "deleteLabel":{
       "type": "object",
       "properties": {
         "labelName": {
